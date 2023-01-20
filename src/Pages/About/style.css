@@ -1,2 +1,14 @@
+ul,
+li {
+    list-style-type: none;
+    columns: red;
+}
 
 
+
+.about-cards-w-h {
+    width: 360px;
+    height: 417px;
+    padding: 60px 20px 46px 20px;
+    margin-right: 1.5rem;
+}
