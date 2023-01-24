@@ -1,0 +1,82 @@
+.green_color {
+    color: #75bf0d;
+}
+
+.contactus_placeholder_color {
+    border: 1px solid #e9e9e9;
+    color: black;
+
+}
+
+.contact_input_margin {
+    margin-right: 7px;
+    margin-bottom: 40px;
+}
+
+::placeholder {
+
+
+    color: black;
+    opacity: 0.5;
+
+}
+
+:-ms-input-placeholder {
+
+    color: black;
+    opacity: 0.5;
+}
+
+::-ms-input-placeholder {
+
+    color: black;
+    opacity: 0.5;
+}
+
+.contactus_submit_btn {}
+
+.contactus_social_primary_section {
+    /* background-color: black; */
+    background-image: url("https://cdn-hofgh.nitrocdn.com/dXceVXZpxWrYCcWPSjiZmJPOirkYCupN/assets/images/optimized/rev-9e7f30a/wp-content/uploads/2021/11/image-22-1.png"), url("https://cdn-hofgh.nitrocdn.com/dXceVXZpxWrYCcWPSjiZmJPOirkYCupN/assets/images/optimized/rev-9e7f30a/wp-content/uploads/2021/11/Mask-Group-1.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 250px;
+    padding: 36px 0px 40px 40px;
+    font-family: sans-serif;
+}
+
+.contact_social_link {
+    width: 41px;
+    height: 41px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.contact_social_link i {
+    font-size: 20px;
+
+
+}
+
+@media (max-width: 576px) {
+    .contact_social_link {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.contactus_info_cards {
+    padding: 80px 70px 67px 70px;
+}
+
+.contact_us_icons_size {
+    font-size: 35px;
+}
+
+.contactsus_cards_shadows:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
