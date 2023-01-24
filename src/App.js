@@ -5,7 +5,8 @@ import About from "./Pages/About/About";
 import Home from "./Pages/Main/Home";
 function App() {
   return <>
-    <About />
+
+  
 
   </>
 }

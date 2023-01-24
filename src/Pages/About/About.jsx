@@ -7,7 +7,7 @@ import missionIcon from "./img/mission.svg"
 const About = () => {
     return (
         <>
-            <div className="container mt-4">
+            <section className="container mt-4">
                 <div class="row ">
                     <div class="col-sm-6 col-md-6 d-flex justify-content-center align-items-center"> <img src={img} alt="img" /></div>
                     <div class="col-sm-6 col-md-6  text-dark" style={{ flexDirection: "column", marginTop: "6%" }}>
@@ -19,39 +19,42 @@ const About = () => {
                             We help about you meet your ever-growing business demands with the use of the latest technologies such as Blockchain and Artificial Intelligence,
                             giving you a competitive edge.
                         </p>
-                        <div className="d-flex">
-                            <ul >
-                                <li className='d-flex'>
-                                    <i class="bi bi-check-circle-fill "></i>
+                        <div className=" ">
+                            <ul className='row'>
+                                <li className='d-flex  col-12  col-md-6 col-lg-6  col-xl-6 col-xxl-6  '>
+                                    <i class="bi bi-check-circle-fill aboutus_margin_icons"></i>
                                     <p>
                                         Blockchain Development
                                     </p>
                                 </li>
-                                <li className='d-flex'>
-                                    <i class="bi bi-check-circle-fill "></i>
+                                <li className='d-flex  col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 '>
+                                    <i class="bi bi-check-circle-fill aboutus_margin_icons"></i>
                                     <p>
                                         Blockchain Development
                                     </p>
                                 </li>
+
                             </ul>
-                            <ul >
-                                <li className='d-flex'>
-                                    <i class="bi bi-check-circle-fill "></i>
+                            <ul className='row'>
+                                <li className='d-flex  col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 '>
+                                    <i class="bi bi-check-circle-fill aboutus_margin_icons"></i>
                                     <p>
                                         Blockchain Development
                                     </p>
                                 </li>
-                                <li className='d-flex'>
-                                    <i class="bi bi-check-circle-fill "></i>
+                                <li className='d-flex  col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 '>
+                                    <i class="bi bi-check-circle-fill aboutus_margin_icons"></i>
                                     <p>
                                         Blockchain Development
                                     </p>
                                 </li>
+
                             </ul>
+
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <section className='container mt-5'>
                 <div>
                     <h2 className='mb-0'>
@@ -61,41 +64,88 @@ const About = () => {
                         We have strong values which we abide by.
                     </p>
                 </div>
-                {/* col-sm-12 col-md-3 col-xl-3 col-xxl-3 col-lg-3 */}
+
                 <div className='row d-flex justify-content-around align-items-center'>
-                    <div class=" card about-us-cards-padding  about-cards-w-h mb-4" >
-                        <div className='d-flex justify-content-center align-items-center text-center' style={{ flexDirection: "column" }}>
+                    <div class=" card about-us-cards-padding  about-cards-w-h mb-4  " >
+                        <div className=' d-flex justify-content-center align-items-center flex-column'>
                             <img src={visionIcon} alt="img" width="65px" />
                             <h6 className="my-3">VISION</h6>
-                            <p>OptimusFox envisions a digital world where the
-                                latest technological solutions are executed in businesses.
-                                We are committed about to enabling enterprises inculcate
-                                blockchain technology in their business processes.</p>
                         </div>
+                        <p>OptimusFox envisions a digital world where the
+                            latest technological solutions are executed in businesses.
+                            We are committed about to enabling enterprises inculcate
+                            blockchain technology in their business processes.</p>
+
                     </div>
-                    <div class=" card about-us-cards-padding  about-cards-w-h mb-4" >
-                        <div className='d-flex justify-content-center align-items-center text-center' style={{ flexDirection: "column" }}>
-                            <img src={valueIcon} alt="img" width="65px" />
-                            <h6 className="my-3">VALUES</h6>
-                            <p>Our innovative solutions are reflected in our work and that is the reason we have a
-                                long-term relationship with our clients. We are committed to providing blockchain
-                                technology solutions in accordance with the needs of our clients. </p>
-                        </div>
-                    </div>
-                    <div class=" card about-us-cards-padding  about-cards-w-h mb-4" >
-                        <div className='d-flex justify-content-center align-items-center text-center' style={{ flexDirection: "column" }}>
+                    <div class=" card about-us-cards-padding  about-cards-w-h mb-4  " >
+                        <div className=' d-flex justify-content-center align-items-center flex-column'>
                             <img src={missionIcon} alt="img" width="65px" />
                             <h6 className="my-3">MISSION</h6>
-                            <p>We aim to provide high-quality services that deliver premium
-                                value to our customers. We help our clients achieve their
-                                business goals by utilizing innovative technologies.</p>
                         </div>
+                        <p>OptimusFox envisions a digital world where the
+                            latest technological solutions are executed in businesses.
+                            We are committed about to enabling enterprises inculcate
+                            blockchain technology in their business processes.</p>
                     </div>
+                    <div class=" card about-us-cards-padding  about-cards-w-h mb-4  " >
+                        <div className=' d-flex justify-content-center align-items-center flex-column'>
+                            <img src={valueIcon} alt="img" width="65px" />
+                            <h6 className="my-3">VALUE</h6>
+                        </div>
+                        <p>OptimusFox envisions a digital world where the
+                            latest technological solutions are executed in businesses.
+                            We are committed about to enabling enterprises inculcate
+                            blockchain technology in their business processes.</p>
+                    </div>
+
+
 
                 </div>
             </section>
+            <section className='container'>
+                <h3><strong>Our Team</strong></h3>
+                <p>We have a team of enthusiastic professionals with years of experience in design,
+                    product development, marketing,
+                    technology and community building to set your business up for success.
+                </p>
+                <section class="our-webcoderskull ">
 
 
+                    <ul class="row">
+                        <li class="col-12 col-md-6 col-lg-3">
+                            <div class="cnt-block equal-hight" style={{ height: "340px" }}>
+                                <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt="" /></figure>
+                                <h3><a href="http://www.webcoderskull.com/"><strong>Mujab Popalzai</strong></a></h3>
+                                <p><strong>Co-Founder & CEO</strong></p>
+                                <ul class="follow-us clearfix">
+                                    <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                                    <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </section>
+            </section>
+            <section className='aboutus_contact_container'>
+                <div className='container'>
+
+                    <div className="contact_us_main_container col-12 ">
+                        <h4 className="text-white pb-4"><strong>Request More Information</strong></h4>
+                        <div className='aboutus_inputs_container'>
+                            <input type="text" className='aboutus_input_filed col-11 col-md-4 col-lg-4 col-xl-4 col-xxl-4' placeholder="Name*" style={{ color: "white" }} />
+                            <input type="text" className='aboutus_input_filed col-11 col-md-4 col-lg-4 col-xl-4 col-xxl-4' placeholder="Email*" style={{ color: "white" }} />
+                            <input type="text" className='aboutus_input_filed col-11 col-md-4 col-lg-4 col-xl-4 col-xxl-4' placeholder="Phone*" style={{ color: "white" }} />
+                            <input type="text" className='aboutus_input_filed col-11 col-md-4 col-lg-4 col-xl-4 col-xxl-4' placeholder="Company*" style={{ color: "white" }} />
+                            <textarea className='aboutus_input_filed col-md-8 col-11' placeholder="Message...." style={{ color: "white" }} ></textarea>
+                        </div>
+                        <button className='btn btn-warning btn-sm mx-2 text-white shadow' ><strong>Submit</strong></button>
+
+                    </div>
+                </div>
+            </section>
         </>
     )
 }
