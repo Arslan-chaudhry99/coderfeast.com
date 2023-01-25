@@ -4,7 +4,7 @@ const Contact = () => {
     return (
         <>
             <section className='container mb-5 ' >
-                <h2 className='m-0'>Send A Message</h2>
+                <h2 className='m-0'>Get in touch with us</h2>
                 <p className='mb-5 mt-3'>Let’s work together to bring your ideas to life and launch your next successful project. Request a quote.
                 </p>
                 <div className='col-12 col-md-9'>
@@ -27,10 +27,10 @@ const Contact = () => {
                         <div className='contact_social_link text-black'><i class="bi bi-linkedin "></i></div>
                         <div className='contact_social_link text-black'><i class="bi bi-twitter "></i></div>
                         <div className='contact_social_link text-black'><i class="bi bi-instagram "></i></div>
-                        <div className='contact_social_link text-black'><i class="bi bi-pinterest "></i></div>
-                        <div className='contact_social_link text-black'><i class="bi bi-discord "></i></div>
-                        <div className='contact_social_link text-black'><i class="bi bi-telegram "></i></div>
-                        <div className='contact_social_link text-black'><i class="bi bi-youtube "></i></div>
+                        {/* <div className='contact_social_link text-black'><i class="bi bi-pinterest "></i></div> */}
+                        {/* <div className='contact_social_link text-black'><i class="bi bi-discord "></i></div> */}
+                        {/* <div className='contact_social_link text-black'><i class="bi bi-telegram "></i></div> */}
+                        {/* <div className='contact_social_link text-black'><i class="bi bi-youtube "></i></div> */}
                     </div>
                 </div>
             </section>
@@ -52,8 +52,9 @@ const Contact = () => {
                             <div class="contactus_info_cards contactsus_cards_shadows">
                                 <div className=' d-flex justify-content-center align-items-center'><i class="bi bi-geo-alt-fill contact_us_icons_size"></i></div>
                                 <div><h6><strong className='text-dark  d-flex justify-content-center align-items-center'>USA</strong></h6></div>
-                                <p className='text-center'>1740 Innovation Dr. Suite # 210 Carbondale, IL. 62903.
-                                    USA. </p>
+                                <p className='text-center'>69 Summers Dr
+Thorold, L2V5B1
+Ontario </p>
 
                             </div>
                         </div>

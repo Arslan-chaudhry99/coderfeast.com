@@ -3,9 +3,9 @@ import "./style.css"
 import img from "./dell-4Ea0P4IsZ_4-unsplash.jpg"
 const Blog = () => {
     return (
-        <div id="main-content" className="site-main clearfix" >
-            <div id="page" className="clearfix ">
-                <div id="main-content" className="site-main clearfix blog-content" >
+       
+           
+                
                     <div id="content-wrap" className="optimusfox_container">
                         <div id="site-content" className="site-content clearfix">
                             <div id="inner-content" className="inner-content-wrap">
@@ -52,7 +52,7 @@ const Blog = () => {
                         </div>
                         <div id="sidebar">
                             <div id="inner-sidebar" className="inner-content-wrap">
-                                <div id="block-2" className="widget widget_block widget_search">
+                                {/* <div id="block-2" className="widget widget_block widget_search">
                                     <form role="search" method="get" action="https://www.optimusfox.com/"
                                         className="wp-block-search__button-outside wp-block-search__text-button wp-block-search">
                                         <label for="wp-block-search__input-1" className="wp-block-search__label">Search</label>
@@ -62,7 +62,7 @@ const Blog = () => {
                                             placeholder="Search" required /><button type="submit"
                                                 className="wp-block-search__button wp-element-button">Search</button></div>
                                     </form>
-                                </div>
+                                </div> */}
                                 <div id="block-9" className="widget widget_block">
                                     <h2 className="widget-title"><span>Categories</span></h2>
                                     <div className="wp-widget-group__inner-blocks">
@@ -128,12 +128,12 @@ const Blog = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+       
+           
 
 
 
-        </div>
+       
     )
 }
 

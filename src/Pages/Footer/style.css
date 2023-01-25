@@ -1,0 +1,17 @@
+.footer_logo_size {
+    width: 170px;
+}
+
+.footer_icons_margin_right {
+    margin-right: 1px;
+}
+
+.footer-img {
+
+    background-color: black;
+    background-image: url("https://cdn-hofgh.nitrocdn.com/dXceVXZpxWrYCcWPSjiZmJPOirkYCupN/assets/images/optimized/rev-9e7f30a/wp-content/uploads/2021/10/Mask-Group-2@2x.png");
+}
+
+.footer_heights {
+    min-height: 400px;
+}
