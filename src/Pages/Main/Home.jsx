@@ -1,24 +1,38 @@
 import React from 'react'
 import "./style.css"
-import img from "./img/Group-4200-1.svg"
-import webLogo from "./img/Web-Development.svg"
+import img from "./img/wh1o-we-are (1).png"
+import reactIcon from "./img/raec1t.png"
+import djangoIcon from "./img/dja1nge.png"
+import laravalIcon from "./img/la1ravel.png"
+import webLogo from "./img/web-ap1p-development.png"
+import nodejsIcon from "./img/nod1e.png"
+import appDevlarge from "./img/mobile-app-development.png"
+import rubiIcons from "./img/ruby1-on-rail.png"
+import dotNetLogo from "./img/ne1t.png"
+import kotLinIcons from "./img/kotlin.png"
+import andriodIcons from "./img/andr1oid.png"
+import fluterIcons from "./img/fl1utter.png"
+import SwiftIcons from "./img/s1wift.png"
+import appleIcons from "./img/ap1ple.png"
 const Home = () => {
     return (
         <>
-            <div className="container">
+            {/* <div className="container">
                 <h3>
                     Our Process
                 </h3>
                 <p>The stages we go through when we take on a project.</p>
 
-            </div>
-            <div className="container">
-                <h2 className="m-0">Our Services</h2>
-                <p>Our skillset isn’t just limited to Blockchain technology development. We offer Web and App Development services, Artificial Intelligence, Staff Augmentation, UI/UX Design, and Digital Marketing services to help your business generate leads and make sales.</p>
-                <section id="team" class="pb-5">
+            </div> */}
+            <div className="container home_service_padding">
+                <div className='container'>
+                    <h2 className=" ">Our Services</h2>
+                    <p>Our skillset isn’t just limited to Blockchain technology development. We offer Web and App Development services, Artificial Intelligence, Staff Augmentation, UI/UX Design, and Digital Marketing services to help your business generate leads and make sales.</p>
+                </div>
+                <section id="team" className='our_services_heading_margin'>
                     <div class="container">
                         <div class="row">
-                            <div class="col-xs-12 col-sm-6 col-md-4 mt-4">
+                            <div class="col-xs-12 col-sm-6 col-md-4 mt-4 ">
                                 <div class="image-flip " >
                                     <div class="mainflip flip-0 ">
                                         <div class="frontside">
@@ -160,85 +174,104 @@ const Home = () => {
                 </section>
 
             </div>
-            <div class="container">
+            <div class="container home_who_we_margin" >
                 <div class="row g-0 text-center">
                     <div class="row ">
-                        <div class="col-sm-6 col-md-6"> <img src={img} alt="img" /></div>
+                        <div class="col-sm-6 col-md-6 d-flex justify-content-center align-items-center object-fit-cover"> <img src={img} alt="img" style={{ width: "90%" }} /></div>
                         <div class="col-sm-6 col-md-6 d-flex justify-content-center align-items-center " style={{ flexDirection: "column" }}>
-                            <h3>
-                                Who We Are?</h3>
+                            <h3 className='mt-3'>Who We Are?</h3>
                             <p>Simplelogix was initiated in 2007 with only one vision in mind, ‘To simplify technology and provide resourceful tech service to the clients.’</p>
                             <p>Today we have successfully expanded to four continents, serving several small and large businesses around the world. Our efficient team of designers, software engineers, and marketers work round the clock to solve complex business challenges and provide simple digital solutions that you can integrate into your business.</p></div>
                     </div>
 
                 </div>
             </div>
-            <div class="container mt-5">
-                <div class="row ">
+            <div class="container home_text_services ">
+                <div class="row row-reverse">
                     <div class="col-sm-6 col-md-6 " style={{ flexDirection: "column" }}>
                         <h4>Web App Development</h4>
                         <p>We use a variety of platforms to develop stunning web applications that convert. </p>
                         <div class="row">
-                            <div class="col">
-                                <img src={img} alt="img" width="80px" />
-                                <p>React.Js</p>
+                            <div class="col home_icons_driction ">
+                                <img src={rubiIcons} alt="" width="80px" />
+                                <p>Ruby on Rails</p>
                             </div>
-                            <div class="col">
-                                <img src={img} alt="" width="80px" />
-                                <p>Django</p>
-                            </div>
-                            <div class="col">
-                                <img src={img} alt="" width="80px" />
-                                <p>Laravel</p>
-                            </div>
-                        </div>
-                        <div class="row mt-4">
-                            <div class="col">
-                                <img src={img} alt="" width="80px" />
+                            <div class="col home_icons_driction ">
+                                <img src={nodejsIcon} alt="" width="80px" />
                                 <p>Node.Js</p>
                             </div>
-                            <div class="col">
-                                <img src={img} alt="" width="80px" />
-                                <p>Shopify</p>
+                            <div class="col home_icons_driction ">
+                                <img src={reactIcon} alt="img" width="80px" />
+                                <p>React.Js</p>
                             </div>
-                            <div class="col">
-                                <img src={img} alt="" width="80px" />
-                                <p>Wordpress</p>
+
+
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col home_icons_driction ">
+                                <img src={dotNetLogo} alt="" width="80px" />
+                                <p>.Net / Core</p>
+                            </div>
+                            <div class="col home_icons_driction ">
+                                <img src={laravalIcon} alt="" width="80px" />
+                                <p>Laravel</p>
+                            </div>
+                            <div class="col home_icons_driction ">
+                                <img src={djangoIcon} alt="" width="80px" />
+                                <p>Python</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-6 d-flex justify-content-center align-items-center">
-                        <img src={webLogo} alt="img" />
+                        <img src={webLogo} alt="img" style={{width:"70%"}} />
                     </div>
                 </div>
             </div>
-            <div class="container mt-5">
+            <div className='container talk_to_expert text-white '>
+                <div className='home_gettouch_section'>
+                    <h2 className='col-12 '><strong>Integrate your business using our  cutting-edge  software solutions.</strong></h2>
+                </div>
+                <div className='home_gettouch_button_section'>
+                    <button className='btn  btn-warning text-white shadow-lg text-center'><strong>Get in touch</strong></button>
+                </div>
+            </div>
+            <div class="container home_text_services">
                 <div class="row ">
-                    <div class="col-sm-6 col-md-6 d-flex justify-content-right align-items-center">
-                        <img src={img} alt="img" />
+                    <div class="col-sm-6 col-md-6 d-flex justify-content-center align-items-center ">
+                        <img src={appDevlarge} alt="img" style={{ width: "70%" }} />
                     </div>
                     <div class="col-sm-6 col-md-6 " style={{ flexDirection: "column" }}>
                         <h4>Mobile Apps Development</h4>
                         <p>We have a team of experts developing feature-rich applications for iOS and Android.</p>
                         <div class="row ">
-                            <div class="col">
-                                <img src={img} alt="" width="80px" />
+                            <div class="col home_icons_driction ">
+                                <img src={andriodIcons} alt="" width="80px" />
+                                <p>
+                                    Android</p>
+                            </div>
+                            <div class="col home_icons_driction  ">
+                                <img src={appleIcons} alt="" width="80px" />
+                                <p>IOS</p>
+                            </div>
+                            <div class="col home_icons_driction ">
+                                <img src={reactIcon} alt="" width="80px" />
                                 <p>React Native
                                 </p>
                             </div>
-                            <div class="col">
-                                <img src={img} alt="" width="80px" />
-                                <p>Kotlin</p>
-                            </div>
-                            <div class="col">
-                                <img src={img} alt="" width="80px" />
-                                <p>Flutter</p>
-                            </div>
+
                         </div>
                         <div class="row mt-4">
-                            <div class="col">
-                                <img src={img} alt="" width="80px" />
-                                <p>Swift</p>
+                            <div class="col home_icons_driction ">
+                                <img src={SwiftIcons} alt="" width="80px" />
+                                <p >Swift</p>
+                            </div>
+                            <div class="col home_icons_driction ">
+                                <img src={kotLinIcons} alt="" width="80px" />
+                                <p>Kotlin</p>
+                            </div>
+                            <div class="col home_icons_driction ">
+                                <img src={fluterIcons} alt="" width="80px" />
+                                <p>Flutter</p>
                             </div>
 
                         </div>

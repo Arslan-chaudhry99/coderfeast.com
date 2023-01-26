@@ -1,5 +1,94 @@
 .home_card_padding {
     padding: 50px 15px 23px 15px;
-   background-color: #3F4346;
-   color: white;
+    background-color: #3F4346;
+    color: white;
+}
+
+.home_service_padding {
+    margin-top: 82px;
+}
+
+.our_services_heading_margin {
+    margin-top: 32px;
+}
+
+.home_who_we_margin {
+    margin-top: 160px;
+
+}
+
+.home_text_services {
+    margin-top: 108px;
+    margin-bottom: 104px;
+}
+
+.talk_to_expert {
+    padding: 50px;
+    background-color: black;
+    background-image: url('https://cdn-hofgh.nitrocdn.com/dXceVXZpxWrYCcWPSjiZmJPOirkYCupN/assets/images/optimized/rev-9e7f30a/wp-content/uploads/2021/11/image-22-1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home_gettouch_section {
+    width: 60%;
+}
+
+.home_gettouch_button_section {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home_icons_driction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home_icons_driction img {
+    position: sticky;
+}
+
+.home_icons_driction img:hover {
+    transform: scale(1.1);
+    transition-duration: .2s;
+
+    transition-timing-function: ease-out;
+
+}
+
+
+
+
+
+@media (max-width: 576px) {
+
+    .our_services_heading_margin {
+        margin-top: 0px;
+    }
+
+    .home_who_we_margin {
+        margin-top: 50px;
+
+    }
+
+    .talk_to_expert {
+        flex-direction: column;
+    }
+
+    .home_gettouch_section {
+        width: 100%;
+        text-align: center;
+    }
+
+    .home_gettouch_button_section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 }

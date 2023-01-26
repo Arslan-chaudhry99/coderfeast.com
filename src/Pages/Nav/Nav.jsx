@@ -4,7 +4,7 @@ import "./style.css"
 const Nav = () => {
     return (
         <>
-            <div class="navbar navbar-expand-lg bg-light shadow">
+            <div class="navbar navbar-expand-lg bg-light shadow " >
                 <div class="container-fluid container ">
                     <a class="navbar-brand" href="#">
                         <img src={logo} alt="img" style={{ width: "170px" }} />
@@ -20,11 +20,14 @@ const Nav = () => {
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Company</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Link
+                                    Portfolio
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">Action</a></li>
@@ -35,9 +38,9 @@ const Nav = () => {
                             </li>
 
                         </form>
-
+                        <button className='btn btn-warning'>Get a Quote</button>
                     </div>
-
+               
                 </div>
             </div>
 
