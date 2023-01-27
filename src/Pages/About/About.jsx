@@ -7,10 +7,10 @@ import missionIcon from "./img/mission.svg"
 const About = () => {
     return (
         <>
-            <section className="container mt-4">
+            <section className="container mt-5">
                 <div class="row ">
-                    <div class="col-sm-6 col-md-6 d-flex justify-content-center align-items-center"> <img src={img} alt="img" /></div>
-                    <div class="col-sm-6 col-md-6  text-dark" style={{ flexDirection: "column", marginTop: "6%" }}>
+                    <div class="col-sm-6 col-md-6 d-flex justify-content-center align-items-center about_why_chose"> <img src={img} alt="img" /></div>
+                    <div class="col-sm-6 col-md-6  text-dark about_why_chose_paras" style={{ flexDirection: "column", marginTop: "6%" }}>
                         <h1 className="mb-3">Why Choose coderfeast.</h1>
                         <h3 className="mb-5">We Are Technical Innovators</h3>
                         <p>
@@ -19,18 +19,18 @@ const About = () => {
                             We help about you meet your ever-growing business demands with the use of the latest technologies such as Blockchain and Artificial Intelligence,
                             giving you a competitive edge.
                         </p>
-                        <div className=" ">
+                        <div className="">
                             <ul className='row'>
                                 <li className='d-flex  col-12  col-md-6 col-lg-6  col-xl-6 col-xxl-6  '>
                                     <i class="bi bi-check-circle-fill aboutus_margin_icons"></i>
                                     <p>
-                                        Blockchain Development
+                                        Web Development
                                     </p>
                                 </li>
                                 <li className='d-flex  col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 '>
                                     <i class="bi bi-check-circle-fill aboutus_margin_icons"></i>
                                     <p>
-                                        Blockchain Development
+                                        Mobile App Development
                                     </p>
                                 </li>
 
@@ -39,7 +39,7 @@ const About = () => {
                                 <li className='d-flex  col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 '>
                                     <i class="bi bi-check-circle-fill aboutus_margin_icons"></i>
                                     <p>
-                                        Blockchain Development
+                                        Bussiness Development
                                     </p>
                                 </li>
                                 <li className='d-flex  col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 '>
@@ -55,8 +55,8 @@ const About = () => {
                     </div>
                 </div>
             </section>
-            <section className='container mt-5'>
-                <div>
+            <section className='container  about_company_value'>
+                <div className=''>
                     <h2 className='mb-0'>
                         Our Company Values
                     </h2>
@@ -65,40 +65,43 @@ const About = () => {
                     </p>
                 </div>
 
-                <div className='row d-flex justify-content-around align-items-center'>
-                    <div class=" card about-us-cards-padding  about-cards-w-h mb-4  " >
-                        <div className=' d-flex justify-content-center align-items-center flex-column'>
-                            <img src={visionIcon} alt="img" width="65px" />
-                            <h6 className="my-3">VISION</h6>
+                <div className='row '>
+                    <div class="    col-md-4 col-sm-12  " >
+                        <div className=' about-cards-w-h border'>
+                            <div className=' d-flex justify-content-center align-items-center flex-column'>
+                                <img src={visionIcon} alt="img" width="65px" />
+                                <h6 className="my-3">VISION</h6>
+                            </div>
+                            <p>OptimusFox envisions a digital world where the
+                                latest technological solutions are executed in businesses.
+                                We are committed about to enabling enterprises inculcate
+                                blockchain technology in their business processes.</p>
                         </div>
-                        <p>OptimusFox envisions a digital world where the
-                            latest technological solutions are executed in businesses.
-                            We are committed about to enabling enterprises inculcate
-                            blockchain technology in their business processes.</p>
-
                     </div>
-                    <div class=" card about-us-cards-padding  about-cards-w-h mb-4  " >
-                        <div className=' d-flex justify-content-center align-items-center flex-column'>
-                            <img src={missionIcon} alt="img" width="65px" />
-                            <h6 className="my-3">MISSION</h6>
+                    <div class="    col-md-4 col-sm-12  " >
+                        <div className=' about-cards-w-h border'>
+                            <div className=' d-flex justify-content-center align-items-center flex-column'>
+                                <img src={visionIcon} alt="img" width="65px" />
+                                <h6 className="my-3">VISION</h6>
+                            </div>
+                            <p>OptimusFox envisions a digital world where the
+                                latest technological solutions are executed in businesses.
+                                We are committed about to enabling enterprises inculcate
+                                blockchain technology in their business processes.</p>
                         </div>
-                        <p>OptimusFox envisions a digital world where the
-                            latest technological solutions are executed in businesses.
-                            We are committed about to enabling enterprises inculcate
-                            blockchain technology in their business processes.</p>
                     </div>
-                    <div class=" card about-us-cards-padding  about-cards-w-h mb-4  " >
-                        <div className=' d-flex justify-content-center align-items-center flex-column'>
-                            <img src={valueIcon} alt="img" width="65px" />
-                            <h6 className="my-3">VALUE</h6>
+                    <div class="    col-md-4 col-sm-12  " >
+                        <div className=' about-cards-w-h border'>
+                            <div className=' d-flex justify-content-center align-items-center flex-column'>
+                                <img src={visionIcon} alt="img" width="65px" />
+                                <h6 className="my-3">VISION</h6>
+                            </div>
+                            <p>OptimusFox envisions a digital world where the
+                                latest technological solutions are executed in businesses.
+                                We are committed about to enabling enterprises inculcate
+                                blockchain technology in their business processes.</p>
                         </div>
-                        <p>OptimusFox envisions a digital world where the
-                            latest technological solutions are executed in businesses.
-                            We are committed about to enabling enterprises inculcate
-                            blockchain technology in their business processes.</p>
                     </div>
-
-
 
                 </div>
             </section>

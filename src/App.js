@@ -3,18 +3,29 @@ import Contact from "./Pages/Contact/Contact";
 import Careers from "./Pages/Careers/Careers";
 import About from "./Pages/About/About";
 import Home from "./Pages/Main/Home";
-import Nav from "./Pages/Nav/Nav";
-import Footer from "./Pages/Footer/Footer";
+import Share from "./Share.js";
+
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
   return <>
-    <Nav />
+    {/* <Nav /> */}
     {/* <About /> */}
-      {/* <Careers /> */}
-    <Home/>
+    {/* <Careers /> */}
+
     {/* <Contact /> */}
-    <Footer />
-    
-  
+    {/* <Footer /> */}
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Share />} >
+          <Route path="/" element={<Home />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Careers" element={<Careers />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Blog" element={<Blog />} />
+        </Route >
+      </Routes>
+    </BrowserRouter>
+
 
   </>
 }

@@ -43,19 +43,6 @@ h2 {
 
 
 
-.optimusfox_container {
-    width: 1170px;
-    margin: 0 auto;
-    max-width: 100%;
-    padding: 0 15px;
-}
-
-
-#site-content {
-    float: left;
-    width: 59.83%;
-}
-
 
 /* 
 
@@ -126,7 +113,7 @@ h2 {
     display: inline-block;
     font-weight: 600;
     padding: 6px 33px 4px 14px;
-    background: transparent;
+    
     color: var(--e-global-color-accent);
     border: 2px solid var(--e-global-color-accent);
 }
@@ -185,7 +172,7 @@ h2 {
 
 
 #sidebar .widget .wp-block-search .wp-block-search__button {
-    background-color: transparent;
+  
     position: absolute;
     top: 0;
     right: 0;
@@ -330,7 +317,7 @@ a {
 #featured-title .title-group:after,
 .header-button a,
 button {
-    background-color: var(--e-global-color-accent);
+ 
 }
 
 .header-button {
@@ -348,7 +335,7 @@ button {
     height: 48px;
     padding: 0 21px;
     border-radius: 0px;
-    background-color: var(--e-global-color-accent);
+    
     color: var(--e-global-color-white);
     font-weight: 600;
     white-space: nowrap;
@@ -480,7 +467,7 @@ button::-moz-focus-inner {
     grid-area: thumbnail;
     min-width: 60px;
     border-radius: 50%;
-    background-color: #eae9f7;
+
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -663,7 +650,7 @@ div#site-content {
     font-weight: 600;
     line-height: 19px;
     color: var(--e-global-color-secondary);
-    background-color: var(--e-global-color-accent);
+   
     border-radius: 5px 5px 5px 5px;
 }
 

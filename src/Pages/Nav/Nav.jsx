@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import logo from "./logo.png"
 import "./style.css"
 const Nav = () => {
@@ -17,7 +18,9 @@ const Nav = () => {
                     <div class="collapse navbar-collapse " id="navbarScroll" >
                         <form class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll ">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <NavLink to="/">
+                                    <a class="nav-link active" aria-current="page">Home</a>
+                                </NavLink>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Services</a>
@@ -27,20 +30,31 @@ const Nav = () => {
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Portfolio
+                                    Company
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><hr class="dropdown-divider" /></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li>
+                                        <NavLink to="/blog"><a class="dropdown-item" >Blog</a></NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink to="/contact"> <a class="dropdown-item" >Contact</a></NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink to="/Careers"> <a class="dropdown-item" >Careers</a> </NavLink>
+
+                                    </li>
+                                    <li>
+                                    <NavLink to="/about"> <a class="dropdown-item" >About</a></NavLink> 
+                                    </li>
+
+
                                 </ul>
                             </li>
 
                         </form>
                         <button className='btn btn-warning'>Get a Quote</button>
                     </div>
-               
+
                 </div>
             </div>
 

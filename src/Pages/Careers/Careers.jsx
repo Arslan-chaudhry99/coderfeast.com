@@ -5,7 +5,7 @@ import "./style.css"
 const Careers = () => {
     return (
         <>
-            <div className='container careers_cards'>
+            <div className='container careers_cards' style={{minHeight:"80vh"}}>
                 <div class="row">
                     <div class="col-sm-12 col-md-4 col-lg-4 mb-3 mb-sm-0">
                         <div class="card">
