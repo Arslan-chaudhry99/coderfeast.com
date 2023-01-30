@@ -13,6 +13,10 @@
     flex-direction: column;
  
 }
+.home_card_padding:hover{
+    background-color: green;
+    color: white;
+}
 .home_service_padding {
     margin-top: 82px;
    

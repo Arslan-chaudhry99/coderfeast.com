@@ -103,8 +103,8 @@ const Home = () => {
                                 <div class="col-xs-12 col-sm-6 col-md-4  mt-4">
                                     <div class="image-flip " >
                                         <div class="mainflip flip-0 ">
-                                            <div class="frontside">
-                                                <div class="card home_card_padding shadow border-0">
+                                            <div class="frontside ">
+                                                <div class="card home_card_padding shadow border-0 ">
                                                     <div class="card-body text-center  align_mentsof_cards">
                                                         <h4 class="card-title">Custom Web  Development</h4>
                                                         <p class="card-text">
