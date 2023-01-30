@@ -39,179 +39,181 @@ const Home = () => {
     return (
         <>
             <HomeSlider />
-            <div className="container home_service_padding">
-                <div className='container'>
-                    <h2 className=" ">Our Services</h2>
-                    <p>Our skillset isn’t just limited to Blockchain technology development. We offer Web and App Development services, Artificial Intelligence, Staff Augmentation, UI/UX Design, and Digital Marketing services to help your business generate leads and make sales.</p>
-                </div>
-                <section id="team" className='our_services_heading_margin'>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-6 col-md-4 mt-4 ">
-                                <div class="image-flip " >
-                                    <div class="mainflip flip-0 ">
-                                        <div class="frontside">
-                                            <div class="card home_card_padding ">
-                                                <div class="card-body text-center">
-                                                    <h4 class="card-title">Completely Managed IT Services</h4>
-                                                    <p class="card-text">
-                                                        Support when and where you Need it!</p>
-                                                    <p>Read More <i class="bi bi-arrow-right"></i></p>
+            <div className='our_service_bacground_image'>
+                <div className="container home_service_padding">
+                    <div className='container'>
+                        <h2 className=" ">Our Services</h2>
+                        <p>Our skillset isn’t just limited to Blockchain technology development. We offer Web and App Development services, Artificial Intelligence, Staff Augmentation, UI/UX Design, and Digital Marketing services to help your business generate leads and make sales.</p>
+                    </div>
+                    <section id="team" className='our_services_heading_margin'>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-md-4 mt-4 ">
+                                    <div class="image-flip " >
+                                        <div class="mainflip flip-0 ">
+                                            <div class="frontside">
+                                                <div class="card home_card_padding shadow border-0">
+                                                    <div class="card-body text-center align_mentsof_cards">
+                                                        <h4 class="card-title">Completely Managed IT Services</h4>
+                                                        <p class="card-text">
+                                                            Support when and where you Need it!</p>
+                                                        <p>Read More <i class="bi bi-arrow-right"></i></p>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
 
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-6 col-md-4 mt-4">
-                                <div class="image-flip " >
-                                    <div class="mainflip flip-0 ">
-                                        <div class="frontside">
-                                            <div class="card home_card_padding ">
-                                                <div class="card-body text-center">
-                                                    <h4 class="card-title">Mobile Applications Development</h4>
-                                                    <p class="card-text">Intuitive Mobile App Development.</p>
+                                <div class="col-xs-12 col-sm-6 col-md-4 mt-4">
+                                    <div class="image-flip " >
+                                        <div class="mainflip flip-0 ">
+                                            <div class="frontside">
+                                                <div class="card home_card_padding shadow border-0">
+                                                    <div class="card-body text-center  align_mentsof_cards">
+                                                        <h4 class="card-title">Mobile Applications Development</h4>
+                                                        <p class="card-text">Intuitive Mobile App Development.</p>
 
-                                                    <p>Read More <i class="bi bi-arrow-right"></i></p>
+                                                        <p>Read More <i class="bi bi-arrow-right"></i></p>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
 
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-6 col-md-4 mt-4">
-                                <div class="image-flip " >
-                                    <div class="mainflip flip-0 ">
-                                        <div class="frontside">
-                                            <div class="card home_card_padding ">
-                                                <div class="card-body text-center">
-                                                    <h4 class="card-title">Business Process Outsourcing</h4>
-                                                    <p class="card-text">
-                                                        Business Process End to End Automated</p>
+                                <div class="col-xs-12 col-sm-6 col-md-4 mt-4">
+                                    <div class="image-flip " >
+                                        <div class="mainflip flip-0 ">
+                                            <div class="frontside">
+                                                <div class="card home_card_padding shadow border-0">
+                                                    <div class="card-body text-center  align_mentsof_cards">
+                                                        <h4 class="card-title">Business Process <br/> Outsourcing</h4>
+                                                        <p class="card-text">
+                                                            Business Process End to End Automated</p>
 
-                                                    <p>Read More <i class="bi bi-arrow-right"></i></p>
+                                                        <p>Read More <i class="bi bi-arrow-right"></i></p>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
 
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-6 col-md-4  mt-4">
-                                <div class="image-flip " >
-                                    <div class="mainflip flip-0 ">
-                                        <div class="frontside">
-                                            <div class="card home_card_padding ">
-                                                <div class="card-body text-center">
-                                                    <h4 class="card-title">Custom Web Development</h4>
-                                                    <p class="card-text">
-                                                        Get your Your World Wide Web Address</p>
-                                                    <p>Read More <i class="bi bi-arrow-right"></i></p>
+                                <div class="col-xs-12 col-sm-6 col-md-4  mt-4">
+                                    <div class="image-flip " >
+                                        <div class="mainflip flip-0 ">
+                                            <div class="frontside">
+                                                <div class="card home_card_padding shadow border-0">
+                                                    <div class="card-body text-center  align_mentsof_cards">
+                                                        <h4 class="card-title">Custom Web  Development</h4>
+                                                        <p class="card-text">
+                                                            Get your Your World Wide Web Address</p>
+                                                        <p>Read More <i class="bi bi-arrow-right"></i></p>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
 
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-6 col-md-4  mt-4">
-                                <div class="image-flip " >
-                                    <div class="mainflip flip-0 ">
-                                        <div class="frontside">
-                                            <div class="card home_card_padding ">
-                                                <div class="card-body text-center">
-                                                    <h4 class="card-title">Custom Web Development</h4>
-                                                    <p class="card-text">
-                                                        Get your Your World Wide Web Address</p>
-                                                    <p>Read More <i class="bi bi-arrow-right"></i></p>
+                                <div class="col-xs-12 col-sm-6 col-md-4  mt-4">
+                                    <div class="image-flip " >
+                                        <div class="mainflip flip-0 ">
+                                            <div class="frontside">
+                                                <div class="card home_card_padding shadow border-0">
+                                                    <div class="card-body text-center  align_mentsof_cards">
+                                                        <h4 class="card-title">Custom Web Development</h4>
+                                                        <p class="card-text">
+                                                            Get your Your World Wide Web Address</p>
+                                                        <p>Read More <i class="bi bi-arrow-right"></i></p>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
 
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-6 col-md-4  mt-4">
-                                <div class="image-flip " >
-                                    <div class="mainflip flip-0 ">
-                                        <div class="frontside">
-                                            <div class="card home_card_padding ">
-                                                <div class="card-body text-center">
-                                                    <h4 class="card-title">Custom Web Development</h4>
-                                                    <p class="card-text">
-                                                        Get your Your World Wide Web Address</p>
-                                                    <p>Read More <i class="bi bi-arrow-right"></i></p>
+                                <div class="col-xs-12 col-sm-6 col-md-4  mt-4">
+                                    <div class="image-flip " >
+                                        <div class="mainflip flip-0 ">
+                                            <div class="frontside">
+                                                <div class="card home_card_padding shadow border-0">
+                                                    <div class="card-body text-center  align_mentsof_cards">
+                                                        <h4 class="card-title">Custom Web Development</h4>
+                                                        <p class="card-text">
+                                                            Get your Your World Wide Web Address</p>
+                                                        <p>Read More <i class="bi bi-arrow-right"></i></p>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
 
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-6 col-md-4  mt-4">
-                                <div class="image-flip " >
-                                    <div class="mainflip flip-0 ">
-                                        <div class="frontside">
-                                            <div class="card home_card_padding ">
-                                                <div class="card-body text-center">
-                                                    <h4 class="card-title">Custom Web Development</h4>
-                                                    <p class="card-text">
-                                                        Get your Your World Wide Web Address</p>
-                                                    <p>Read More <i class="bi bi-arrow-right"></i></p>
+                                <div class="col-xs-12 col-sm-6 col-md-4  mt-4">
+                                    <div class="image-flip " >
+                                        <div class="mainflip flip-0 ">
+                                            <div class="frontside">
+                                                <div class="card home_card_padding shadow border-0">
+                                                    <div class="card-body text-center  align_mentsof_cards">
+                                                        <h4 class="card-title">Custom Web Development</h4>
+                                                        <p class="card-text">
+                                                            Get your Your World Wide Web Address</p>
+                                                        <p>Read More <i class="bi bi-arrow-right"></i></p>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
 
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-6 col-md-4  mt-4">
-                                <div class="image-flip " >
-                                    <div class="mainflip flip-0 ">
-                                        <div class="frontside">
-                                            <div class="card home_card_padding ">
-                                                <div class="card-body text-center">
-                                                    <h4 class="card-title">Custom Web Development</h4>
-                                                    <p class="card-text">
-                                                        Get your Your World Wide Web Address</p>
-                                                    <p>Read More <i class="bi bi-arrow-right"></i></p>
+                                <div class="col-xs-12 col-sm-6 col-md-4  mt-4">
+                                    <div class="image-flip " >
+                                        <div class="mainflip flip-0 ">
+                                            <div class="frontside">
+                                                <div class="card home_card_padding shadow border-0">
+                                                    <div class="card-body text-center  align_mentsof_cards">
+                                                        <h4 class="card-title">Custom Web Development</h4>
+                                                        <p class="card-text">
+                                                            Get your Your World Wide Web Address</p>
+                                                        <p>Read More <i class="bi bi-arrow-right"></i></p>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
 
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-6 col-md-4  mt-4">
-                                <div class="image-flip " >
-                                    <div class="mainflip flip-0 ">
-                                        <div class="frontside">
-                                            <div class="card home_card_padding ">
-                                                <div class="card-body text-center">
-                                                    <h4 class="card-title">Custom Web Development</h4>
-                                                    <p class="card-text">
-                                                        Get your Your World Wide Web Address</p>
-                                                    <p>Read More <i class="bi bi-arrow-right"></i></p>
+                                <div class="col-xs-12 col-sm-6 col-md-4  mt-4">
+                                    <div class="image-flip " >
+                                        <div class="mainflip flip-0 ">
+                                            <div class="frontside">
+                                                <div class="card home_card_padding shadow border-0">
+                                                    <div class="card-body text-center  align_mentsof_cards">
+                                                        <h4 class="card-title">Custom Web Development</h4>
+                                                        <p class="card-text">
+                                                            Get your Your World Wide Web Address</p>
+                                                        <p>Read More <i class="bi bi-arrow-right"></i></p>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
 
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </section>
+                    </section>
 
+                </div>
             </div>
             <div className='container process_image_section'>
                 <h3 className='container '><strong>Our Process</strong></h3>
                 <p className='container'>
                     The stages we go through when we take on a project.
                 </p>
-                <img src={processImage} alt="img" style={{ width: "100%" }} className="container"/>
+                <img src={processImage} alt="img" style={{ width: "100%" }} className="container" />
             </div>
             <div class="container home_who_we_margin" >
                 <div class="row g-0 text-center">
@@ -225,9 +227,9 @@ const Home = () => {
 
                 </div>
             </div>
-            <div class="container home_text_services ">
+            <div class="container home_text_services   ">
                 <div class="row row-reverse">
-                    <div class="col-sm-6 col-md-6 " style={{ flexDirection: "column" }}>
+                    <div class="col-sm-6 " style={{ flexDirection: "column" }}>
                         <h4>Web App Development</h4>
                         <p>We use a variety of platforms to develop stunning web applications that convert. </p>
                         <div class="row">
@@ -318,13 +320,13 @@ const Home = () => {
 
                 </div>
             </div>
-
-            <section className='container testimonial_img'>
-                <h4 className='container '>
-                    <strong>  What Our Clients Are Saying</strong>
-                </h4>
+            <div className="container">  <h4 className='container '>
+                <strong>  What Our Clients Are Saying</strong>
+            </h4>
                 <p className='container'>Let them do the talking about our services and quality of work.
-                </p>
+                </p></div>
+            <section className='container testimonial_img'>
+
                 <div class="row text-center" >
 
                     <Carousel responsive={responsive} showDots={true}

@@ -1,27 +1,43 @@
 .home_card_padding {
     padding-top: 30px;
-    background-color: #3F4346;
-    color: white;
+    background-color: white;
+    color: black;
     box-sizing: border-box;
     min-height: 250px;
+  
 }
-
+.align_mentsof_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+}
 .home_service_padding {
     margin-top: 82px;
+   
 }
-
+.our_service_bacground_image{
+    background-image: url("https://cdn-hofgh.nitrocdn.com/dXceVXZpxWrYCcWPSjiZmJPOirkYCupN/assets/images/optimized/rev-9e7f30a/wp-content/uploads/2021/10/Mask-Group-61@2x-1.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
 .our_services_heading_margin {
     margin-top: 32px;
 }
 
 .home_who_we_margin {
     margin-top: 160px;
+    background-image: url("https://cdn-hofgh.nitrocdn.com/dXceVXZpxWrYCcWPSjiZmJPOirkYCupN/assets/images/optimized/rev-9e7f30a/wp-content/uploads/2021/10/Mask-Group-62@2x.png");
+    background-position: right;
+    background-repeat: no-repeat;
 
 }
 
 .home_text_services {
     margin-top: 108px;
     margin-bottom: 104px;
+ 
 }
 
 .talk_to_expert {
