@@ -127,6 +127,42 @@ const About = () => {
                                 </ul>
                             </div>
                         </li>
+                        <li class="col-12 col-md-6 col-lg-3">
+                            <div class="cnt-block equal-hight" style={{ height: "340px" }}>
+                                <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt="" /></figure>
+                                <h3><a href="http://www.webcoderskull.com/"><strong>Mujab Popalzai</strong></a></h3>
+                                <p><strong>Co-Founder & CEO</strong></p>
+                                <ul class="follow-us clearfix">
+                                    <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                                    <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="col-12 col-md-6 col-lg-3">
+                            <div class="cnt-block equal-hight" style={{ height: "340px" }}>
+                                <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt="" /></figure>
+                                <h3><a href="http://www.webcoderskull.com/"><strong>Mujab Popalzai</strong></a></h3>
+                                <p><strong>Co-Founder & CEO</strong></p>
+                                <ul class="follow-us clearfix">
+                                    <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                                    <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="col-12 col-md-6 col-lg-3">
+                            <div class="cnt-block equal-hight" style={{ height: "340px" }}>
+                                <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt="" /></figure>
+                                <h3><a href="http://www.webcoderskull.com/"><strong>Mujab Popalzai</strong></a></h3>
+                                <p><strong>Co-Founder & CEO</strong></p>
+                                <ul class="follow-us clearfix">
+                                    <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                                    <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                                </ul>
+                            </div>
+                        </li>
 
                     </ul>
 

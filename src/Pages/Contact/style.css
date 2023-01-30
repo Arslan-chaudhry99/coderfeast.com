@@ -70,13 +70,17 @@
 }
 
 .contactus_info_cards {
-    padding: 80px 70px 67px 70px;
+    padding:30px 5px 0px;
+    height: 230px;
 }
 
 .contact_us_icons_size {
     font-size: 35px;
 }
 
+
+
 .contactsus_cards_shadows:hover {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
 }

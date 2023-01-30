@@ -1,7 +1,9 @@
 .home_card_padding {
-    padding: 50px 15px 23px 15px;
+    padding-top: 30px;
     background-color: #3F4346;
     color: white;
+    box-sizing: border-box;
+    min-height: 250px;
 }
 
 .home_service_padding {
@@ -62,8 +64,16 @@
 
 }
 
-
-
+.testimonial_img {
+    background-image: url("https://cdn-hofgh.nitrocdn.com/dXceVXZpxWrYCcWPSjiZmJPOirkYCupN/assets/images/optimized/rev-9e7f30a/wp-content/uploads/2021/10/Path-8206@2x.png");
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.process_image_section{
+    margin-top: 160px;
+}
 
 
 @media (max-width: 576px) {
@@ -90,5 +100,8 @@
         width: 100%;
         display: flex;
         justify-content: center;
+    }
+    .process_image_section{
+        margin-top: 50px;
     }
 }

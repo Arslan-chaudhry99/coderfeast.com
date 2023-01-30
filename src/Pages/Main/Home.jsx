@@ -1,5 +1,7 @@
 import React from 'react'
 import "./style.css"
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 import img from "./img/wh1o-we-are (1).png"
 import reactIcon from "./img/raec1t.png"
 import djangoIcon from "./img/dja1nge.png"
@@ -14,16 +16,29 @@ import andriodIcons from "./img/andr1oid.png"
 import fluterIcons from "./img/fl1utter.png"
 import SwiftIcons from "./img/s1wift.png"
 import appleIcons from "./img/ap1ple.png"
+import HomeSlider from './HomeSlider'
+import processImage from "./img/process-img.png"
 const Home = () => {
+    const responsive = {
+        desktop: {
+            breakpoint: { max: 3000, min: 1024 },
+            items: 3,
+            slidesToSlide: 3 // optional, default to 1.
+        },
+        tablet: {
+            breakpoint: { max: 1024, min: 464 },
+            items: 2,
+            slidesToSlide: 2 // optional, default to 1.
+        },
+        mobile: {
+            breakpoint: { max: 464, min: 0 },
+            items: 1,
+            slidesToSlide: 1 // optional, default to 1.
+        }
+    };
     return (
         <>
-            {/* <div className="container">
-                <h3>
-                    Our Process
-                </h3>
-                <p>The stages we go through when we take on a project.</p>
-
-            </div> */}
+            <HomeSlider />
             <div className="container home_service_padding">
                 <div className='container'>
                     <h2 className=" ">Our Services</h2>
@@ -169,10 +184,34 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4  mt-4">
+                                <div class="image-flip " >
+                                    <div class="mainflip flip-0 ">
+                                        <div class="frontside">
+                                            <div class="card home_card_padding ">
+                                                <div class="card-body text-center">
+                                                    <h4 class="card-title">Custom Web Development</h4>
+                                                    <p class="card-text">
+                                                        Get your Your World Wide Web Address</p>
+                                                    <p>Read More <i class="bi bi-arrow-right"></i></p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
 
+            </div>
+            <div className='container process_image_section'>
+                <h3 className='container '><strong>Our Process</strong></h3>
+                <p className='container'>
+                    The stages we go through when we take on a project.
+                </p>
+                <img src={processImage} alt="img" style={{ width: "100%" }} className="container"/>
             </div>
             <div class="container home_who_we_margin" >
                 <div class="row g-0 text-center">
@@ -223,7 +262,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-6 d-flex justify-content-center align-items-center">
-                        <img src={webLogo} alt="img" style={{width:"70%"}} />
+                        <img src={webLogo} alt="img" style={{ width: "70%" }} />
                     </div>
                 </div>
             </div>
@@ -279,6 +318,79 @@ const Home = () => {
 
                 </div>
             </div>
+
+            <section className='container testimonial_img'>
+                <h4 className='container '>
+                    <strong>  What Our Clients Are Saying</strong>
+                </h4>
+                <p className='container'>Let them do the talking about our services and quality of work.
+                </p>
+                <div class="row text-center" >
+
+                    <Carousel responsive={responsive} showDots={true}
+
+                    >
+
+                        <div class="col-md-12 mb-5 mb-md-0 container p-3">
+                            <div class="d-flex justify-content-center mb-4">
+                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                                    class="rounded-circle shadow-1-strong" style={{ width: "130px", height: "130px" }} />
+                            </div>
+                            <h5 class="mb-3">Maria Smantha</h5>
+                            <h6 class="text-primary mb-3">Web Developer</h6>
+                            <p class="px-xl-3 text-center">
+                                <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic
+                                tenetur.
+                            </p>
+                        </div>
+
+                        <div class="col-md-12 mb-5 mb-md-0 container p-3">
+                            <div class="d-flex justify-content-center mb-4">
+                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                                    class="rounded-circle shadow-1-strong" style={{ width: "130px", height: "130px" }} />
+                            </div>
+                            <h5 class="mb-3">Maria Smantha</h5>
+                            <h6 class="text-primary mb-3">Web Developer</h6>
+                            <p class="px-xl-3 text-center">
+                                <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic
+                                tenetur.
+                            </p>
+                        </div>
+
+                        <div class="col-md-12 mb-5 mb-md-0 container p-3">
+                            <div class="d-flex justify-content-center mb-4">
+                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                                    class="rounded-circle shadow-1-strong" style={{ width: "130px", height: "130px" }} />
+                            </div>
+                            <h5 class="mb-3">Maria Smantha</h5>
+                            <h6 class="text-primary mb-3">Web Developer</h6>
+                            <p class="px-xl-3 text-center">
+                                <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic
+                                tenetur.
+                            </p>
+                        </div>
+
+                        <div class="col-md-12 mb-5 mb-md-0 container p-3">
+                            <div class="d-flex justify-content-center mb-4">
+                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                                    class="rounded-circle shadow-1-strong" style={{ width: "130px", height: "130px" }} />
+                            </div>
+                            <h5 class="mb-3">Maria Smantha</h5>
+                            <h6 class="text-primary mb-3">Web Developer</h6>
+                            <p class="px-xl-3 text-center">
+                                <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic
+                                tenetur.
+                            </p>
+                        </div>
+
+
+                    </Carousel>
+                </div>
+            </section>
         </>
     )
 }
