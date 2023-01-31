@@ -4,7 +4,7 @@ import Careers from "./Pages/Careers/Careers";
 import About from "./Pages/About/About";
 import Home from "./Pages/Main/Home";
 import Share from "./Share.js";
-
+import ReactPage from "./Pages/Web/Reactjs/ReactPage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
   return <>
@@ -22,6 +22,7 @@ function App() {
           <Route path="/Careers" element={<Careers />} />
           <Route path="/About" element={<About />} />
           <Route path="/Blog" element={<Blog />} />
+          <Route path="/react-js-development" element={<ReactPage />} />
         </Route >
       </Routes>
     </BrowserRouter>

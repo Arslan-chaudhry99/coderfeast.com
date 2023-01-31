@@ -88,7 +88,7 @@ const Home = () => {
                                             <div class="frontside">
                                                 <div class="card home_card_padding shadow border-0">
                                                     <div class="card-body text-center  align_mentsof_cards">
-                                                        <h4 class="card-title">Business Process <br/> Outsourcing</h4>
+                                                        <h4 class="card-title">Business Process <br /> Outsourcing</h4>
                                                         <p class="card-text">
                                                             Business Process End to End Automated</p>
 

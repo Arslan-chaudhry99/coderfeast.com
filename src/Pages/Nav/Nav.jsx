@@ -39,9 +39,11 @@ const Nav = () => {
                                                         <li className='mt-1'>
                                                             Node.Js
                                                         </li>
-                                                        <li className='mt-1'>
-                                                            React.Js
-                                                        </li>
+                                                        <NavLink to="/react-js-development">
+                                                            <li className='mt-1'>
+                                                                React.Js
+                                                            </li>
+                                                        </NavLink>
                                                         <li className='mt-1'>
                                                             .Net / Core
 
