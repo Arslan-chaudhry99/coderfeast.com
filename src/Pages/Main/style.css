@@ -14,9 +14,12 @@
  
 }
 .home_card_padding:hover{
-    background-color: green;
+    background-color: #75bf0d;
     color: white;
 }
+/* this is new here */
+
+/* this is new here */ 
 .home_service_padding {
     margin-top: 82px;
    
@@ -25,6 +28,8 @@
     background-image: url("https://cdn-hofgh.nitrocdn.com/dXceVXZpxWrYCcWPSjiZmJPOirkYCupN/assets/images/optimized/rev-9e7f30a/wp-content/uploads/2021/10/Mask-Group-61@2x-1.png");
     background-position: right;
     background-repeat: no-repeat;
+    background-size: 90vh 90vw;
+
 }
 .our_services_heading_margin {
     margin-top: 32px;

@@ -1,0 +1,77 @@
+.banner_background_img {
+    min-height: 70vh;
+    background-image: url("./img/back.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.banner_img_content {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+
+.banner_img_content button {
+    background-color: #75bf0d;
+    border: 0;
+    color: white;
+    padding: 10px;
+
+}
+
+.banner_img_content button:hover {
+    background-color: #619c0d;
+    border: 0;
+    color: white;
+    padding: 10px;
+}
+
+.banner_img {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_img img {
+    width: 90%;
+}
+
+@media (max-width: 576px) {
+    .banner_img {
+        min-height: 28vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner_img_content p,
+    h1 {
+        text-align: center;
+
+    }
+
+    .banner_img_content h1 {
+        font-size: 30px !important;
+
+
+    }
+
+    .home_btn_container {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner_background_img {
+        max-height: 90vh;
+
+
+    }
+
+}

@@ -52,7 +52,7 @@ const Home = () => {
                                     <div class="image-flip " >
                                         <div class="mainflip flip-0 ">
                                             <div class="frontside">
-                                                <div class="card home_card_padding shadow border-0">
+                                                <div class="card home_card_padding shadow border-0 ">
                                                     <div class="card-body text-center align_mentsof_cards">
                                                         <h4 class="card-title">Completely Managed IT Services</h4>
                                                         <p class="card-text">

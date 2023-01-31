@@ -22,12 +22,105 @@ const Nav = () => {
                                     <a class="nav-link active" aria-current="page">Home</a>
                                 </NavLink>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Services</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Service
+                                </a>
+                                <div class="dropdown-menu services_page_width">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-4 col-sm-12 ">
+                                                <ul className='text-center mt-3'>
+                                                    <strong className='mb-0'>WEB DEVELOPMENT</strong>
+                                                    <div className='mt-3'>
+                                                        <li className='mt-1'>
+                                                            Ruby on Rails
+                                                        </li>
+                                                        <li className='mt-1'>
+                                                            Node.Js
+                                                        </li>
+                                                        <li className='mt-1'>
+                                                            React.Js
+                                                        </li>
+                                                        <li className='mt-1'>
+                                                            .Net / Core
+
+                                                        </li>
+                                                        <li className='mt-1'>
+                                                            Laravel
+
+                                                        </li>
+                                                        <li className='mt-1'>
+                                                            Python
+
+                                                        </li>
+
+                                                    </div>
+
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-4 col-sm-12 ">
+                                                <ul className='text-center mt-3'>
+                                                    <strong className='mb-0'>App Development</strong>
+                                                    <div className='mt-3'>
+                                                        <li className='mt-1'>
+                                                            Android
+                                                        </li>
+                                                        <li className='mt-1'>
+                                                            IOS
+                                                        </li>
+                                                        <li className='mt-1'>
+                                                            React Native
+                                                        </li>
+                                                        <li className='mt-1'>
+                                                            Swift
+
+                                                        </li>
+                                                        <li className='mt-1'>
+                                                            Kotlin
+
+                                                        </li>
+                                                        <li className='mt-1'>
+                                                            Flutter
+
+                                                        </li>
+
+                                                    </div>
+
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-4 col-sm-12 ">
+                                                <ul className='text-center mt-3'>
+                                                    <strong className='mb-0'>STAFF AUGMENTATION</strong>
+                                                    <div className='mt-3'>
+                                                        <li className='mt-1'>
+                                                            Blockchain Developers
+                                                        </li>
+                                                        <li className='mt-1'>
+                                                            Full Stack Developers
+                                                        </li>
+                                                        <li className='mt-1'>
+                                                            Dedicated Developers
+                                                        </li>
+                                                        <li className='mt-1'>
+                                                            Offshore Developers
+                                                        </li>
+                                                        <li className='mt-1'>
+                                                            DevOps Engineers
+
+                                                        </li>
+
+
+                                                    </div>
+
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Company</a>
-                            </li>
+
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Company
@@ -44,7 +137,7 @@ const Nav = () => {
 
                                     </li>
                                     <li>
-                                    <NavLink to="/about"> <a class="dropdown-item" >About</a></NavLink> 
+                                        <NavLink to="/about"> <a class="dropdown-item" >About</a></NavLink>
                                     </li>
 
 
@@ -52,7 +145,7 @@ const Nav = () => {
                             </li>
 
                         </form>
-                        <button className='btn btn-warning'>Get a Quote</button>
+                        <button className='btn header_btn_color'>Get a Quote</button>
                     </div>
 
                 </div>

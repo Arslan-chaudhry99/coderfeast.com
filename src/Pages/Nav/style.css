@@ -1,4 +1,26 @@
-.nav_logo_sizing{
+.nav_logo_sizing {
     width: 140px;
-   
+
+}
+
+.services_page_width {
+    width: 40vw;
+}
+
+.header_btn_color {
+    background-color: #75bf0d;
+    color: white;
+
+}
+
+.header_btn_color:hover {
+    background-color: #75bf0d;
+    color: white;
+
+}
+
+@media (max-width: 576px) {
+    .services_page_width {
+        width: 90vw;
+    }
 }
