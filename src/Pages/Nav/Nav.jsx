@@ -5,7 +5,7 @@ import "./style.css"
 const Nav = () => {
     return (
         <>
-            <div class="navbar navbar-expand-lg bg-light shadow " >
+            <div class="navbar navbar-expand-lg bg-light shadow border" >
                 <div class="container-fluid container ">
                     <a class="navbar-brand" href="#">
                         <img src={logo} alt="img" style={{ width: "170px" }} />
@@ -147,7 +147,7 @@ const Nav = () => {
                             </li>
 
                         </form>
-                        <button className='btn header_btn_color'>Get a Quote</button>
+                    <button className='btn header_btn_color'>Get a Quote</button>
                     </div>
 
                 </div>

@@ -34,6 +34,10 @@
     margin-bottom: 100px;
 }
 
+.why_chose_react {
+    margin-bottom: 100px;
+}
+
 @media (max-width: 575.98px) {
     .banner_img_content_react_section {
         min-height: 40vh;
