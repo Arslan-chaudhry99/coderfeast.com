@@ -324,6 +324,25 @@ const ReactPage = () => {
                         </div>
                     </div>
                 </div>
+
+                {/* contact us page */}
+                <section className='aboutus_contact_container'>
+                    <div className='container'>
+
+                        <div className="contact_us_main_container col-12 ">
+                            <h4 className="text-white pb-4"><strong>Request More Information</strong></h4>
+                            <div className=''>
+                                <input type="text" className='aboutus_input_filed aboutus_input_filed_input' placeholder="Name*" style={{ color: "white" }} />
+                                <input type="text" className='aboutus_input_filed aboutus_input_filed_input' placeholder="Email*" style={{ color: "white" }} />
+                                <input type="text" className='aboutus_input_filed aboutus_input_filed_input' placeholder="Phone*" style={{ color: "white" }} />
+                                <input type="text" className='aboutus_input_filed aboutus_input_filed_input' placeholder="Company*" style={{ color: "white" }} />
+                                <textarea className='aboutus_input_filed aboutus_input_filed_textarea' placeholder="Message...." style={{ color: "white" }} ></textarea>
+                            </div>
+                            <button className=' text-white shadow contactus_sumb_btns' ><strong>Submit</strong></button>
+
+                        </div>
+                    </div>
+                </section>
             </div>
         </>
     )

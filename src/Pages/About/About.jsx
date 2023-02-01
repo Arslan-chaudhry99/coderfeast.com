@@ -66,7 +66,7 @@ const About = () => {
                 </div>
 
                 <div className='row '>
-                    <div class="    col-md-4 col-sm-12  " >
+                    <div class="    col-md-4 col-sm-12  mb-4" >
                         <div className=' about-cards-w-h border'>
                             <div className=' d-flex justify-content-center align-items-center flex-column'>
                                 <img src={visionIcon} alt="img" width="65px" />
@@ -78,7 +78,7 @@ const About = () => {
                                 blockchain technology in their business processes.</p>
                         </div>
                     </div>
-                    <div class="    col-md-4 col-sm-12  " >
+                    <div class="    col-md-4 col-sm-12  mb-4" >
                         <div className=' about-cards-w-h border'>
                             <div className=' d-flex justify-content-center align-items-center flex-column'>
                                 <img src={visionIcon} alt="img" width="65px" />
@@ -90,7 +90,7 @@ const About = () => {
                                 blockchain technology in their business processes.</p>
                         </div>
                     </div>
-                    <div class="    col-md-4 col-sm-12  " >
+                    <div class="    col-md-4 col-sm-12  mb-4" >
                         <div className=' about-cards-w-h border'>
                             <div className=' d-flex justify-content-center align-items-center flex-column'>
                                 <img src={visionIcon} alt="img" width="65px" />
@@ -173,14 +173,14 @@ const About = () => {
 
                     <div className="contact_us_main_container col-12 ">
                         <h4 className="text-white pb-4"><strong>Request More Information</strong></h4>
-                        <div className='aboutus_inputs_container'>
-                            <input type="text" className='aboutus_input_filed col-11 col-md-4 col-lg-4 col-xl-4 col-xxl-4' placeholder="Name*" style={{ color: "white" }} />
-                            <input type="text" className='aboutus_input_filed col-11 col-md-4 col-lg-4 col-xl-4 col-xxl-4' placeholder="Email*" style={{ color: "white" }} />
-                            <input type="text" className='aboutus_input_filed col-11 col-md-4 col-lg-4 col-xl-4 col-xxl-4' placeholder="Phone*" style={{ color: "white" }} />
-                            <input type="text" className='aboutus_input_filed col-11 col-md-4 col-lg-4 col-xl-4 col-xxl-4' placeholder="Company*" style={{ color: "white" }} />
-                            <textarea className='aboutus_input_filed col-md-8 col-11' placeholder="Message...." style={{ color: "white" }} ></textarea>
+                        <div className=''>
+                            <input type="text" className='aboutus_input_filed aboutus_input_filed_input' placeholder="Name*" style={{ color: "white" }} />
+                            <input type="text" className='aboutus_input_filed aboutus_input_filed_input' placeholder="Email*" style={{ color: "white" }} />
+                            <input type="text" className='aboutus_input_filed aboutus_input_filed_input' placeholder="Phone*" style={{ color: "white" }} />
+                            <input type="text" className='aboutus_input_filed aboutus_input_filed_input' placeholder="Company*" style={{ color: "white" }} />
+                            <textarea className='aboutus_input_filed aboutus_input_filed_textarea' placeholder="Message...." style={{ color: "white" }} ></textarea>
                         </div>
-                        <button className='btn btn-warning btn-sm mx-2 text-white shadow' ><strong>Submit</strong></button>
+                        <button className=' text-white shadow contactus_sumb_btns' ><strong>Submit</strong></button>
 
                     </div>
                 </div>
