@@ -184,5 +184,4 @@ const Staff = () => {
         </>
     )
 }
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis alias beatae vitae minima, maxime laudantium temporibus nostrum ratione adipisci corporis repellendus! Repudiandae mollitia, deleniti maxime nulla ea nam ex qui!
 export default Staff
