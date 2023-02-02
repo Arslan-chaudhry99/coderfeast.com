@@ -2,6 +2,54 @@
     margin-right: 10px;
 }
 
+.whats_augmentation_cards_section {
+    padding: 50px 30px 50px 30px;
+    min-height: 349px;
+
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid #e2e2e2;
+}
+
+.whats_augmentation_cards_section:hover {
+    background-color: #75bf0d;
+    color: white;
+}
+
+.border_global_for_cards {
+    border-bottom: 0px;
+}
+
+.whats_augmentation_cards_section p {
+    text-align: center;
+}
+
+.onboding_margin {
+    margin-right: 1%;
+    max-width: 32%;
+
+}
+
+.count_inaugmentation {
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+
+    background-color: #75bf0d;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+
+
 
 
 @media (max-width: 575.98px) {
@@ -14,6 +62,27 @@
     .agumentation_benifites_p {
         text-align: center;
     }
+
+    .how_help_augmentation {
+        text-align: center;
+    }
+
+    .staf_augmentation_slider_section_h1 {
+        font-size: 30px !important;
+        line-height: 45px !important;
+        margin-top: 10px;
+    }
+
+    .onboding_margin {
+        margin-right: 0px;
+        margin-bottom: 10px;
+        margin-right: 0%;
+        max-width: 100%;
+    }
+    .onboding_margin{
+    margin-bottom: 10px;
+    }
+
 }
 
 @media (max-width: 767.98px) {
@@ -22,6 +91,25 @@
         flex-direction: column;
         text-align: center;
     }
+
+    .how_help_augmentation {
+        text-align: center;
+    }
+
+    .staf_augmentation_slider_section_h1 {
+        font-size: 30px !important;
+        line-height: 45px !important;
+        margin-top: 10px;
+    }
+
+    .onboding_margin {
+        margin-right: 0px;
+        margin-right: 0%;
+        max-width: 100%;
+    }
+    .onboding_margin{
+        margin-bottom: 10px;
+        }
 }
 
 /* justify-content-center flex-column text-center */
