@@ -22,6 +22,11 @@ const Nav = () => {
                                     <a class="nav-link active" aria-current="page">Home</a>
                                 </NavLink>
                             </li>
+                            <li class="nav-item">
+                                <NavLink to="/staff-augmentation">
+                                    <a class="nav-link active" aria-current="page">Staff Augmentation</a>
+                                </NavLink>
+                            </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Service

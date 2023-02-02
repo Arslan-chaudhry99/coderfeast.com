@@ -1,0 +1,27 @@
+.margin_between_tick_para {
+    margin-right: 10px;
+}
+
+
+
+@media (max-width: 575.98px) {
+    .augmention_benifit_arrow {
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .agumentation_benifites_p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .augmention_benifit_arrow {
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* justify-content-center flex-column text-center */

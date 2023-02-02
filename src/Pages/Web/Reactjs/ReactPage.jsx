@@ -286,7 +286,7 @@ const ReactPage = () => {
                         </div>
                     </div>
                 </div>
-
+                
                 <div className='container why_chose_react'>
                     <h4 className='container fw-bold mb-4'>  Why Choose Coderfeast for React JS Development</h4>
                     <p className='container'>
@@ -324,7 +324,6 @@ const ReactPage = () => {
                         </div>
                     </div>
                 </div>
-
                 {/* contact us page */}
                 <section className='aboutus_contact_container'>
                     <div className='container'>

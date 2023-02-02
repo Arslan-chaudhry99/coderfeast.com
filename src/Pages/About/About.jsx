@@ -169,6 +169,7 @@ const About = () => {
                 </section>
             </section>
             <section className='aboutus_contact_container'>
+                
                 <div className='container'>
 
                     <div className="contact_us_main_container col-12 ">
