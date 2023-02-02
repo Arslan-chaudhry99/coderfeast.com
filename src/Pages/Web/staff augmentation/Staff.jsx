@@ -31,7 +31,7 @@ const Staff = () => {
             </div>
             <div className='container why_chose_react global_margin_top'>
                 <h2 className='container fw-bold mb-4'>
-                    Benefits of Staff Augmentation</h2>
+                    How Can We Help</h2>
 
                 <div className="container">
                     <div className="row">
@@ -42,28 +42,15 @@ const Staff = () => {
                                     style={
                                         {fontSize: "18px"}
                                 }></i>
-                                <h5 className='fw-bold mb-3'>Flexibility</h5>
+                                <h5 className='fw-bold mb-3'>Understanding Your Requirements</h5>
                             </div>
 
                             <div>
 
                                 <p className='agumentation_benifites_p'>
-                                    Staff Augmentation services enable you to implement more flexibility
-                                                                        when it comes to the hiring process. Companies are shifting and evolving
-                                                                        on a daily basis and sometimes full-time resources may not be able to provide
-                                                                        the additional skills that are required.
+                                    Developing an understanding with clients by sharing the details of your requirement to get the perfect candidate to meet your needs.
                                 </p>
-                                <p className='agumentation_benifites_p'>
-                                    Staff Augmentation services enable you to implement more flexibility when it
-                                                                        comes to the hiring process. Companies are shifting and evolving on a daily basis
-                                                                        and sometimes full-time resources may not be able to provide the additional skills that are required.
-                                </p>
-                                <p className='agumentation_benifites_p'>
-                                    Staff Augmentation services enable you to implement more flexibility when
-                                                                        it comes to the hiring process. Companies are shifting and evolving on a daily
-                                                                        basis and sometimes full-time resources may not be able to provide the additional
-                                                                        skills that are required.
-                                </p>
+
                             </div>
 
                         </div>
@@ -74,28 +61,15 @@ const Staff = () => {
                                     style={
                                         {fontSize: "18px"}
                                 }></i>
-                                <h5 className='fw-bold mb-3'>Flexibility</h5>
+                                <h5 className='fw-bold mb-3'>Industry-Specific Technical Experts</h5>
                             </div>
 
                             <div>
 
                                 <p className='agumentation_benifites_p'>
-                                    Staff Augmentation services enable you to implement more flexibility
-                                                                        when it comes to the hiring process. Companies are shifting and evolving
-                                                                        on a daily basis and sometimes full-time resources may not be able to provide
-                                                                        the additional skills that are required.
+                                    Providing complete control over clients to choose from our pre-screened pool of candidates specific to your industry.
                                 </p>
-                                <p className='agumentation_benifites_p'>
-                                    Staff Augmentation services enable you to implement more flexibility when it
-                                                                        comes to the hiring process. Companies are shifting and evolving on a daily basis
-                                                                        and sometimes full-time resources may not be able to provide the additional skills that are required.
-                                </p>
-                                <p className='agumentation_benifites_p'>
-                                    Staff Augmentation services enable you to implement more flexibility when
-                                                                        it comes to the hiring process. Companies are shifting and evolving on a daily
-                                                                        basis and sometimes full-time resources may not be able to provide the additional
-                                                                        skills that are required.
-                                </p>
+
                             </div>
 
                         </div>
@@ -106,28 +80,16 @@ const Staff = () => {
                                     style={
                                         {fontSize: "18px"}
                                 }></i>
-                                <h5 className='fw-bold mb-3'>Flexibility</h5>
+                                <h5 className='fw-bold mb-3'>Affordable
+                                </h5>
                             </div>
 
                             <div>
 
                                 <p className='agumentation_benifites_p'>
-                                    Staff Augmentation services enable you to implement more flexibility
-                                                                        when it comes to the hiring process. Companies are shifting and evolving
-                                                                        on a daily basis and sometimes full-time resources may not be able to provide
-                                                                        the additional skills that are required.
+                                    Get highly skilled technical experts to provide the best solutions, without bearing the costs of in-house work forces.
                                 </p>
-                                <p className='agumentation_benifites_p'>
-                                    Staff Augmentation services enable you to implement more flexibility when it
-                                                                        comes to the hiring process. Companies are shifting and evolving on a daily basis
-                                                                        and sometimes full-time resources may not be able to provide the additional skills that are required.
-                                </p>
-                                <p className='agumentation_benifites_p'>
-                                    Staff Augmentation services enable you to implement more flexibility when
-                                                                        it comes to the hiring process. Companies are shifting and evolving on a daily
-                                                                        basis and sometimes full-time resources may not be able to provide the additional
-                                                                        skills that are required.
-                                </p>
+
                             </div>
 
                         </div>
@@ -138,28 +100,64 @@ const Staff = () => {
                                     style={
                                         {fontSize: "18px"}
                                 }></i>
-                                <h5 className='fw-bold mb-3'>Flexibility</h5>
+                                <h5 className='fw-bold mb-3'>
+                                    Accelerates Time-to-Market
+
+                                </h5>
                             </div>
 
                             <div>
 
                                 <p className='agumentation_benifites_p'>
-                                    Staff Augmentation services enable you to implement more flexibility
-                                                                        when it comes to the hiring process. Companies are shifting and evolving
-                                                                        on a daily basis and sometimes full-time resources may not be able to provide
-                                                                        the additional skills that are required.
+                                    Trained professionals to operate at high efficiencies and provide fast-track development to get your product in the market faster.
                                 </p>
+
+                            </div>
+
+                        </div>
+                        <div className='col-12  col-md-6 col-sm-12 mb-5'>
+                            <div className='d-flex augmention_benifit_arrow '>
+
+                                <i class="bi bi-check-circle-fill margin_between_tick_para react_arrows "
+                                    style={
+                                        {fontSize: "18px"}
+                                }></i>
+                                <h5 className='fw-bold mb-3'>
+                                    High Turnover Rates
+
+
+                                </h5>
+                            </div>
+
+                            <div>
+
                                 <p className='agumentation_benifites_p'>
-                                    Staff Augmentation services enable you to implement more flexibility when it
-                                                                        comes to the hiring process. Companies are shifting and evolving on a daily basis
-                                                                        and sometimes full-time resources may not be able to provide the additional skills that are required.
+                                    Hiring already skilled external resources to focus solely on your project decreases attrition rates and produces positive results.
                                 </p>
+
+                            </div>
+
+                        </div>
+                        <div className='col-12  col-md-6 col-sm-12 mb-5'>
+                            <div className='d-flex augmention_benifit_arrow '>
+
+                                <i class="bi bi-check-circle-fill margin_between_tick_para react_arrows "
+                                    style={
+                                        {fontSize: "18px"}
+                                }></i>
+                                <h5 className='fw-bold mb-3'>
+                                    Outperform Your Competitors
+
+
+                                </h5>
+                            </div>
+
+                            <div>
+
                                 <p className='agumentation_benifites_p'>
-                                    Staff Augmentation services enable you to implement more flexibility when
-                                                                        it comes to the hiring process. Companies are shifting and evolving on a daily
-                                                                        basis and sometimes full-time resources may not be able to provide the additional
-                                                                        skills that are required.
+                                    With a remotely working team of professionals with a profound skill set, you’re more likely to outperform your competitors.
                                 </p>
+
                             </div>
 
                         </div>
