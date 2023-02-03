@@ -101,21 +101,9 @@ const Nav = () => {
                                                     <strong className='mb-0'>STAFF AUGMENTATION</strong>
                                                     <div className='mt-3'>
                                                         <li className='mt-1'>
-                                                            Blockchain Developers
+                                                        STAFF AUGMENTATION
                                                         </li>
-                                                        <li className='mt-1'>
-                                                            Full Stack Developers
-                                                        </li>
-                                                        <li className='mt-1'>
-                                                            Dedicated Developers
-                                                        </li>
-                                                        <li className='mt-1'>
-                                                            Offshore Developers
-                                                        </li>
-                                                        <li className='mt-1'>
-                                                            DevOps Engineers
-
-                                                        </li>
+                                                        
 
 
                                                     </div>
