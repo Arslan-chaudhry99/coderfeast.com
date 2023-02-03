@@ -3,6 +3,7 @@ import "./style.css"
 import img from "./dell-4Ea0P4IsZ_4-unsplash.jpg"
 import Nav from '../Nav/Nav'
 import Footer from '../Footer/Footer'
+
 const Blog = () => {
     return (
         <>
@@ -17,7 +18,11 @@ const Blog = () => {
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-warning">Read More</button>
+                                        <button class="get_in_touch_btn btn-sm px-2 py-1 btn-outline-warning">
+                                           
+                                                Read More
+                                         
+                                        </button>
 
                                     </div>
 

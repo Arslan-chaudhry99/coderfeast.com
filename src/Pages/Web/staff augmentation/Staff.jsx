@@ -174,7 +174,7 @@ const Staff = () => {
                     </h2>
                 </div>
                 <div class="home_gettouch_button_section">
-                    <button class="btn  btn-warning text-white shadow-lg text-center">
+                    <button class="get_in_touch_btn  text-white shadow-lg text-center">
                         <strong>Get in touch</strong>
                     </button>
                 </div>

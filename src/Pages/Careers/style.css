@@ -1,6 +1,146 @@
-.careers_cards{
+.careers_cards {
     margin-top: 20px;
 }
-.careers_details{
+
+.careers_details {
     margin-right: 6px;
+}
+
+.available_jobs_opertunity {
+    box-sizing: border-box;
+    height: 90px;
+    background-color: white;
+
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 1%;
+}
+
+.available_jobs_opertunity:hover {
+    background-color: #75bf0d;
+    color: white;
+}
+
+.available_jobs_opertunity button {
+    padding: 4px 10px;
+    border-radius: 4px;
+    border: 0px;
+    color: white;
+    font-weight: 500;
+    background-color: #75bf0d;
+}
+
+.available_jobs_opertunity button {
+    border: 2PX solid white;
+}
+
+.available_jobs_opertunity_m_right {
+    margin-right: 1%;
+}
+
+.available_jobs_opertunity_m_bottom {
+    margin-bottom: 5px;
+}
+
+.PERKS_cards {
+    box-sizing: border-box;
+    height: 200px;
+    background-color: white;
+    border: 5px solid white;
+    padding: 40px 11px 41px 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.PERKS_cards:hover {
+    background-color: #75bf0d;
+}
+
+.PERKS_cards span {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.PERKS_cards p {
+    font-size: 16px;
+
+}
+
+.PERKS_cards_img_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PERKS_cards_img_section i {
+    font-size: 60px;
+    float: right;
+
+}
+
+.career_img_section {
+    background-image: url("./dark-background-1.png");
+    min-height: 273px;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    color: white;
+    
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.career_img_section_inner {
+    width: 100%;height: 100%;
+   
+}
+
+@media (max-width: 575.98px) {
+
+    .apply_now_section_container,
+    p,
+    h2,
+    h3 {
+        text-align: center;
+    }
+
+    .PERKS_cards {
+        padding: 10;
+    }
+
+    .available_jobs_opertunity {
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    .apply_now_section_container,
+    p,
+    h2,
+    h3 {
+        text-align: center;
+
+    }
+
+    .PERKS_cards {
+        padding: 10;
+    }
+
+    .available_jobs_opertunity {
+        margin: 0px;
+        margin-bottom: 10px;
+    }
 }

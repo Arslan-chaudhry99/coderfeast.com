@@ -5,3 +5,11 @@
 .global_margin_buttom {
     margin-bottom: 100px;
 }
+
+.get_in_touch_btn {
+    background-color: #75bf0d;
+    border: 0;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}

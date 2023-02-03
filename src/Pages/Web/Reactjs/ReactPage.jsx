@@ -1,7 +1,7 @@
 import React from 'react'
 import "./style.css"
 import "./Faq.css"
-import reactSliderImg from "./images/MicrosoftTeams-image-88.webp"
+import reactSliderImg from "./images/MicrosoftTeams-image-88.png"
 const ReactPage = () => {
     return (
         <>
@@ -140,7 +140,7 @@ const ReactPage = () => {
                         </h2>
                     </div>
                     <div class="home_gettouch_button_section">
-                        <button class="btn  btn-warning text-white shadow-lg text-center">
+                        <button class="get_in_touch_btn  text-white shadow-lg text-center">
                             <strong>Talk to Our Experts</strong>
                         </button>
                     </div>
@@ -286,7 +286,7 @@ const ReactPage = () => {
                         </div>
                     </div>
                 </div>
-                
+
                 <div className='container why_chose_react'>
                     <h4 className='container fw-bold mb-4'>  Why Choose Coderfeast for React JS Development</h4>
                     <p className='container'>

@@ -273,7 +273,7 @@ const Home = () => {
                     <h2 className='col-12 '><strong>Integrate your business using our  cutting-edge  software solutions.</strong></h2>
                 </div>
                 <div className='home_gettouch_button_section'>
-                    <button className='btn  btn-warning text-white shadow-lg text-center'><strong>Get in touch</strong></button>
+                    <button className='get_in_touch_btn text-white shadow-lg text-center '><strong>Get in touch</strong></button>
                 </div>
             </div>
             <div class="container home_text_services">

@@ -5,6 +5,7 @@ import About from "./Pages/About/About";
 import Home from "./Pages/Main/Home";
 import Share from "./Share.js";
 import Staff from "./Pages/Web/staff augmentation/Staff";
+import ApplyToJob from "./Pages/Careers/ApplyToJob";
 import ReactPage from "./Pages/Web/Reactjs/ReactPage";
 import "./Global.css"
 import { BrowserRouter, Route, Routes } from "react-router-dom";
@@ -26,6 +27,7 @@ function App() {
           <Route path="/Blog" element={<Blog />} />
           <Route path="/react-js-development" element={<ReactPage />} />
           <Route path="/staff-augmentation" element={<Staff />} />
+          <Route path="/apply-now" element={<ApplyToJob />} />
         </Route >
       </Routes>
     </BrowserRouter>

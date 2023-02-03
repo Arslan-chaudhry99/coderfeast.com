@@ -15,7 +15,7 @@ const Contact = () => {
                     <input type="text" className='col-12 col-md-5 py-3 px-4  contactus_placeholder_color contact_input_margin' placeholder='Subject*' />
                     <textarea className="col-12 col-md-10 mb-4 px-4  py-3" placeholder='Message....'></textarea>
                 </div>
-                <button className="btn btn-sm btn-warning">Submit</button>
+                <button className="get_in_touch_btn px-2 py-1">Submit</button>
             </section>
             <section className="container " style={{ marginBottom: "110px", marginTop: "110px" }}>
                 <div className='contactus_social_primary_section'>
