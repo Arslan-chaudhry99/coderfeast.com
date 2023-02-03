@@ -38,28 +38,36 @@ const Careers = () => {
                             <img src="./dark-background-1.png" alt="img" />
                         </div>
                         <h6>Wordpress JObs</h6>
-                        <button>Apply Now</button>
+                        <NavLink to="/apply-now">
+                            <button>Apply Now</button>
+                        </NavLink>
                     </div>
                     <div className="col-12 col-md-5 available_jobs_opertunity   shadow">
                         <div className='job_section_img_container shadow bg-white '>
                             <img src="./dark-background-1.png" alt="img" />
                         </div>
                         <h6>Wordpress JObs</h6>
-                        <button>Apply Now</button>
+                        <NavLink to="/apply-now">
+                            <button>Apply Now</button>
+                        </NavLink>
                     </div>
                     <div className="col-12 col-md-5 available_jobs_opertunity   shadow">
                         <div className='job_section_img_container shadow bg-white '>
                             <img src="./dark-background-1.png" alt="img" />
                         </div>
                         <h6>Wordpress JObs</h6>
-                        <button>Apply Now</button>
+                        <NavLink to="/apply-now">
+                            <button>Apply Now</button>
+                        </NavLink>
                     </div>
                     <div className="col-12 col-md-5 available_jobs_opertunity   shadow">
                         <div className='job_section_img_container shadow bg-white '>
                             <img src="./dark-background-1.png" alt="img" />
                         </div>
                         <h6>Wordpress JObs</h6>
-                        <button>Apply Now</button>
+                        <NavLink to="/apply-now">
+                            <button>Apply Now</button>
+                        </NavLink>
                     </div>
 
                 </div>
