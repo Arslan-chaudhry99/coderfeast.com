@@ -34,22 +34,30 @@ const Careers = () => {
                 <h3 className='mb-5 fw-bold'>AVAILABLE JOB OPPORTUNITIES</h3>
                 <div className='row  global_margin_buttom'>
                     <div className="col-12 col-md-5 available_jobs_opertunity   shadow">
-                        <img src="" alt="img" />
+                        <div className='job_section_img_container shadow bg-white '>
+                            <img src="./dark-background-1.png" alt="img" />
+                        </div>
                         <h6>Wordpress JObs</h6>
                         <button>Apply Now</button>
                     </div>
                     <div className="col-12 col-md-5 available_jobs_opertunity   shadow">
-                        <img src="" alt="img" />
+                        <div className='job_section_img_container shadow bg-white '>
+                            <img src="./dark-background-1.png" alt="img" />
+                        </div>
                         <h6>Wordpress JObs</h6>
                         <button>Apply Now</button>
                     </div>
                     <div className="col-12 col-md-5 available_jobs_opertunity   shadow">
-                        <img src="" alt="img" />
+                        <div className='job_section_img_container shadow bg-white '>
+                            <img src="./dark-background-1.png" alt="img" />
+                        </div>
                         <h6>Wordpress JObs</h6>
                         <button>Apply Now</button>
                     </div>
                     <div className="col-12 col-md-5 available_jobs_opertunity   shadow">
-                        <img src="" alt="img" />
+                        <div className='job_section_img_container shadow bg-white '>
+                            <img src="./dark-background-1.png" alt="img" />
+                        </div>
                         <h6>Wordpress JObs</h6>
                         <button>Apply Now</button>
                     </div>
