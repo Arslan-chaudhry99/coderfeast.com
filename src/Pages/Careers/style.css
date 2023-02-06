@@ -115,10 +115,17 @@
 
 }
 
-.job_section_img_container img{
+.job_section_img_container img {
     object-fit: cover;
 }
 
+.job_description ul li {
+    list-style-type: square;
+}
+.applynow_input_borders{
+    border:  1px solid #cad0da !important;
+    padding: 15px
+}
 @media (max-width: 575.98px) {
 
     .apply_now_section_container,
