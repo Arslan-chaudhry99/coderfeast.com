@@ -13,3 +13,7 @@
     padding: 10px;
     border-radius: 5px;
 }
+
+.global_input_border {
+    border: 1px solid #cad0da !important;
+}

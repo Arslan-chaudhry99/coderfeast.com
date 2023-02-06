@@ -331,13 +331,13 @@ const ReactPage = () => {
                         <div className="contact_us_main_container col-12 ">
                             <h4 className="text-white pb-4"><strong>Request More Information</strong></h4>
                             <div className=''>
-                                <input type="text" className='aboutus_input_filed aboutus_input_filed_input' placeholder="Name*" style={{ color: "white" }} />
-                                <input type="text" className='aboutus_input_filed aboutus_input_filed_input' placeholder="Email*" style={{ color: "white" }} />
-                                <input type="text" className='aboutus_input_filed aboutus_input_filed_input' placeholder="Phone*" style={{ color: "white" }} />
-                                <input type="text" className='aboutus_input_filed aboutus_input_filed_input' placeholder="Company*" style={{ color: "white" }} />
-                                <textarea className='aboutus_input_filed aboutus_input_filed_textarea' placeholder="Message...." style={{ color: "white" }} ></textarea>
+                                <input type="text" className='aboutus_input_filed aboutus_input_filed_input rounded' placeholder="Name*" style={{ color: "white" }} />
+                                <input type="text" className='aboutus_input_filed aboutus_input_filed_input rounded' placeholder="Email*" style={{ color: "white" }} />
+                                <input type="text" className='aboutus_input_filed aboutus_input_filed_input rounded' placeholder="Phone*" style={{ color: "white" }} />
+                                <input type="text" className='aboutus_input_filed aboutus_input_filed_input rounded' placeholder="Company*" style={{ color: "white" }} />
+                                <textarea className='aboutus_input_filed aboutus_input_filed_textarea rounded' placeholder="Message...." style={{ color: "white" }} ></textarea>
                             </div>
-                            <button className=' text-white shadow contactus_sumb_btns' ><strong>Submit</strong></button>
+                            <button className=' text-white shadow contactus_sumb_btns rounded' ><strong>Submit</strong></button>
 
                         </div>
                     </div>

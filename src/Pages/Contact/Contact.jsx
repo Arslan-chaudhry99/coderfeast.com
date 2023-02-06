@@ -3,19 +3,19 @@ import "./style.css"
 const Contact = () => {
     return (
         <>
+
             <section className='container mb-5 mt-5' >
                 <h2 className='m-0'>Get in touch with us</h2>
                 <p className='mb-5 mt-3'>Let’s work together to bring your ideas to life and launch your next successful project. Request a quote.
                 </p>
-                <div className='col-12 col-md-9'>
-
-                    <input type="text" className='col-12  col-md-5 py-3 px-4  contactus_placeholder_color contact_input_margin' placeholder='Name*' style={{ color: "black" }} />
-                    <input type="text" className='col-12 col-md-5 py-3 px-4  contactus_placeholder_color contact_input_margin' placeholder='Email*' />
-                    <input type="text" className='col-12 col-md-5 py-3 px-4  contactus_placeholder_color contact_input_margin' placeholder='Phone*' />
-                    <input type="text" className='col-12 col-md-5 py-3 px-4  contactus_placeholder_color contact_input_margin' placeholder='Subject*' />
-                    <textarea className="col-12 col-md-10 mb-4 px-4  py-3" placeholder='Message....'></textarea>
+                < div class="" >
+                    <input type="text" class="aboutus_input_filed aboutus_input_filed_input bg-white text-dark rounded global_input_border" placeholder="Name*" style={{ color: "white" }} />
+                    <input type="text" class="aboutus_input_filed aboutus_input_filed_input bg-white text-dark rounded global_input_border" placeholder="Email*" style={{ color: "white" }} />
+                    <input type="text" class="aboutus_input_filed aboutus_input_filed_input bg-white text-dark rounded global_input_border" placeholder="Phone*" style={{ color: "white" }} />
+                    <input type="text" class="aboutus_input_filed aboutus_input_filed_input bg-white text-dark rounded global_input_border" placeholder="Company*" style={{ color: "white" }} />
+                    <textarea class="aboutus_input_filed aboutus_input_filed_textarea bg-white text-dark rounded global_input_border" placeholder="Message...." style={{ color: "white" }}></textarea>
                 </div>
-                <button className="get_in_touch_btn px-2 py-1">Submit</button>
+                <button className="get_in_touch_btn px-2 py-1 shadow">Submit</button>
             </section>
             <section className="container " style={{ marginBottom: "110px", marginTop: "110px" }}>
                 <div className='contactus_social_primary_section'>

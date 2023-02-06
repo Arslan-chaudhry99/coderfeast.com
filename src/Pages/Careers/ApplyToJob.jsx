@@ -53,18 +53,18 @@ const ApplyToJob = () => {
                         </ul>
                     </div>
 
-                    <div className='col-12 col-md-6   '>
+                    <div className='col-12 col-md-6   mt-5'>
                         <div className=' p-4 border shadow rounded'>
                             <label htmlFor="" className='mb-2'>Name <span className='text-danger'>*</span></label>
-                            <input type="text" class="rounded mb-2 w-100 bg-white text-dark applynow_input_borders mb-1" placeholder=" Enter your name" name='' />
+                            <input type="text" class="rounded mb-2 w-100 bg-white text-dark applynow_input_borders mb-1 " placeholder=" Enter your name" name='' />
                             <label htmlFor="" className='mb-2'>Email <span className='text-danger '>*</span></label>
                             <input type="text" class="rounded mb-2 w-100 bg-white text-dark applynow_input_borders" placeholder="Enter your Email" />
                             <label htmlFor="" className='mb-2'>Phone<span className='text-danger'>*</span></label>
                             <input type="text" class=" rounded mb-2 w-100 bg-white text-dark applynow_input_borders " placeholder="+92 341 5403790" />
                             <label htmlFor="" className='mb-2'>Address<span className='text-danger'>*</span></label>
                             <input type="text" className=" rounded mb-4 w-100 bg-white text-dark applynow_input_borders" placeholder="Enter Your Address" />
-                            <input type="file" className=" w-100" placeholder="Name*" />
-                            <button className='btn header_btn_color mt-4'>Submite</button>
+                            <input type="file" className=" w-100 mt-3" placeholder="Name*" />
+                            <button className='btn header_btn_color mt-4 shadow'>Submite</button>
                         </div>
                     </div>
                 </div>
