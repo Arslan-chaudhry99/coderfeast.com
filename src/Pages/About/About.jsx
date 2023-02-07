@@ -7,6 +7,30 @@ import missionIcon from "./img/mission.svg"
 const About = () => {
     return (
         <>
+            <div class="banner_background_img">
+                <div class="container ">
+                    <div class="row">
+                        <div class="banner_img_content_react_section col-12 col-md-6 ">
+                            <div class="w-100 ">
+                                <h1 class="staf_augmentation_slider_section_h1">
+                                     Coderfeast About
+                                </h1>
+                            </div>
+                            <p>
+                                Organizations may access knowledge and experience lacking in-house by using staff
+                                augmentation services. The ability to swiftly and effectively scale up or decrease
+                                workforce numbers is a major benefit of staff augmentation. It has been used in
+                                many fields, including information technology (IT), engineering, finance, and
+                                marketing.
+                            </p>
+                            <div class=" w-100 home_btn_container">
+                                <button class="btn ">Contact Us</button>
+                            </div>
+                        </div>
+                        <div class="banner_img   col-12 col-md-6 "><img src="/static/media/staff-augmentation.ca4567be005f08f757c9.png" alt="img" /></div>
+                    </div>
+                </div>
+            </div>
             <section className="container mt-5">
                 <div class="row ">
                     <div class="col-sm-6 col-md-6 d-flex justify-content-center align-items-center about_why_chose"> <img src={img} alt="img" /></div>
@@ -169,7 +193,7 @@ const About = () => {
                 </section>
             </section>
             <section className='aboutus_contact_container'>
-                
+
                 <div className='container'>
 
                     <div className="contact_us_main_container col-12 ">

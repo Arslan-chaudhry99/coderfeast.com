@@ -22,11 +22,7 @@ const Nav = () => {
                                     <a class="nav-link active" aria-current="page">Home</a>
                                 </NavLink>
                             </li>
-                            <li class="nav-item">
-                                <NavLink to="/staff-augmentation">
-                                    <a class="nav-link active" aria-current="page">Staff Augmentation</a>
-                                </NavLink>
-                            </li>
+
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Service
@@ -100,10 +96,12 @@ const Nav = () => {
                                                 <ul className='text-center mt-3'>
                                                     <strong className='mb-0'>STAFF AUGMENTATION</strong>
                                                     <div className='mt-3'>
-                                                        <li className='mt-1'>
-                                                        STAFF AUGMENTATION
+                                                        <li class="nav-item">
+                                                            <NavLink to="/staff-augmentation">
+                                                                <a class="nav-link active" aria-current="page">Staff Augmentation</a>
+                                                            </NavLink>
                                                         </li>
-                                                        
+
 
 
                                                     </div>
@@ -140,7 +138,7 @@ const Nav = () => {
                             </li>
 
                         </form>
-                    <button className='btn header_btn_color'>Get a Quote</button>
+                        <button className='btn header_btn_color'>Get a Quote</button>
                     </div>
 
                 </div>
