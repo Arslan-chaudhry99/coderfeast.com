@@ -18,7 +18,10 @@ import SwiftIcons from "./img/s1wift.png"
 import appleIcons from "./img/ap1ple.png"
 import HomeSlider from './HomeSlider'
 import processImage from "./img/process-img.png"
+
+import Btn from './Btn';
 const Home = () => {
+
     const responsive = {
         desktop: {
             breakpoint: { max: 3000, min: 1024 },
@@ -36,6 +39,7 @@ const Home = () => {
             slidesToSlide: 1 // optional, default to 1.
         }
     };
+
     return (
         <>
             <HomeSlider />
@@ -322,6 +326,7 @@ const Home = () => {
             </div>
             <div className="container">  <h4 className='container '>
                 <strong>  What Our Clients Are Saying</strong>
+
             </h4>
                 <p className='container'>Let them do the talking about our services and quality of work.
                 </p></div>
@@ -329,7 +334,9 @@ const Home = () => {
 
                 <div class="row text-center" >
 
-                    <Carousel responsive={responsive} showDots={true}
+                    <Carousel responsive={responsive} showDots
+                      
+                        arrows={false}
 
                     >
 

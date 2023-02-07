@@ -4,33 +4,38 @@
     color: black;
     box-sizing: border-box;
     min-height: 250px;
-  
+
 }
-.align_mentsof_cards{
+
+.align_mentsof_cards {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
- 
+
 }
-.home_card_padding:hover{
+
+.home_card_padding:hover {
     background-color: #75bf0d;
     color: white;
 }
+
 /* this is new here */
 
-/* this is new here */ 
+/* this is new here */
 .home_service_padding {
     margin-top: 82px;
-   
+
 }
-.our_service_bacground_image{
+
+.our_service_bacground_image {
     background-image: url("https://cdn-hofgh.nitrocdn.com/dXceVXZpxWrYCcWPSjiZmJPOirkYCupN/assets/images/optimized/rev-9e7f30a/wp-content/uploads/2021/10/Mask-Group-61@2x-1.png");
     background-position: right;
     background-repeat: no-repeat;
     background-size: 90vh 90vw;
 
 }
+
 .our_services_heading_margin {
     margin-top: 32px;
 }
@@ -46,7 +51,7 @@
 .home_text_services {
     margin-top: 108px;
     margin-bottom: 104px;
- 
+
 }
 
 .talk_to_expert {
@@ -94,12 +99,20 @@
     background-repeat: no-repeat;
     margin-top: 100px;
     margin-bottom: 100px;
-    
+
 }
-.process_image_section{
+
+.process_image_section {
     margin-top: 160px;
 }
 
+.home_reviews_styling {
+    width: 40px;
+    height: 10px;
+    background-color: green;
+    border-radius: 10px;
+    margin-right: 5px;
+}
 
 @media (max-width: 576px) {
 
@@ -126,7 +139,8 @@
         display: flex;
         justify-content: center;
     }
-    .process_image_section{
+
+    .process_image_section {
         margin-top: 50px;
     }
 }
