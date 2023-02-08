@@ -23,6 +23,10 @@
 
 }
 
+.banner_img_content h1{
+    line-height: 48px !important;
+
+}
 .banner_img_content button:hover {
     background-color: #619c0d;
     border: 0;
