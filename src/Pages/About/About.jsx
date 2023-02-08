@@ -17,11 +17,7 @@ const About = () => {
                                 </h1>
                             </div>
                             <p>
-                                Organizations may access knowledge and experience lacking in-house by using staff
-                                augmentation services. The ability to swiftly and effectively scale up or decrease
-                                workforce numbers is a major benefit of staff augmentation. It has been used in
-                                many fields, including information technology (IT), engineering, finance, and
-                                marketing.
+                            web development and app development solutions, empowering businesses with cutting-edge technology to drive growth and success. Our team of experts also delivers comprehensive cloud services to meet your every enterprise requirement
                             </p>
                             <div class=" w-100 home_btn_container">
                                 <button class="btn ">Contact Us</button>

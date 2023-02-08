@@ -4,7 +4,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import img from "./img/wh1o-we-are (1).png"
 import reactIcon from "./img/raec1t.png"
-import djangoIcon from "./img/dja1nge.png"
+import djangoIcon from "./img/dja1nge1.png"
 import laravalIcon from "./img/la1ravel.png"
 import webLogo from "./img/web-ap1p-development.png"
 import nodejsIcon from "./img/nod1e.png"
