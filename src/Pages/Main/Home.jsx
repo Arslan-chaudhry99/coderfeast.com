@@ -18,10 +18,18 @@ import SwiftIcons from "./img/s1wift.png"
 import appleIcons from "./img/ap1ple.png"
 import HomeSlider from './HomeSlider'
 import processImage from "./img/process-img.png"
-
 import Btn from './Btn';
+import { useEffect } from 'react';
+import axios from 'axios';
 const Home = () => {
+    useEffect(() => {
 
+        let a = async () => {
+            let a = await axios.post("/", { name: "Arslan chaudhry" })
+            console.log(a);
+        }
+        a()
+    }, []);
     const responsive = {
         desktop: {
             breakpoint: {
