@@ -11,7 +11,7 @@ const HomeSlider = () => {
                 <div class="container ">
                     <div className="row">
                         <div className='banner_img_content col-12 col-md-6 '>
-                            <div className=' w-100'> <p >Take your SMEs to the next level ⏭️</p></div>
+                            <div className=' w-100'> <p >Take your SMEs to the next level 🏆 </p></div>
                             <h1>Coder Feast Offering Solutions To Boost Client’s Business Growth.</h1>
                             <p>
                                 web development and app development solutions, empowering businesses with cutting-edge technology to drive growth and success. Our team of experts also delivers comprehensive cloud services to meet your every enterprise requirement

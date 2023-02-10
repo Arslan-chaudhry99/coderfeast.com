@@ -43,6 +43,14 @@
         min-height: 40vh;
 
     }
+
+    .FAQ_heading_alignment {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+text-align: center;
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -50,5 +58,12 @@
     .banner_img_content_react_section {
         min-height: 40vh;
 
+    }
+    .FAQ_heading_alignment {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
     }
 }

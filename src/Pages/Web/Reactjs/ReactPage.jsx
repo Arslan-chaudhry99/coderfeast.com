@@ -240,7 +240,7 @@ const ReactPage = () => {
                 </div>
                 {/* faq questions section*/}
                 <div className='faq_container container'>
-                    <h4 className='container fw-bold mb-5' s>FAQs</h4>
+                    <h4 className='container fw-bold mb-5 FAQ_heading_alignment' s>FAQs</h4>
                     <div className='container'>
                         <div>
                             <p>
@@ -288,7 +288,7 @@ const ReactPage = () => {
                 </div>
 
                 <div className='container why_chose_react'>
-                    <h4 className='container fw-bold mb-4'>  Why Choose Coderfeast for React JS Development</h4>
+                    <h4 className='container fw-bold mb-4 FAQ_heading_alignment'>  Why Choose Coderfeast for React JS Development</h4>
                     <p className='container'>
                         OptimusFox has been recognized as a leading reactjs development company in USA. Our developers aim to create high-performing web apps using the top JavaScript library. Having years of experience in ReactJS development, our team of developers is hard at work creating react components and full-scale applications.
                         <br />
@@ -329,7 +329,7 @@ const ReactPage = () => {
                     <div className='container'>
 
                         <div className="contact_us_main_container col-12 ">
-                            <h4 className="text-white pb-4"><strong>Request More Information</strong></h4>
+                            <h4 className="text-white pb-4 FAQ_heading_alignment"><strong>Request More Information</strong></h4>
                             <div className=''>
                                 <input type="text" className='aboutus_input_filed aboutus_input_filed_input rounded' placeholder="Name*" style={{ color: "white" }} />
                                 <input type="text" className='aboutus_input_filed aboutus_input_filed_input rounded' placeholder="Email*" style={{ color: "white" }} />

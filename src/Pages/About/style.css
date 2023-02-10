@@ -159,7 +159,7 @@ ul {
 .aboutus_contact_container {
 
     background-image: url("https://cdn-hofgh.nitrocdn.com/dXceVXZpxWrYCcWPSjiZmJPOirkYCupN/assets/images/optimized/rev-9e7f30a/wp-content/uploads/2022/02/background.jpg");
-    
+
 
 }
 
@@ -248,7 +248,12 @@ ul {
         color: white;
 
     }
+
+    .contact_us_main_container h4 {
+        text-align: center;
+    }
 }
+
 @media (max-width: 767.98px) {
     .about_why_chose_paras h1 {
 
@@ -272,5 +277,8 @@ ul {
         width: 100%;
         color: white;
 
+    }
+    .contact_us_main_container h4 {
+        text-align: center;
     }
 }

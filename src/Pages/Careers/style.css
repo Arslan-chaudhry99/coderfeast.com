@@ -122,10 +122,12 @@
 .job_description ul li {
     list-style-type: square;
 }
-.applynow_input_borders{
-    border:  1px solid #cad0da !important;
+
+.applynow_input_borders {
+    border: 1px solid #cad0da !important;
     padding: 15px
 }
+
 @media (max-width: 575.98px) {
 
     .apply_now_section_container,
@@ -142,6 +144,10 @@
     .available_jobs_opertunity {
         margin: 0px;
         margin-bottom: 10px;
+    }
+
+    .faq_container {
+        text-align: center;
     }
 }
 
@@ -162,5 +168,9 @@
     .available_jobs_opertunity {
         margin: 0px;
         margin-bottom: 10px;
+    }
+
+    .faq_container {
+        text-align: center;
     }
 }

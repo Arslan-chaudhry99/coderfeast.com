@@ -22,7 +22,7 @@ const Contact = () => {
                     <h2 className='text-white mb-3'>Unlock The Full Potential
                         of <strong className='green_color'>Social Media.</strong> </h2>
                     <p className='text-white mb-0'>Follow us to get the latest updates on all things Blockchain!</p>
-                    <div className='d-flex mt-sm-5'>
+                    <div className='d-flex mt-sm-5 contactus_social_primary_section_icons_align'>
                         <div className='contact_social_link text-black'><i class="bi bi-facebook "></i></div>
                         <div className='contact_social_link text-black'><i class="bi bi-linkedin "></i></div>
                         <div className='contact_social_link text-black'><i class="bi bi-twitter "></i></div>

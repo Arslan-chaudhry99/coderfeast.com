@@ -8,7 +8,9 @@ const Nav = () => {
             <div class="navbar navbar-expand-lg bg-light shadow border" >
                 <div class="container-fluid container ">
                     <a class="navbar-brand" href="#">
-                        <img src={logo} alt="img" style={{ width: "170px" }} />
+                        <NavLink to="/">
+                            <img src={logo} alt="img" style={{ width: "170px" }} />
+                        </NavLink>
                     </a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">

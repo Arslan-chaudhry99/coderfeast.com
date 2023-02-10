@@ -41,7 +41,7 @@
     background-repeat: no-repeat;
     width: 100%;
     min-height: 250px;
-    padding: 36px 0px 40px 40px;
+    padding: 36px 0 40px 40px;
     font-family: sans-serif;
 }
 
@@ -62,15 +62,24 @@
 
 }
 
-@media (max-width: 576px) {
+@media(max-width: 576px) {
     .contact_social_link {
         width: 30px;
         height: 30px;
     }
+
+    .contactus_social_primary_section {
+        padding: 10px;
+    }
+
+    .contactus_social_primary_section_icons_align {
+        justify-content: center;
+        margin-top: 10px;
+    }
 }
 
 .contactus_info_cards {
-    padding:30px 5px 0px;
+    padding: 30px 5px 0;
     height: 230px;
 }
 
@@ -79,8 +88,7 @@
 }
 
 
-
 .contactsus_cards_shadows:hover {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 
 }

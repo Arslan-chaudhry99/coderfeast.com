@@ -15,3 +15,21 @@
 .footer_heights {
     min-height: 400px;
 }
+
+@media (max-width: 575.98px) {
+    .footer_items_alignment {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .footer_items_alignment {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

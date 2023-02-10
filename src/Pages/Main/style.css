@@ -143,4 +143,12 @@
     .process_image_section {
         margin-top: 50px;
     }
+
+    .app_devl_section_heading_h4 {
+        text-align: center;
+    }
+
+    .app_devl_section_heading_para {
+        text-align: center;
+    }
 }
