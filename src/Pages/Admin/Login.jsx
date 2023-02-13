@@ -19,6 +19,7 @@ const Login = () => {
                         <button className=' login_button_color mt-5 px-3 '>Login Now!</button>
                     </div>
                 </div>
+                
             </div>
 
         </>
