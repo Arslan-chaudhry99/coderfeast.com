@@ -13,11 +13,11 @@ const About = () => {
                         <div class="banner_img_content_react_section col-12 col-md-6 ">
                             <div class="w-100 ">
                                 <h1 class="staf_augmentation_slider_section_h1">
-                                     Coderfeast About
+                                    Coderfeast About
                                 </h1>
                             </div>
                             <p>
-                            web development and app development solutions, empowering businesses with cutting-edge technology to drive growth and success. Our team of experts also delivers comprehensive cloud services to meet your every enterprise requirement
+                                web development and app development solutions, empowering businesses with cutting-edge technology to drive growth and success. Our team of experts also delivers comprehensive cloud services to meet your every enterprise requirement
                             </p>
                             <div class=" w-100 home_btn_container">
                                 <button class="btn ">Contact Us</button>
@@ -34,10 +34,13 @@ const About = () => {
                         <h1 className="mb-3">Why Choose coderfeast.</h1>
                         <h3 className="mb-5">We Are Technical Innovators</h3>
                         <p>
-                            We digitally transform your business using state-of-the-art solutions.
-                            We use blockchain development solutions to reinvent your business and help you achieve your goals.
-                            We help about you meet your ever-growing business demands with the use of the latest technologies such as Blockchain and Artificial Intelligence,
-                            giving you a competitive edge.
+                            Choose Coder Feast for a truly transformative
+                            technology experience. Our innovative approach,
+                            commitment to quality, and customer-focused values
+                            set us apart, ensuring that your business receives
+                            exceptional software solutions tailored to meet
+                            your unique needs and drive success.
+                            Partner with us and discover the power of technology.
                         </p>
                         <div className="">
                             <ul className='row'>
@@ -50,7 +53,7 @@ const About = () => {
                                 <li className='d-flex  col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 '>
                                     <i class="bi bi-check-circle-fill aboutus_margin_icons"></i>
                                     <p>
-                                        Mobile App Development
+                                        Mobile app development
                                     </p>
                                 </li>
 
@@ -59,13 +62,25 @@ const About = () => {
                                 <li className='d-flex  col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 '>
                                     <i class="bi bi-check-circle-fill aboutus_margin_icons"></i>
                                     <p>
-                                        Bussiness Development
+                                        Software development
                                     </p>
                                 </li>
                                 <li className='d-flex  col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 '>
                                     <i class="bi bi-check-circle-fill aboutus_margin_icons"></i>
                                     <p>
-                                        Blockchain Development
+                                        E-Commerce Solutions
+                                    </p>
+                                </li>
+                                <li className='d-flex  col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 '>
+                                    <i class="bi bi-check-circle-fill aboutus_margin_icons"></i>
+                                    <p>
+                                        UI/UX design
+                                    </p>
+                                </li>
+                                <li className='d-flex  col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 '>
+                                    <i class="bi bi-check-circle-fill aboutus_margin_icons"></i>
+                                    <p>
+                                        Content writing and SEO
                                     </p>
                                 </li>
 
@@ -90,36 +105,50 @@ const About = () => {
                         <div className=' about-cards-w-h border'>
                             <div className=' d-flex justify-content-center align-items-center flex-column'>
                                 <img src={visionIcon} alt="img" width="65px" />
-                                <h6 className="my-3">VISION</h6>
+                                <h6 className="my-3">Vision</h6>
                             </div>
-                            <p>OptimusFox envisions a digital world where the
-                                latest technological solutions are executed in businesses.
-                                We are committed about to enabling enterprises inculcate
-                                blockchain technology in their business processes.</p>
+                            <p>
+                                Our vision is to be the leading provider of full-stack software development services
+                                , delivering exceptional solutions to businesses of all sizes,
+                                both domestically and internationally.
+                                We aim to continuously evolve and stay at the forefront
+                                of technology to meet the ever-changing needs of our clients.</p>
                         </div>
                     </div>
                     <div class="    col-md-4 col-sm-12  mb-4" >
                         <div className=' about-cards-w-h border'>
                             <div className=' d-flex justify-content-center align-items-center flex-column'>
                                 <img src={visionIcon} alt="img" width="65px" />
-                                <h6 className="my-3">VISION</h6>
+                                <h6 className="my-3">Mission</h6>
                             </div>
-                            <p>OptimusFox envisions a digital world where the
-                                latest technological solutions are executed in businesses.
-                                We are committed about to enabling enterprises inculcate
-                                blockchain technology in their business processes.</p>
+                            <p>
+                                Our mission at Coder Feast is to empower
+                                businesses by providing innovative and
+                                top-quality software solutions. We strive
+                                to help our clients achieve their goals
+                                through the power of technology.
+                            </p>
                         </div>
                     </div>
                     <div class="    col-md-4 col-sm-12  mb-4" >
                         <div className=' about-cards-w-h border'>
                             <div className=' d-flex justify-content-center align-items-center flex-column'>
                                 <img src={visionIcon} alt="img" width="65px" />
-                                <h6 className="my-3">VISION</h6>
+                                <h6 className="my-3">Value</h6>
                             </div>
-                            <p>OptimusFox envisions a digital world where the
-                                latest technological solutions are executed in businesses.
-                                We are committed about to enabling enterprises inculcate
-                                blockchain technology in their business processes.</p>
+                            <p>
+                                At Coder Feast,
+                                our values shape our approach to software
+                                development.
+                                We prioritize innovation,
+                                quality, customer focus,
+                                collaboration,
+                                and continuous improvement
+                                to deliver exceptional results.
+                                These values guide us in our mission
+                                to empower businesses and drive success
+                                through technology.
+                            </p>
                         </div>
                     </div>
 
