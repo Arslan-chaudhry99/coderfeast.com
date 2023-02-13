@@ -1,0 +1,23 @@
+.admin_contactus_new_notice_container {
+    max-height: 500px;
+    overflow-y: scroll;
+
+}
+
+.admin_contactus_new_notice_container_old {
+    max-height: 500px;
+
+}
+
+.contact_noticefaction {
+    min-width: 30px;
+    min-height: 30px;
+    border-radius: 50%;
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+}

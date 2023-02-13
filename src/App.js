@@ -7,6 +7,9 @@ import Share from "./Share.js";
 import Staff from "./Pages/Web/staff augmentation/Staff";
 import ApplyToJob from "./Pages/Careers/ApplyToJob";
 import ReactPage from "./Pages/Web/Reactjs/ReactPage";
+import Admin from "./Pages/Admin/Admin";
+import ConatctSection from "./Pages/Admin/ConatctSection";
+import JobRec from "./Pages/Admin/JobRec";
 import "./Global.css"
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
@@ -28,7 +31,11 @@ function App() {
           <Route path="/react-js-development" element={<ReactPage />} />
           <Route path="/staff-augmentation" element={<Staff />} />
           <Route path="/apply-now" element={<ApplyToJob />} />
+
         </Route >
+        <Route path="/admin-coder-feast" element={<Admin />} />
+        <Route path="/admin-coder-feast/contactus" element={<ConatctSection />} />
+        <Route path="/admin-coder-feast/job-request" element={<JobRec />} />
       </Routes>
     </BrowserRouter>
 
