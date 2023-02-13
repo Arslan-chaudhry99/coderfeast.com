@@ -1,31 +1,11 @@
 import React from 'react'
+import Header from './Header'
+import "./style.css"
 
 const admin = () => {
     return (
         <>
-            <div className="container mb-5 mt-5">
-                <nav class="navbar navbar-expand-lg bg-body-tertiary shadow">
-                    <div class="container-fluid">
-                        <a class="navbar-brand">Hello Fareed  👋</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" >Contact</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" >Jobs</a>
-                                </li>
-
-
-                            </ul>
-
-                        </div>
-                    </div>
-                </nav>
-            </div>
+            <Header />
             <div className="container mt-5">
                 <div className="d-flex justify-content-between align-items-center">
                     <h2 className="mx-4">New Contact</h2>
@@ -48,7 +28,7 @@ const admin = () => {
                                         <br />
                                         We have a team of enthusiastic professionals with years of experience in design, product development, marketing, technology and community building to set your business up for success.
                                     </p>
-
+                                    <u className='text-primary'>Download Resume <i class="bi bi-cloud-arrow-down-fill"></i></u>
                                 </div>
                             </div>
                             <span class="badge bg-primary rounded-pill">1</span>
@@ -103,7 +83,7 @@ const admin = () => {
 
                     </ol>
 
-                    
+
                     <nav aria-label="Page navigation example">
                         <ul class="pagination">
                             <li class="page-item"><a class="page-link" href="#">Previous</a></li>

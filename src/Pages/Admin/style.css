@@ -21,3 +21,41 @@
     font-weight: bold;
 
 }
+
+.login_main_form {
+    height: 100vh;
+    width: 100vw;
+
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_data_container {
+    height: 500px;
+    width: 400px
+}
+
+.login_input_height {
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #cad0da;
+
+}
+
+.login_button_color {
+    background-color: #75bf0d;
+    color: white;
+    border: 1px solid #75bf0d;
+    border-radius: 4px;
+    padding: 4px;
+
+
+}
+
+.forgot_password {
+    cursor: pointer;
+    float: right;
+    text-decoration: underline;
+}
