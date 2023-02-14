@@ -59,3 +59,8 @@
     float: right;
     text-decoration: underline;
 }
+
+.noticeIcon {
+    min-height: 15px;
+    min-width: 15px;
+}

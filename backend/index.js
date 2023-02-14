@@ -8,9 +8,8 @@ app.use(router)
 let port = process.env.portNumber
 
 
-app.post('/login', (req, res) => {
-    res.send("ok")
-})
+
+
 
 
 
