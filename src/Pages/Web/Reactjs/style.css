@@ -38,6 +38,11 @@
     margin-bottom: 100px;
 }
 
+.react_service_cards {
+    min-height: 354px;
+
+}
+
 @media (max-width: 575.98px) {
     .banner_img_content_react_section {
         min-height: 40vh;
@@ -49,7 +54,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-text-align: center;
+        text-align: center;
     }
 }
 
@@ -59,6 +64,7 @@ text-align: center;
         min-height: 40vh;
 
     }
+
     .FAQ_heading_alignment {
         display: flex;
         justify-content: center;
