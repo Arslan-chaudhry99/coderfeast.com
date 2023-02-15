@@ -22,17 +22,30 @@ router.post('/contact', (req, res) => {
         subject: `
         Arslna Chaudhry`,
         html: `
+        
         <!DOCTYPE html>
         <html>
-        <head>
-          <meta charset="utf-8">
-          <meta http-equiv="x-ua-compatible" content="ie=edge">
-          <title>Welcome Email</title>
-        </head>
-        <body>
         
-          <p>We're glad to have you on board at {{company}}. </p>
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="x-ua-compatible" content="ie=edge">
+            <title>Welcome Email</title>
+            <style>
+                .main-container {
+                    background-color: red;
+                    width: 100%;
+                    min-height: 100vh;
+                }
+            </style>
+        </head>
+        
+        <body>
+            <div class="main-container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, officiis perferendis. Suscipit quo eum omnis amet ad pariatur ut delectus, optio minima dolores autem? Ad accusamus ratione eaque accusantium beatae!
+            </div>
+        
         </body>
+        
         </html>
         `,
     };

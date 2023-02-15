@@ -20,6 +20,7 @@ import HomeSlider from './HomeSlider'
 import processImage from "./img/process-img.png"
 import Btn from './Btn';
 import { useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
 import axios from 'axios';
 const Home = () => {
     useEffect(() => {
@@ -293,9 +294,13 @@ const Home = () => {
                     </h2>
                 </div>
                 <div className='home_gettouch_button_section'>
-                    <button className='get_in_touch_btn text-white shadow-lg text-center '>
-                        <strong>Get in touch</strong>
-                    </button>
+                    <NavLink to="/contact">
+                        <button className='get_in_touch_btn text-white shadow-lg text-center '>
+
+                            <strong>Get in touch</strong>
+
+                        </button>
+                    </NavLink>
                 </div>
             </div>
             <div class="container home_text_services">

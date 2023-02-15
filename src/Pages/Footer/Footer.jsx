@@ -8,7 +8,7 @@ const Footer = () => {
                 <div class="container ">
                     <footer class="py-5 pb-0">
                         <div class="row ">
-                            <div class="col-md-5 offset-md-1 mb-3 footer_items_alignment">
+                            <div class="col-md-5  mb-3 footer_items_alignment ">
                                 <img src={logo} alt="logo" className='footer_logo_size mb-3 text-center' />
                                 <p>At OptimusFox, you can digitally transform your business with our top-notch solutions. We offer blockchain development solutions to reinvent.</p>
                             </div>

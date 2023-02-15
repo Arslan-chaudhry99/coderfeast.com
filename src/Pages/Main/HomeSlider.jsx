@@ -2,7 +2,7 @@ import React from 'react'
 import sliderImage from "./img/Slider-Background.jpg"
 import banerSideImg from "./img/banner-img.png"
 import "./Slider.css"
-
+import { NavLink } from 'react-router-dom'
 const HomeSlider = () => {
 
     return (
@@ -17,7 +17,11 @@ const HomeSlider = () => {
                                 web development and app development solutions, empowering businesses with cutting-edge technology to drive growth and success. Our team of experts also delivers comprehensive cloud services to meet your every enterprise requirement
 
                             </p>
-                            <div className=' w-100 home_btn_container'><button className='get_in_touch_btn'>Book Free Consultation</button></div>
+                            <div className=' w-100 home_btn_container'>
+                                <NavLink to='/contact'>
+                                    <button className='get_in_touch_btn'>Book Free Consultation</button>
+                                </NavLink>
+                            </div>
 
                         </div>
                         <div className='banner_img   col-12 col-md-6 '>

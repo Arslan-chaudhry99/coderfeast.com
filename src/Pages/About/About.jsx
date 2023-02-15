@@ -1,9 +1,9 @@
 import React from 'react'
 import "./style.css"
 import img from "./img/MicrosoftTeams-image-6.webp"
-import visionIcon from "./img/Vission.svg"
-import valueIcon from "./img/values.svg"
-import missionIcon from "./img/mission.svg"
+import visionIcon from "./img/Vission.png"
+import valueIcon from "./img/values.png"
+import missionIcon from "./img/mission.png"
 const About = () => {
     return (
         <>
@@ -118,7 +118,7 @@ const About = () => {
                     <div class="    col-md-4 col-sm-12  mb-4" >
                         <div className=' about-cards-w-h border'>
                             <div className=' d-flex justify-content-center align-items-center flex-column'>
-                                <img src={visionIcon} alt="img" width="65px" />
+                                <img src={missionIcon} alt="img" width="65px" />
                                 <h6 className="my-3">Mission</h6>
                             </div>
                             <p>
@@ -133,7 +133,7 @@ const About = () => {
                     <div class="    col-md-4 col-sm-12  mb-4" >
                         <div className=' about-cards-w-h border'>
                             <div className=' d-flex justify-content-center align-items-center flex-column'>
-                                <img src={visionIcon} alt="img" width="65px" />
+                                <img src={valueIcon} alt="img" width="65px" />
                                 <h6 className="my-3">Value</h6>
                             </div>
                             <p>
@@ -170,9 +170,9 @@ const About = () => {
                                 <h3><a href="http://www.webcoderskull.com/"><strong>Mujab Popalzai</strong></a></h3>
                                 <p><strong>Co-Founder & CEO</strong></p>
                                 <ul class="follow-us clearfix">
-                                    <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                                    <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                                    <li><a ><i class="bi bi-linkedin"></i></a></li>
+                                    <li><a ><i class="bi bi-facebook"></i></a></li>
+                                    <li><a ><i class="bi bi-twitter"></i></a></li>
                                 </ul>
                             </div>
                         </li>
@@ -182,9 +182,9 @@ const About = () => {
                                 <h3><a href="http://www.webcoderskull.com/"><strong>Mujab Popalzai</strong></a></h3>
                                 <p><strong>Co-Founder & CEO</strong></p>
                                 <ul class="follow-us clearfix">
-                                    <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                                    <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                                    <li><a ><i class="bi bi-linkedin"></i></a></li>
+                                    <li><a ><i class="bi bi-facebook"></i></a></li>
+                                    <li><a ><i class="bi bi-twitter"></i></a></li>
                                 </ul>
                             </div>
                         </li>
@@ -194,9 +194,9 @@ const About = () => {
                                 <h3><a href="http://www.webcoderskull.com/"><strong>Mujab Popalzai</strong></a></h3>
                                 <p><strong>Co-Founder & CEO</strong></p>
                                 <ul class="follow-us clearfix">
-                                    <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                                    <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                                    <li><a ><i class="bi bi-linkedin"></i></a></li>
+                                    <li><a ><i class="bi bi-facebook"></i></a></li>
+                                    <li><a ><i class="bi bi-twitter"></i></a></li>
                                 </ul>
                             </div>
                         </li>
@@ -206,9 +206,9 @@ const About = () => {
                                 <h3><a href="http://www.webcoderskull.com/"><strong>Mujab Popalzai</strong></a></h3>
                                 <p><strong>Co-Founder & CEO</strong></p>
                                 <ul class="follow-us clearfix">
-                                    <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                                    <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                                    <li><a ><i class="bi bi-linkedin"></i></a></li>
+                                    <li><a ><i class="bi bi-facebook"></i></a></li>
+                                    <li><a ><i class="bi bi-twitter"></i></a></li>
                                 </ul>
                             </div>
                         </li>
