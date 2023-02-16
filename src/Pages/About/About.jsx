@@ -1,6 +1,6 @@
 import React from 'react'
 import "./style.css"
-import img from "./img/MicrosoftTeams-image-6.webp"
+import img from "./img/MicrosoftTeams-image-6.png"
 import visionIcon from "./img/Vission.png"
 import valueIcon from "./img/values.png"
 import missionIcon from "./img/mission.png"
