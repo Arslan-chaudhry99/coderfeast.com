@@ -1,62 +1,4 @@
-const express = require('express');
-const router = express.Router();
-const nodemailer = require('nodemailer');
-
-
-router.post('/contact', (req, res) => {
-    const {name, email, phone, message} = req.body;
-    console.log(email);
-    const transpoter = nodemailer.createTransport({
-        service: "gmail",
-        auth: {
-            user: process.env.EMAIL, // generated ethereal user
-            pass: process.env.PASSWORDS, // generated ethereal password
-        }
-    });
-
-    const mailOpctions = {
-        from: process.env.EMAIL,
-        to: process.env.EMAIL,
-        subject: `Contact`,
-        html: `
-        <html lang="en">
-
-        <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-            <style>
-                * {
-                    margin: 0;
-                    padding: 0;
-                    font-family: sans-serif;
-                }
-            </style>
-        </head>
-        
-        <body>
-            <div>
-                <div>
-                    <p><strong>Name:</strong>${name} </p>
-                    <p><strong>Email:</strong><a href=""></a> ${email}</p>
-                    <p><strong>Phone:</strong>${phone} </p>
-                    <p><strong>Message:</strong>
-        ${message}
-                    </p>
-                </div>
-            </div>
-        </body>
-        
-        </html>
-        `
-    };
-    const mailOpctionsToCustomer = {
-        from: process.env.EMAIL,
-        to: email,
-        subject: `Coderfeast`,
-        html: `
-        <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -121,7 +63,7 @@ margin-top: 5px;
         <div class="main_container_1">
             
             <br>
-            <span >${name}</span>
+            <span >Dear [Name]</span>
          
             <p>Thank You for contacting us.</p>
 
@@ -144,18 +86,3 @@ margin-top: 5px;
 </body>
 
 </html>
-        `
-    };
-    transpoter.sendMail(mailOpctions, (error, info) => {
-        if (info.response) {
-            transpoter.sendMail(mailOpctionsToCustomer, (error, info) => {
-                if (info.response) {
-                    return console.log("deliver to clients done!");
-                }
-                console.log(error);
-            })
-        }
-        console.log(error);
-    })
-})
-module.exports = router;
