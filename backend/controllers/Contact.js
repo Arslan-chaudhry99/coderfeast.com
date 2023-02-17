@@ -6,6 +6,7 @@ const router = express.Router();
 
 router.post("/contact", async (req, res) => {
     const { name, email, phone, message } = req.body
+    console.log(name, email, phone, message);
     try {
         const conReq = new Contact({
             name,
@@ -15,6 +16,7 @@ router.post("/contact", async (req, res) => {
             readingStatus: true
         })
         let response = await conReq.save()
+        
         if (response) {
             return res.status(200).json({ message: "Your form has been submited successfuly." })
         }

@@ -1,6 +1,50 @@
 import React from 'react'
+import { useFormik } from 'formik'
+import { applySchema } from '../schemas/Job'
+import swal from 'sweetalert';
+import axios from 'axios'
+const initialValues = {
+    name: "",
+    phone: "",
+    email: "",
+    file: ""
 
+}
 const ApplyToJob = () => {
+
+    const { values, errors, handleBlur, handleChange, handleSubmit, touched, setFieldValue } = useFormik({
+        initialValues: initialValues,
+        validationSchema: applySchema,
+        onSubmit: async (values, action) => {
+
+            try {
+                console.log(values);
+                const res = await axios.post("/contact", values);
+                await swal({
+                    title: "Thank You!",
+                    text: res.data.message,
+                    icon: "success",
+                    button: {
+                        text: "ok",
+                    }
+                })
+
+                action.resetForm()
+            } catch (error) {
+                await swal({
+                    title: `Error ${error.response.status}`,
+                    text: error.message,
+                    icon: "error",
+                    button: {
+                        text: "ok",
+                    }
+                })
+            }
+
+        }
+    })
+
+    console.log(values);
     return (
         <>
             <div class="banner_background_img">
@@ -55,16 +99,32 @@ const ApplyToJob = () => {
 
                     <div className='col-12 col-md-6   mt-5'>
                         <div className=' p-4 border shadow rounded'>
-                            <label htmlFor="" className='mb-2'>Name <span className='text-danger'>*</span></label>
-                            <input type="text" class="rounded mb-2 w-100 bg-white text-dark applynow_input_borders mb-1 " placeholder=" Enter your name" name='' />
-                            <label htmlFor="" className='mb-2'>Email <span className='text-danger '>*</span></label>
-                            <input type="text" class="rounded mb-2 w-100 bg-white text-dark applynow_input_borders" placeholder="Enter your Email" />
-                            <label htmlFor="" className='mb-2'>Phone<span className='text-danger'>*</span></label>
-                            <input type="text" class=" rounded mb-2 w-100 bg-white text-dark applynow_input_borders " placeholder="+92 341 5403790" />
-                            <label htmlFor="" className='mb-2'>Address<span className='text-danger'>*</span></label>
-                            <input type="text" className=" rounded mb-4 w-100 bg-white text-dark applynow_input_borders" placeholder="Enter Your Address" />
-                            <input type="file" className=" w-100 mt-3" placeholder="Name*" />
+
+                            <form onSubmit={handleSubmit}>
+                                <label htmlFor="" className='mb-2'>Name <span className='text-danger'>*</span></label>
+                                <input type="text" className='w-100 login_input_height px-2 py-3 ' placeholder='name*' name='name' id='name' value={values.name} onChange={handleChange} onBlur={handleBlur} />
+                                <small className='text-danger'>{errors.name && touched.name ? errors.name : null}</small>
+                                <br />
+                                <label htmlFor="" className='mb-2 mt-2'>Email <span className='text-danger'>*</span></label>
+                                <input type="text" className='w-100 login_input_height px-2 py-3 ' placeholder='email*' name='email' id='email' value={values.email} onChange={handleChange} onBlur={handleBlur} />
+                                <small className='text-danger'>{errors.email && touched.email ? errors.email : null}</small>
+                                <br />
+                                <label htmlFor="" className='mb-2 mt-2'>Phone <span className='text-danger'>*</span></label>
+                                <input type="text" className='w-100 login_input_height px-2 py-3 ' placeholder='phone*' name='phone' id='phone' value={values.phone} onChange={handleChange} onBlur={handleBlur} />
+                                <small className='text-danger'>{errors.phone && touched.phone ? errors.phone : null}</small>
+
+                                <input type="file" className='mt-3' placeholder='phone*' name='resume' id='resume' value={values.resume} onChange={(event) =>
+                                    setFieldValue("file", event.currentTarget.files[0])} onBlur={handleBlur} />
+                                <small className='text-danger'>{errors.resume && touched.resume ? errors.resume : null}</small>
+                                <br />
+
+
+
+
+                            </form>
+
                             <button className='btn header_btn_color mt-4 shadow'>Submite</button>
+
                         </div>
                     </div>
                 </div>

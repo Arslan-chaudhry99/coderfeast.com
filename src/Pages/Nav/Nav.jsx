@@ -47,11 +47,11 @@ const Nav = () => {
                                                                 React.Js
                                                             </li>
                                                         </NavLink>
-                                                        <NavLink to="/admin-coder-feast">
+                                                        {/* <NavLink to="/admin-coder-feast">
                                                             <li className='mt-1'>
                                                                 admin
                                                             </li>
-                                                        </NavLink>
+                                                        </NavLink> */}
                                                         <li className='mt-1'>
                                                             .Net / Core
 

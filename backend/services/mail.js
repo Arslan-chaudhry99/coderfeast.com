@@ -4,7 +4,7 @@ const nodemailer = require('nodemailer');
 
 
 router.post('/contact', (req, res) => {
-    const {name, email, phone, message} = req.body;
+    const { name, email, phone, message } = req.body;
     console.log(email);
     const transpoter = nodemailer.createTransport({
         service: "gmail",

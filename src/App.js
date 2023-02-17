@@ -11,6 +11,7 @@ import Admin from "./Pages/Admin/Admin";
 import JobRec from "./Pages/Admin/JobRec";
 import Login from "./Pages/Admin/Login";
 import "./Global.css"
+import Signup from "./Pages/Admin/Signup";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
   return <>
@@ -36,6 +37,7 @@ function App() {
         <Route path="/admin-coder-feast" element={<Admin />} />
         <Route path="/admin-coder-feast/job-request" element={<JobRec />} />
         <Route path="/login-admin" element={<Login />} />
+        <Route path="/addNew-user" element={<Signup />} />
       </Routes>
     </BrowserRouter>
 
