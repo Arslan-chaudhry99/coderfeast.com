@@ -57,7 +57,13 @@ const Home = () => {
             slidesToSlide: 1 // optional, default to 1.
         }
     };
-
+    useEffect(() => {
+        const data = async () => {
+            const res = axios.get("/video");
+            console.log(res);
+        }
+        data()
+    }, []);
     return (
         <>
             <HomeSlider />
