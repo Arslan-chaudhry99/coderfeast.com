@@ -23,6 +23,7 @@ function App() {
     {/* <Footer /> */}
     <BrowserRouter>
       <Routes>
+
         <Route path="/" element={<Share />} >
           <Route path="/" element={<Home />} />
           <Route path="/Contact" element={<Contact />} />

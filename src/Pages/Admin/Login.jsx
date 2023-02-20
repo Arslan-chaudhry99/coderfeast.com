@@ -8,19 +8,22 @@ const initialValues = {
     Password: ""
 }
 const Login = () => {
+
     const { values, errors, handleBlur, handleChange, handleSubmit, touched } = useFormik({
         initialValues: initialValues,
         validationSchema: loginSchema,
         onSubmit: async (values, action) => {
-            console.log(values);
-            const res = await axios.post("/login",{name:"arslna",lname:"chaudhry"});
-            
+         
+            const res = await axios.post("/login", values);
+
             action.resetForm()
         }
+        
     })
 
+    console.log(errors);
     return (
-        
+
         <>
             <div className="login_main_form">
                 <div className='card login_data_container shadow'>

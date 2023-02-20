@@ -5,7 +5,7 @@ const contact = require('./controllers/Contact')
 const signup = require('./controllers/Admin')
 const video = require('./controllers/Video')
 const mailer = require('./services/mail')
-const login = require('./controllers/Login.js')
+const login = require('./controllers/Login')
 
 router.post("/contact", mailer)
 router.get("/getcontact", contact)
