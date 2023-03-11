@@ -215,7 +215,7 @@ const Staff = () => {
                 <h2 className='mb-5'>
                     <strong>Onboarding Process</strong>
                 </h2>
-                <div className='row container'>
+                <div className='row '>
                     <div className='  whats_augmentation_cards_section onboding_margin shadow'>
                         <div className="count_inaugmentation">1</div>
                         <h5>Hire Preferred Team</h5>

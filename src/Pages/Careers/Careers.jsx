@@ -44,40 +44,14 @@ const Careers = () => {
                 <div className='row  global_margin_buttom'>
                     <div className="col-12 col-md-5 available_jobs_opertunity   shadow">
                         <div className='job_section_img_container shadow bg-white '>
-                            <img src="./dark-background-1.png" alt="img" />
+                            <img src="https://res.cloudinary.com/dsbjgtmzz/image/upload/v1678535179/logo-og-removebg-preview_nrncwn.png" alt="wordpress" className='w-100 h-100 object-fit-cover'  />
                         </div>
-                        <h6>Wordpress JObs</h6>
+                        <h6>ReactJS JObs</h6>
                         <NavLink to="/apply-now">
                             <button>Apply Now</button>
                         </NavLink>
                     </div>
-                    <div className="col-12 col-md-5 available_jobs_opertunity   shadow">
-                        <div className='job_section_img_container shadow bg-white '>
-                            <img src="./dark-background-1.png" alt="img" />
-                        </div>
-                        <h6>Wordpress JObs</h6>
-                        <NavLink to="/apply-now">
-                            <button>Apply Now</button>
-                        </NavLink>
-                    </div>
-                    <div className="col-12 col-md-5 available_jobs_opertunity   shadow">
-                        <div className='job_section_img_container shadow bg-white '>
-                            <img src="./dark-background-1.png" alt="img" />
-                        </div>
-                        <h6>Wordpress JObs</h6>
-                        <NavLink to="/apply-now">
-                            <button>Apply Now</button>
-                        </NavLink>
-                    </div>
-                    <div className="col-12 col-md-5 available_jobs_opertunity   shadow">
-                        <div className='job_section_img_container shadow bg-white '>
-                            <img src="./dark-background-1.png" alt="img" />
-                        </div>
-                        <h6>Wordpress JObs</h6>
-                        <NavLink to="/apply-now">
-                            <button>Apply Now</button>
-                        </NavLink>
-                    </div>
+                    
 
                 </div>
                 <div className='row  global_margin_buttom'>

@@ -11,7 +11,12 @@ import Admin from "./Pages/Admin/Admin";
 import JobRec from "./Pages/Admin/JobRec";
 import Login from "./Pages/Admin/Login";
 import "./Global.css"
+import NodeJS from "./Pages/Web/NodeJS/NodeJS"
+import Laravelcomp from "./Pages/Web/Laravel/Laravelcomp"
+import Djangocom from "./Pages/Web/Python/Djangocom"
+
 import Signup from "./Pages/Admin/Signup";
+
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
   return <>
@@ -33,6 +38,9 @@ function App() {
           <Route path="/react-js-development" element={<ReactPage />} />
           <Route path="/staff-augmentation" element={<Staff />} />
           <Route path="/apply-now" element={<ApplyToJob />} />
+          <Route path="/node-js" element={<NodeJS />} />
+          <Route path="/laravel-serv" element={<Laravelcomp />} />
+          <Route path="/django-dev" element={<Djangocom />} />
 
         </Route >
         <Route path="/admin-coder-feast" element={<Admin />} />
