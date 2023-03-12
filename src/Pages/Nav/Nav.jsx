@@ -98,8 +98,9 @@ const Nav = () => {
                             <NavLink to="/Kotlin-service">
                               <li className="mt-1">Kotlin</li>
                             </NavLink>
-
-                            <li className="mt-1"> Swift</li>
+                            <NavLink to="/Swift-service">
+                              <li className="mt-1">Swift</li>
+                            </NavLink>
                           </div>
                         </ul>
                       </div>

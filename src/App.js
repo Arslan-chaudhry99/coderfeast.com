@@ -22,6 +22,7 @@ import AndriodComp from "./Pages/Web/Andriod/AndriodComp";
 import NativeComp from "./Pages/Web/Native/NativeComp";
 import Flutter from "./Pages/Web/Flutter/Flutter";
 import Kotlin from "./Pages/Web/Kotlin/KotlinComp";
+import Swift from "./Pages/Web/Swift/Swift";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
   return <>
@@ -48,6 +49,7 @@ function App() {
           <Route path="/native-service" element={<NativeComp />} />
           <Route path="/flutter-service" element={<Flutter />} />
           <Route path="/Kotlin-service" element={<Kotlin />} />
+          <Route path="/Swift-service" element={<Swift />} />
         </Route >
         <Route path="/admin-coder-feast" element={<Admin />} />
         <Route path="/admin-coder-feast/job-request" element={<JobRec />} />

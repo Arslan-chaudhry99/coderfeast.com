@@ -3,9 +3,9 @@ import "./style.css";
 import "./Faq.css";
 import reactSliderImg from "./images/MicrosoftTeams-image-88.png";
 import rubiIcons from "../../Main/img/ruby1-on-rail.png";
-import dotNetLogo from "../../Main/img/ne1t.png";
+import KotlinIcons from "../../Main/img/kotlin.png";
 
-const Dotnet = () => {
+const Swift = () => {
   return (
     <>
       <div className="reactweb_main ">
@@ -14,30 +14,28 @@ const Dotnet = () => {
             <div className="row">
               <div className="banner_img_content_react_section col-12 col-md-6 ">
                 <div className="w-100 ">
-                  <h1 className="">Dotnet Development Company</h1>
+                  <h1 className="">Swift Development Company</h1>
                 </div>
                 <p>
-                  .NET (pronounced dotnet) is a free, open-source, and
-                  cross-platform framework developed by Microsoft. It provides a
-                  programming model that can be used to build a wide range of
-                  applications, including desktop, web, mobile, gaming, and IoT
-                  applications. .NET includes a large class library, runtime,
-                  and tools that enable developers to create high-performance,
-                  scalable, and secure applications easily.
+                  Swift is a modern, open-source programming language developed
+                  by Apple for developing iOS, macOS, watchOS, tvOS, and Linux
+                  applications. It was first introduced in 2014 and has quickly
+                  gained popularity among developers due to its modern features,
+                  performance, and ease of use.
                 </p>
                 <div className=" w-100 home_btn_container">
                   <button className="btn ">Book Free Consultation</button>
                 </div>
               </div>
               <div className="banner_img   col-12 col-md-6 ">
-                <img src={dotNetLogo} alt="img" className="w-50" />
+                <img src={KotlinIcons} alt="img" className="w-50" />
               </div>
             </div>
           </div>
         </div>
         <div className="container react_dev_services_section_1">
           <h2>
-            <strong>Our Dotnet Services</strong>
+            <strong>Our Swift Services</strong>
           </h2>
           <p>Coderfeast offers the following services:</p>
           <section id="team" className="our_services_heading_margin">
@@ -49,13 +47,29 @@ const Dotnet = () => {
                       <div class="frontside">
                         <div class="card react_service_cards shadow border-0 py-3 ">
                           <div class="card-body text-center ">
-                            <h4 class="card-title">
-                              Custom software development
-                            </h4>
+                            <h4 class="card-title">OS app development</h4>
                             <p class="container ">
-                              Develop custom software solutions tailored to the
-                              specific needs of your clients using .NET
-                              technologies.
+                              Swift is the primary language used for developing
+                              iOS apps, so you can offer custom iOS app
+                              development services to clients.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 mt-4 ">
+                  <div class="image-flip ">
+                    <div class="mainflip flip-0 ">
+                      <div class="frontside">
+                        <div class="card react_service_cards shadow border-0 py-3 ">
+                          <div class="card-body text-center ">
+                            <h4 class="card-title">macOS app development</h4>
+                            <p class="container ">
+                              Swift can also be used to develop desktop
+                              applications for macOS, so you can offer custom
+                              macOS app development services.
                             </p>
                           </div>
                         </div>
@@ -70,32 +84,13 @@ const Dotnet = () => {
                         <div class="card react_service_cards shadow border-0 py-3 ">
                           <div class="card-body text-center ">
                             <h4 class="card-title">
-                              Web application development
-                            </h4>
-                            <p class="container ">
-                              Develop web applications using ASP.NET, including
-                              web portals, e-commerce sites, and content
-                              management systems.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 mt-4 ">
-                  <div class="image-flip ">
-                    <div class="mainflip flip-0 ">
-                      <div class="frontside">
-                        <div class="card react_service_cards shadow border-0 py-3 ">
-                          <div class="card-body text-center ">
-                            <h4 class="card-title">
-                              Desktop application development
+                              WatchOS and tvOS app development
                             </h4>
                             <p class="text-center ">
-                              Develop Windows-based desktop applications using
-                              Windows Presentation Foundation (WPF) and Windows
-                              Forms.
+                              Swift can also be used to develop apps for the
+                              Apple Watch and Apple TV platforms, so you can
+                              offer app development services for these
+                              platforms.
                             </p>
                           </div>
                         </div>
@@ -109,12 +104,13 @@ const Dotnet = () => {
                       <div class="frontside">
                         <div class="card react_service_cards shadow border-0 py-3 ">
                           <div class="card-body text-center ">
-                            <h4 class="card-title">
-                              Mobile application development
-                            </h4>
+                            <h4 class="card-title">Swift consulting</h4>
                             <p class="container ">
-                              Develop cross-platform mobile applications using
-                              Xamarin and .NET Core.
+                              You can offer consultation services to clients who
+                              are interested in adopting Swift for their
+                              software projects. This can include guidance on
+                              best practices, performance optimization, and code
+                              review.
                             </p>
                           </div>
                         </div>
@@ -128,11 +124,11 @@ const Dotnet = () => {
                       <div class="frontside">
                         <div class="card react_service_cards shadow border-0 py-3 ">
                           <div class="card-body text-center ">
-                            <h4 class="card-title">Integration services</h4>
+                            <h4 class="card-title">Swift migration</h4>
                             <p class="container ">
-                              Integrate .NET applications with other software
-                              systems, including databases, third-party APIs,
-                              and legacy systems.
+                              If a client has an existing Objective-C codebase,
+                              you can offer Swift migration services to help
+                              them convert their Objective-C code to Swift.
                             </p>
                           </div>
                         </div>
@@ -146,11 +142,12 @@ const Dotnet = () => {
                       <div class="frontside">
                         <div class="card react_service_cards shadow border-0 py-3 ">
                           <div class="card-body text-center ">
-                            <h4 class="card-title">Migration services</h4>
+                            <h4 class="card-title">Swift training</h4>
                             <p class="container ">
-                              Migrate legacy applications to .NET technologies,
-                              including upgrading from older versions of .NET to
-                              the latest version.
+                              You can offer Swift training services to
+                              individuals or teams who want to learn Swift. This
+                              can include workshops, tutorials, and online
+                              courses.
                             </p>
                           </div>
                         </div>
@@ -165,7 +162,7 @@ const Dotnet = () => {
         <div class="container talk_to_expert text-white talk_to_our_experts ">
           <div class="home_gettouch_section">
             <h2 class="col-12 ">
-              <strong>.Net Development</strong>
+              <strong>Swift Development</strong>
             </h2>
           </div>
           <div class="home_gettouch_button_section">
@@ -178,10 +175,13 @@ const Dotnet = () => {
         <div className="container why_chose_react">
           <h4 className="container fw-bold mb-4 FAQ_heading_alignment">
             {" "}
-            Why Choose Coderfeast for .Net
+            Why Choose Coderfeast for Swift
           </h4>
           <p className="container">
-          Coderfeast may have a team of skilled .NET developers with deep expertise in building robust, scalable, and secure applications using .NET technologies.
+            Coderfeast is a software development company that offers a wide
+            range of development services, including Swift  development. Some
+            potential reasons why someone might choose Coderfeast for Swift 
+            development services could include
           </p>
         </div>
         {/* contact us page */}
@@ -233,4 +233,4 @@ const Dotnet = () => {
   );
 };
 
-export default Dotnet;
+export default Swift;
