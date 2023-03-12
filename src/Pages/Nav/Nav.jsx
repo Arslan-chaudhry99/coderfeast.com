@@ -89,11 +89,17 @@ const Nav = () => {
                             <NavLink to="/andriod-service">
                               <li className="mt-1">Android</li>
                             </NavLink>
+                            <NavLink to="/native-service">
+                              <li className="mt-1">React Native</li>
+                            </NavLink>
+                            <NavLink to="/flutter-service">
+                              <li className="mt-1">Flutter</li>
+                            </NavLink>
+                            <NavLink to="/Kotlin-service">
+                              <li className="mt-1">Kotlin</li>
+                            </NavLink>
 
-                            <li className="mt-1">React Native</li>
-                            <li className="mt-1">Swift</li>
-                            <li className="mt-1">Kotlin</li>
-                            <li className="mt-1">Flutter</li>
+                            <li className="mt-1"> Swift</li>
                           </div>
                         </ul>
                       </div>

@@ -1,9 +1,9 @@
 import React from "react";
 import "./style.css";
 import stacffAug from "./imgs/staff-augmentation.png";
-import appleIcons from "../../Main/img/ap1ple.png";
+import reactNative from "../../Main/img/raec1t.png";
 
-const IosComp = () => {
+const NativeComp = () => {
   return (
     <>
       <div className="banner_background_img">
@@ -12,30 +12,29 @@ const IosComp = () => {
             <div className="banner_img_content_react_section col-12 col-md-6 ">
               <div className="w-100 ">
                 <h1 className="staf_augmentation_slider_section_h1">
-                  IOS App Development
+                  React Native App Development
                 </h1>
               </div>
               <p>
-                Coderfeast offers professional iOS App Development, creating
-                intuitive, user-friendly, and interactive applications. Our team
-                of developers is passionate about building feature-rich iOS apps
-                that stand out from the competition. We offer custom iOS app
-                development to meet the specific needs of our clients, using
-                innovative methodologies to ensure the success of their iOS app.
+                Coderfeast is a react native app development company that
+                specializes in creating high-quality cross-platform apps with
+                excellent UI/UX. Our team of React Native developers uses their
+                expertise to develop and deliver innovative, stable solutions
+                for businesses.
               </p>
               <div className=" w-100 home_btn_container">
                 <button className="btn ">Book Free Consultation</button>
               </div>
             </div>
             <div className="banner_img   col-12 col-md-6 ">
-              <img src={appleIcons} alt="img" className="w-50"/>
+              <img src={reactNative} alt="img" className="w-50" />
             </div>
           </div>
         </div>
       </div>
       <div className="container why_chose_react global_margin_top">
         <h2 className="container fw-bold mb-4 how_help_augmentation">
-          Benefits of iOS App Development
+          Advantages of React Native App Development
         </h2>
 
         <div className="container">
@@ -46,18 +45,20 @@ const IosComp = () => {
                   class="bi bi-check-circle-fill margin_between_tick_para react_arrows "
                   style={{ fontSize: "18px" }}
                 ></i>
-                <h5 className="fw-bold mb-3">Enhanced Customer Experience</h5>
+                <h5 className="fw-bold mb-3"> Saves Time and Money </h5>
               </div>
 
               <div>
                 <p className="agumentation_benifites_p">
-                  Given the high-quality software, functionalities, and
-                  extensive customer support, it would make sense why users
-                  gravitate towards iOS applications. It offers apps that have
-                  smooth functionality and offers the best user experience. This
-                  makes iPhone applications the most ideal choice for customers
-                  as it offers feature-rich apps and user experience that keep
-                  them coming back for more.
+                  Since more than 90% of the code is cross-platform, developers
+                  can save time as they’ll only need to build a single
+                  application. The code is compatible with both iOS and Android
+                  and therefore developers can work on building one app only.
+                  With the help of React Native, companies can have both apps at
+                  once, which would cost half of building one version. These
+                  applications are also constantly maintained and updated, which
+                  helps to further reduce costs once the applications are fully
+                  launched.
                 </p>
               </div>
             </div>
@@ -67,17 +68,19 @@ const IosComp = () => {
                   class="bi bi-check-circle-fill margin_between_tick_para react_arrows "
                   style={{ fontSize: "18px" }}
                 ></i>
-                <h5 className="fw-bold mb-3">High Market Penetration</h5>
+                <h5 className="fw-bold mb-3"> Strong Community </h5>
               </div>
 
               <div>
                 <p className="agumentation_benifites_p">
-                  Apple has a huge user base in the USA and the UK. If you want
-                  your company to expand its horizons and penetrate those
-                  markets, creating iPhone apps is the way to go. Apple has an
-                  established legacy and its high-quality products will help
-                  your business gain a competitive edge if you invest in iOS
-                  development.
+                  React Native is an open-source framework and has a strong
+                  community of developers from all across the globe. React
+                  Native developers can not only make their contributions to
+                  these communities, but the beginners who want to get started
+                  with React Native can avail themselves of the help of
+                  experienced React Native developers. They also take help from
+                  forum discussions, tutorials, and other resources to help them
+                  sharpen their skills.
                 </p>
               </div>
             </div>
@@ -87,16 +90,17 @@ const IosComp = () => {
                   class="bi bi-check-circle-fill margin_between_tick_para react_arrows "
                   style={{ fontSize: "18px" }}
                 ></i>
-                <h5 className="fw-bold mb-3"> Greater Return on Investment </h5>
+                <h5 className="fw-bold mb-3"> Enhanced Flexibility </h5>
               </div>
 
               <div>
                 <p className="agumentation_benifites_p">
-                  iOS applications have a greater return on investment as
-                  compared to Android. This is because iPhone offers the best
-                  user experience, with excellent UI/UX. Companies can greatly
-                  benefit by investing in iOS applications to achieve
-                  profitability.
+                  React Native has an interface that makes it easy for
+                  developers to jump in and complete the rest of the application
+                  from where someone left it off. This increases flexibility
+                  within teams and can ensure timely updates as well as upgrades
+                  of the mobile apps. All of these factors also help save time
+                  and money for companies
                 </p>
               </div>
             </div>
@@ -106,84 +110,74 @@ const IosComp = () => {
                   class="bi bi-check-circle-fill margin_between_tick_para react_arrows "
                   style={{ fontSize: "18px" }}
                 ></i>
-                <h5 className="fw-bold mb-3"> Less Development Time </h5>
+                <h5 className="fw-bold mb-3"> Excellent Performance </h5>
               </div>
 
               <div>
                 <p className="agumentation_benifites_p">
-                  iOS applications take less time to develop as compared to
-                  Android applications. This is because Android applications
-                  need to be tested across 20+ devices, all of which have
-                  different screen sizes, resolutions, and operating systems.
-                  Android apps also have a longer development cycle. iOS
-                  development on the other hand helps companies achieve greater
-                  market visibility, the ability to gain a competitive edge,
-                  rich customer experiences, and enhanced profitability.
-                </p>
-              </div>
-            </div>
-            <div className="col-12  col-md-6 col-sm-12 mb-5">
-              <div className="d-flex augmention_benifit_arrow ">
-                <i
-                  class="bi bi-check-circle-fill margin_between_tick_para react_arrows "
-                  style={{ fontSize: "18px" }}
-                ></i>
-                <h5 className="fw-bold mb-3"> Excellent Interface </h5>
-              </div>
-
-              <div>
-                <p className="agumentation_benifites_p">
-                  iPhones are best known for their excellent UI/UX design that
-                  offers the best experiences to users. It increases user
-                  engagement as well. This is why iOS development services can
-                  help to gravitate a large number of people towards your
-                  applications. The easy interface would entice users to
-                  download your applications and use them. This would help boost
-                  your company’s sales and a return on investment.
-                </p>
-              </div>
-            </div>
-            <div className="col-12  col-md-6 col-sm-12 mb-5">
-              <div className="d-flex augmention_benifit_arrow ">
-                <i
-                  class="bi bi-check-circle-fill margin_between_tick_para react_arrows "
-                  style={{ fontSize: "18px" }}
-                ></i>
-                <h5 className="fw-bold mb-3"> Enhanced Security </h5>
-              </div>
-
-              <div>
-                <p className="agumentation_benifites_p">
-                  Apple offers the best security to users. Various applications
-                  require confidential and responsive information from users. It
-                  is imperative to protect this data from hackers and other
-                  external threats. One of the many great things about Apple is
-                  that it has a strict approval procedure for all of its
-                  applications. iOS applications come with advanced and secure
-                  features that protect them from external threats, hacking, or
-                  phishing.
-                </p>
-              </div>
-            </div>
-            <div className="col-12  col-md-6 col-sm-12 mb-5">
-              <div className="d-flex augmention_benifit_arrow ">
-                <i
-                  class="bi bi-check-circle-fill margin_between_tick_para react_arrows "
-                  style={{ fontSize: "18px" }}
-                ></i>
-                <h5 className="fw-bold mb-3"> Reduced Fragmentation </h5>
-              </div>
-
-              <div>
-                <p className="agumentation_benifites_p">
-                  Apple only has to do one upgradation on its operating system
-                  every year. Apple also has fewer devices compared to Android.
-                  Android apps have to be tested out extensively to work
-                  properly on all Android operating system versions. iPhones on
-                  the other hand just have to meet the testing criteria of the
-                  previous iOS versions. This reduces testing time for iOS
-                  developers and guarantees quick go-to-market time for iPhone
+                  React Native applications have the same performance as native
+                  iOS and Android applications. They are fast as well since
+                  React Native is optimized for mobile devices. React Native
+                  leverages the graphic processing unit (GPU) which makes it
+                  faster in performance as compared to cross-platform hybrid
                   applications.
+                </p>
+              </div>
+            </div>
+            <div className="col-12  col-md-6 col-sm-12 mb-5">
+              <div className="d-flex augmention_benifit_arrow ">
+                <i
+                  class="bi bi-check-circle-fill margin_between_tick_para react_arrows "
+                  style={{ fontSize: "18px" }}
+                ></i>
+                <h5 className="fw-bold mb-3"> Hot Reloading </h5>
+              </div>
+
+              <div>
+                <p className="agumentation_benifites_p">
+                  React Native has a hot reloading feature which means that
+                  developers can immediately view any changes they’ve made to
+                  the code in live preview simultaneously. This is an added
+                  advantage for developers as they get to receive real-time
+                  feedback during the development process.
+                </p>
+              </div>
+            </div>
+            <div className="col-12  col-md-6 col-sm-12 mb-5">
+              <div className="d-flex augmention_benifit_arrow ">
+                <i
+                  class="bi bi-check-circle-fill margin_between_tick_para react_arrows "
+                  style={{ fontSize: "18px" }}
+                ></i>
+                <h5 className="fw-bold mb-3"> Third-Party Plugins </h5>
+              </div>
+
+              <div>
+                <p className="agumentation_benifites_p">
+                  Building applications from scratch can be very expensive, and
+                  React Native counters this issue by offering multiple
+                  third-party plugins. They help reduce the need for specific
+                  web-view functions and improve the application’s performance
+                  and functionalities.
+                </p>
+              </div>
+            </div>
+            <div className="col-12  col-md-6 col-sm-12 mb-5">
+              <div className="d-flex augmention_benifit_arrow ">
+                <i
+                  class="bi bi-check-circle-fill margin_between_tick_para react_arrows "
+                  style={{ fontSize: "18px" }}
+                ></i>
+                <h5 className="fw-bold mb-3"> Code Can Be Reused </h5>
+              </div>
+
+              <div>
+                <p className="agumentation_benifites_p">
+                  One of the biggest advantages of React Native is that 90% of
+                  its code can be reused between iOS and Android. Developers
+                  will not have to create separate codes for the different
+                  platforms. This leads to faster work as well as increased
+                  efficiency in the development process.
                 </p>
               </div>
             </div>
@@ -194,7 +188,7 @@ const IosComp = () => {
         <div class="home_gettouch_section">
           <h2 class="col-12 ">
             <strong>
-              Developing custom iOS apps to meet your business needs{" "}
+              Offering intuitive and user-friendly Android applications
             </strong>
           </h2>
         </div>
@@ -204,13 +198,12 @@ const IosComp = () => {
           </button>
         </div>
       </div>
-
       <div class="container react_dev_services_section_1">
-        <h2 class="container">
-          <strong>iOS App Development Services</strong>
+        <h2>
+          <strong>React Native Development Services</strong>
         </h2>
-        <p className="container">
-          We offer the following iOS Application development services to our
+        <p>
+          We offer the following React Native Development services to our
           clients.
         </p>
         <section id="team" class="our_services_heading_margin">
@@ -220,17 +213,17 @@ const IosComp = () => {
                 <div class="image-flip ">
                   <div class="mainflip flip-0 ">
                     <div class="frontside">
-                      <div class="card home_card_padding shadow border-0 ">
-                        <div class="card-body text-center align_mentsof_cards justify-content-start">
+                      <div class="card react_service_cards shadow border-0 py-3 ">
+                        <div class="card-body text-center ">
                           <h4 class="card-title">
-                            {" "}
-                            Custom iOS App Development{" "}
+                            React Native App Development
                           </h4>
                           <p class="container ">
-                            We help build iOS applications that are specifically
-                            tailored to your unique needs and requirements. We
-                            create apps that help your business gain
-                            unprecedented value.
+                            Our experts help you develop flexible, flawless, and
+                            user-friendly applications for your business in next
+                            to no time. We also offer full-stack development
+                            services using our extensive knowledge and expertise
+                            in the react native framework.
                           </p>
                         </div>
                       </div>
@@ -242,12 +235,15 @@ const IosComp = () => {
                 <div class="image-flip ">
                   <div class="mainflip flip-0 ">
                     <div class="frontside">
-                      <div class="card home_card_padding shadow border-0 ">
-                        <div class="card-body text-center align_mentsof_cards justify-content-start">
-                          <h4 class="card-title">Cross-platform Development</h4>
+                      <div class="card react_service_cards shadow border-0 py-3 ">
+                        <div class="card-body text-center ">
+                          <h4 class="card-title"> Code Audit Services </h4>
                           <p class="container ">
-                            Our team of experts builds feature-rich applications
-                            that are compatible across all iOS devices.
+                            We offer coding audit services to our clients to
+                            assist them in enhancing their application
+                            performance. Our experts analyze websites to find
+                            weaknesses and fix them accordingly. This results in
+                            faster applications that are reliable and stable.
                           </p>
                         </div>
                       </div>
@@ -259,13 +255,14 @@ const IosComp = () => {
                 <div class="image-flip ">
                   <div class="mainflip flip-0 ">
                     <div class="frontside">
-                      <div class="card home_card_padding shadow border-0 ">
-                        <div class="card-body text-center align_mentsof_cards justify-content-start">
-                          <h4 class="card-title"> iPhone UI/UX </h4>
-                          <p class="container ">
-                            We aim to create stellar user experiences for iPhone
-                            users as well as engaging and dynamic user
-                            interfaces that keep users coming back for more.
+                      <div class="card react_service_cards shadow border-0 py-3 ">
+                        <div class="card-body text-center ">
+                          <h4 class="card-title"> Support & Maintenance </h4>
+                          <p class="text-center ">
+                            Coderfeast provides support and maintenance even
+                            after application launch if required by the client.
+                            We make sure that your application keeps running
+                            smoothly without bugs, post-launch too.
                           </p>
                         </div>
                       </div>
@@ -273,23 +270,61 @@ const IosComp = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-12 d-flex justify-content-center">
-                <div class="col-xs-12 col-sm-6 col-md-4 mt-4 ">
-                  <div class="image-flip ">
-                    <div class="mainflip flip-0 ">
-                      <div class="frontside">
-                        <div class="card home_card_padding shadow border-0 ">
-                          <div class="card-body text-center align_mentsof_cards justify-content-start">
-                            <h4 class="card-title">
-                              {" "}
-                              iPhone App Update & Optimization{" "}
-                            </h4>
-                            <p class="container ">
-                              Our expert team of iOS developers makes timely
-                              updates to your applications alongside
-                              optimization for a smooth user experience.
-                            </p>
-                          </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 mt-4 ">
+                <div class="image-flip ">
+                  <div class="mainflip flip-0 ">
+                    <div class="frontside">
+                      <div class="card react_service_cards shadow border-0 py-3 ">
+                        <div class="card-body text-center ">
+                          <h4 class="card-title">
+                            Custom React Native UI/UX Development{" "}
+                          </h4>
+                          <p class="container ">
+                            Our UI/UX designers at Coderfeast help you in
+                            developing user-friendly, engaging, and secure
+                            applications. We utilize react native libraries to
+                            design customized UIs for our clients.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 mt-4 ">
+                <div class="image-flip ">
+                  <div class="mainflip flip-0 ">
+                    <div class="frontside">
+                      <div class="card react_service_cards shadow border-0 py-3 ">
+                        <div class="card-body text-center ">
+                          <h4 class="card-title">Migration to React Native</h4>
+                          <p class="container ">
+                            We offer you flawless migration services from other
+                            platforms to react-native to accomplish your
+                            business needs. React provides powerful models that
+                            add flexibility and stability to applications
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 mt-4 ">
+                <div class="image-flip ">
+                  <div class="mainflip flip-0 ">
+                    <div class="frontside">
+                      <div class="card react_service_cards shadow border-0 py-3 ">
+                        <div class="card-body text-center ">
+                          <h4 class="card-title">
+                            {" "}
+                            Custom Native App Development{" "}
+                          </h4>
+                          <p class="container ">
+                            We keep your needs and requirements at the forefront
+                            and then develop applications that are specifically
+                            tailored to your company’s requirements.
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -302,9 +337,8 @@ const IosComp = () => {
       </div>
       <div class="container react_dev_services_section_1">
         <h2 class="container">
-          <strong>iPhone app development Process</strong>
+          <strong>Our Development Process</strong>
         </h2>
-
         <section id="team" class="our_services_heading_margin">
           <div class="container">
             <div class="row">
@@ -314,7 +348,7 @@ const IosComp = () => {
                     <div class="frontside">
                       <div class="card home_card_padding shadow border-0 ">
                         <div class="card-body text-center align_mentsof_cards">
-                          <h4 class="card-title">Research and Planning</h4>
+                          <h4 class="card-title">Prerequisite Gathering</h4>
                         </div>
                       </div>
                     </div>
@@ -327,9 +361,7 @@ const IosComp = () => {
                     <div class="frontside">
                       <div class="card home_card_padding shadow border-0 ">
                         <div class="card-body text-center align_mentsof_cards">
-                          <h4 class="card-title">
-                            Compliance with Apple guidelines
-                          </h4>
+                          <h4 class="card-title">UI/UX Design</h4>
                         </div>
                       </div>
                     </div>
@@ -342,7 +374,7 @@ const IosComp = () => {
                     <div class="frontside">
                       <div class="card home_card_padding shadow border-0 ">
                         <div class="card-body text-center align_mentsof_cards">
-                          <h4 class="card-title">Concept & Wireframing</h4>
+                          <h4 class="card-title">Prototype</h4>
                         </div>
                       </div>
                     </div>
@@ -355,9 +387,7 @@ const IosComp = () => {
                     <div class="frontside">
                       <div class="card home_card_padding shadow border-0 ">
                         <div class="card-body text-center align_mentsof_cards">
-                          <h4 class="card-title">
-                            UI/UX Design & Software Architecture
-                          </h4>
+                          <h4 class="card-title">App Development</h4>
                         </div>
                       </div>
                     </div>
@@ -370,7 +400,7 @@ const IosComp = () => {
                     <div class="frontside">
                       <div class="card home_card_padding shadow border-0 ">
                         <div class="card-body text-center align_mentsof_cards">
-                          <h4 class="card-title">Develop App Functionality</h4>
+                          <h4 class="card-title">Quality Assurance</h4>
                         </div>
                       </div>
                     </div>
@@ -383,22 +413,21 @@ const IosComp = () => {
                     <div class="frontside">
                       <div class="card home_card_padding shadow border-0 ">
                         <div class="card-body text-center align_mentsof_cards">
-                          <h4 class="card-title">Application Testing</h4>
+                          <h4 class="card-title">Deployment</h4>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-
-              <div className="col-12 d-flex justify-content-center">
+              <div class="col-12 d-flex justify-content-center">
                 <div class="col-xs-12 col-sm-6 col-md-4 mt-4 ">
                   <div class="image-flip ">
                     <div class="mainflip flip-0 ">
                       <div class="frontside">
                         <div class="card home_card_padding shadow border-0 ">
                           <div class="card-body text-center align_mentsof_cards">
-                            <h4 class="card-title">Launch and Deployment</h4>
+                            <h4 class="card-title">Launch & ongoing support</h4>
                           </div>
                         </div>
                       </div>
@@ -409,44 +438,6 @@ const IosComp = () => {
             </div>
           </div>
         </section>
-      </div>
-      <div className="container why_chose_react mt-5">
-        <h4 className="container fw-bold mb-4">
-          Tools & Technologies Needed for iOS Development
-        </h4>
-
-        <div className="container">
-          <div className="row">
-            <div className="d-flex col-12  col-md-6 col-sm-12">
-              <i class="bi bi-arrow-right mx-2 react_arrows"></i>
-              <p>Objective-C </p>
-            </div>
-            <div className="d-flex col-12  col-md-6 col-sm-12">
-              <i class="bi bi-arrow-right mx-2 react_arrows"></i>
-              <p>AppCode </p>
-            </div>
-            <div className="d-flex col-12  col-md-6 col-sm-12">
-              <i class="bi bi-arrow-right mx-2 react_arrows"></i>
-              <p>Swift </p>
-            </div>
-            <div className="d-flex col-12  col-md-6 col-sm-12">
-              <i class="bi bi-arrow-right mx-2 react_arrows"></i>
-              <p>TestFlight </p>
-            </div>
-            <div className="d-flex col-12  col-md-6 col-sm-12">
-              <i class="bi bi-arrow-right mx-2 react_arrows"></i>
-              <p>XCode </p>
-            </div>
-            <div className="d-flex col-12  col-md-6 col-sm-12">
-              <i class="bi bi-arrow-right mx-2 react_arrows"></i>
-              <p>UIKit </p>
-            </div>
-            <div className="d-flex col-12  col-md-6 col-sm-12">
-              <i class="bi bi-arrow-right mx-2 react_arrows"></i>
-              <p>Cocoa and Cocoa Touch </p>
-            </div>
-          </div>
-        </div>
       </div>
       <div className="faq_container container">
         <h4 className="container fw-bold mb-5" s>
@@ -463,14 +454,15 @@ const IosComp = () => {
                 aria-controls="collapseExample1"
                 className="faq_question "
               >
-                <h6>Which language is used for developing iOS apps?</h6>
+                <h6>How much does it cost to hire a React Native developer?</h6>
                 <i class="bi bi-chevron-expand"></i>
               </div>
             </p>
             <div class="collapse mb-2" id="collapseExample1">
               <div class="faq_content">
-                iOS applications are primarily written with Swift and Objective
-                C programming languages.
+                This depends on your specific requirements and what you need
+                from them. A highly skilled developer will cost more than a
+                developer who’s at an intermediate or beginner level.
               </div>
             </div>
           </div>
@@ -484,16 +476,15 @@ const IosComp = () => {
                 aria-controls="collapseExample2"
                 className="faq_question "
               >
-                <h6>How much does it cost to develop an iOS application?</h6>
+                <h6>Is React Native hard to learn?</h6>
                 <i class="bi bi-chevron-expand"></i>
               </div>
             </p>
             <div class="collapse mb-2" id="collapseExample2">
               <div class="faq_content">
-                The cost depends on the specifications and exact requirements of
-                the application. It depends on the features and functionalities,
-                the time needed to develop the app, the complexity of the
-                application, etc
+                React Native is easy to learn. It has a strong community of
+                developers with a huge number of helpful resources to make your
+                learning as smooth sailing as possible.
               </div>
             </div>
           </div>
@@ -507,16 +498,15 @@ const IosComp = () => {
                 aria-controls="collapseExample3"
                 className="faq_question "
               >
-                <h6>What is the advantage of the iPhone over Android?</h6>
+                <h6>What are the benefits of React Native App Development?</h6>
                 <i class="bi bi-chevron-expand"></i>
               </div>
             </p>
             <div class="collapse mb-2" id="collapseExample3">
               <div class="faq_content">
-                iPhone offers an excellent user experience and enhanced security
-                measures, and it takes less time and cost to develop compared to
-                Android applications and has a better market presence all around
-                the globe compared to Android.
+                It has great performance, saves time and money, helps developers
+                become more flexible and you can view changes in real-time to
+                offer the best experience to users.
               </div>
             </div>
           </div>
@@ -526,20 +516,11 @@ const IosComp = () => {
       <div className="container why_chose_react">
         <h4 className="container fw-bold mb-4"> Why Choose Coderfeast</h4>
         <p className="container">
-          Coderfeast is a renowned iOS app development company known for its
-          innovative work. Our applications are developed by the Apple store
-          guidelines. We build a great user interface for your iOS applications
-          to increase customer engagement. Coderfeast is an iOS app development
-          company in USA that enlightens its customers with the latest
-          technologies. Our team is constantly up to date with the latest Apple
-          technologies and frameworks to provide you with the best futuristic
-          applications and give you a competitive edge. No matter what industry
-          you’re from, Coderfeast builds strong products and makes sure your
-          applications are successful upon launching. So regardless of the
-          industry you are from, we are driven to design and deliver
-          personalized iOS applications that provide user-friendliness and
-          versatile features and functionality. We make sure that your end
-          product stands out in the competitive market and makes an impact.
+          Coderfeast is a React Native App Development company that focuses on
+          custom native app development and the most effective react native
+          development services. We have the most competent team of developers
+          who take your exact needs and specifications to deliver the most
+          impactful apps that make a mark.
         </p>
       </div>
 
@@ -590,4 +571,4 @@ const IosComp = () => {
     </>
   );
 };
-export default IosComp;
+export default NativeComp;

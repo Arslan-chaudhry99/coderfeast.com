@@ -114,7 +114,7 @@ const Djangocom = () => {
               <h5> Django Web Development </h5>
               <p>
                 You can have a great impact on your users through an attractive
-                and powerful business website. OptimusFox, an experienced Django
+                and powerful business website. Coderfeast, an experienced Django
                 website development company always delivers efficient,
                 compelling, and functional websites.
               </p>

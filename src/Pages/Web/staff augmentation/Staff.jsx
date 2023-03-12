@@ -287,9 +287,9 @@ const Staff = () => {
             <div className='container why_chose_react'>
                 <h4 className='container fw-bold mb-4'>  Why Choose Coderfeast</h4>
                 <p className='container'>
-                    OptimusFox has been recognized as a leading reactjs development company in USA. Our developers aim to create high-performing web apps using the top JavaScript library. Having years of experience in ReactJS development, our team of developers is hard at work creating react components and full-scale applications.
+                    Coderfeast has been recognized as a leading reactjs development company in USA. Our developers aim to create high-performing web apps using the top JavaScript library. Having years of experience in ReactJS development, our team of developers is hard at work creating react components and full-scale applications.
                     <br />
-                    We have experienced in-house resources to offer react.js development services according to your business needs. The team at OptimusFox is proficient at offering the most effective solutions to challenging & complex issues. Our developers secure your apps with modern security techniques that prevent crashes and fix bugs and offer all maintenance services.
+                    We have experienced in-house resources to offer react.js development services according to your business needs. The team at Coderfeast is proficient at offering the most effective solutions to challenging & complex issues. Our developers secure your apps with modern security techniques that prevent crashes and fix bugs and offer all maintenance services.
                     <br />
                     By using the latest technological updates and frameworks, our prime motivation is to bring forward innovative solutions that give you a greater return on investment.
 

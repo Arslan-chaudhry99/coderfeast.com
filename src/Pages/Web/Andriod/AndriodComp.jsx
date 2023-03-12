@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import stacffAug from "./imgs/staff-augmentation.png";
-import appleIcons from "../../Main/img/ap1ple.png";
+import andriodIcons from "../../Main/img/andr1oid.png";
 
 const AndriodComp = () => {
   return (
@@ -16,7 +16,7 @@ const AndriodComp = () => {
                 </h1>
               </div>
               <p>
-                OptimusFox is an Android app development company that provides
+                Coderfeastis an Android app development company that provides
                 innovative solutions to businesses worldwide. Our goal is to
                 create mobile apps that have a wide range of features and help
                 our clients gain a competitive edge and increased business
@@ -27,7 +27,7 @@ const AndriodComp = () => {
               </div>
             </div>
             <div className="banner_img   col-12 col-md-6 ">
-              <img src={appleIcons} alt="img" className="w-50" />
+              <img src={andriodIcons} alt="img" className="w-50" />
             </div>
           </div>
         </div>
