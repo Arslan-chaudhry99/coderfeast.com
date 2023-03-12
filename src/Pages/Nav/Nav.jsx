@@ -86,7 +86,10 @@ const Nav = () => {
                             <NavLink to="/IOS-service">
                               <li className="mt-1">IOS</li>
                             </NavLink>
-                            <li className="mt-1">Android</li>
+                            <NavLink to="/andriod-service">
+                              <li className="mt-1">Android</li>
+                            </NavLink>
+
                             <li className="mt-1">React Native</li>
                             <li className="mt-1">Swift</li>
                             <li className="mt-1">Kotlin</li>

@@ -18,15 +18,11 @@ import Rubecom from "./Pages/Web/Rube/Rubecom";
 import Signup from "./Pages/Admin/Signup";
 import Dotnet from "./Pages/Web/DotNet/Dotnet";
 import IosComp from "./Pages/Web/IOS/IosComp";
+import AndriodComp from "./Pages/Web/Andriod/AndriodComp";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
   return <>
-    {/* <Nav /> */}
-    {/* <About /> */}
-    {/* <Careers /> */}
-
-    {/* <Contact /> */}
-    {/* <Footer /> */}
+    
     <BrowserRouter>
       <Routes>
 
@@ -45,6 +41,7 @@ function App() {
           <Route path="/rube-service" element={<Rubecom />} />
           <Route path="/dotnet-service" element={<Dotnet />} />
           <Route path="/IOS-service" element={<IosComp />} />
+          <Route path="/andriod-service" element={<AndriodComp />} />
         </Route >
         <Route path="/admin-coder-feast" element={<Admin />} />
         <Route path="/admin-coder-feast/job-request" element={<JobRec />} />
