@@ -3,8 +3,8 @@ import "./style.css";
 import "./Faq.css";
 import reactSliderImg from "./images/MicrosoftTeams-image-88.png";
 import rubiIcons from "../../Main/img/ruby1-on-rail.png";
-import KotlinIcons from "../../Main/img/kotlin.png";
 
+import SwiftIcons from "../../Main/img/s1wift.png";
 const Swift = () => {
   return (
     <>
@@ -28,7 +28,7 @@ const Swift = () => {
                 </div>
               </div>
               <div className="banner_img   col-12 col-md-6 ">
-                <img src={KotlinIcons} alt="img" className="w-50" />
+                <img src={SwiftIcons} alt="img" className="w-50" />
               </div>
             </div>
           </div>

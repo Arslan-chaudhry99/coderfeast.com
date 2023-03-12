@@ -53,13 +53,19 @@ const Nav = () => {
                           <strong className="mb-0">WEB DEVELOPMENT</strong>
                           <div className="mt-3">
                             <NavLink to="/rube-service">
-                              <li className="mt-1">Ruby on Rails</li>
+                              <a class="nav-link " aria-current="page">
+                                <li className="mt-1">Ruby on Rails</li>
+                              </a>
                             </NavLink>
                             <NavLink to="/node-js">
-                              <li className="mt-1">Node.Js</li>
+                              <a class="nav-link " aria-current="page">
+                                <li className="mt-1">Node.Js</li>
+                              </a>
                             </NavLink>
                             <NavLink to="/react-js-development">
-                              <li className="mt-1">React.Js</li>
+                              <a class="nav-link " aria-current="page">
+                                <li className="mt-1">React.Js</li>
+                              </a>
                             </NavLink>
                             {/* <NavLink to="/admin-coder-feast">
                                                             <li className='mt-1'>
@@ -67,14 +73,20 @@ const Nav = () => {
                                                             </li>
                                                         </NavLink> */}
                             <NavLink to="/dotnet-service">
-                              <li className="mt-1">.Net / Core</li>
+                              <a class="nav-link " aria-current="page">
+                                <li className="mt-1">.Net / Core</li>
+                              </a>
                             </NavLink>
 
                             <NavLink to="/laravel-serv">
-                              <li className="mt-1">Laravel</li>
+                              <a class="nav-link " aria-current="page">
+                                <li className="mt-1">Laravel</li>
+                              </a>
                             </NavLink>
                             <NavLink to="/django-dev">
-                              <li className="mt-1">Python</li>
+                              <a class="nav-link " aria-current="page">
+                                <li className="mt-1">Python</li>
+                              </a>
                             </NavLink>
                           </div>
                         </ul>
@@ -84,22 +96,34 @@ const Nav = () => {
                           <strong className="mb-0">App Development</strong>
                           <div className="mt-3">
                             <NavLink to="/IOS-service">
-                              <li className="mt-1">IOS</li>
+                              <a class="nav-link " aria-current="page">
+                                <li className="mt-1">IOS</li>
+                              </a>
                             </NavLink>
                             <NavLink to="/andriod-service">
-                              <li className="mt-1">Android</li>
+                              <a class="nav-link " aria-current="page">
+                                <li className="mt-1">Android</li>
+                              </a>
                             </NavLink>
                             <NavLink to="/native-service">
-                              <li className="mt-1">React Native</li>
+                              <a class="nav-link " aria-current="page">
+                                <li className="mt-1">React Native</li>
+                              </a>
                             </NavLink>
                             <NavLink to="/flutter-service">
-                              <li className="mt-1">Flutter</li>
+                              <a class="nav-link " aria-current="page">
+                                <li className="mt-1">Flutter</li>
+                              </a>
                             </NavLink>
                             <NavLink to="/Kotlin-service">
-                              <li className="mt-1">Kotlin</li>
+                              <a class="nav-link " aria-current="page">
+                                <li className="mt-1">Kotlin</li>
+                              </a>
                             </NavLink>
                             <NavLink to="/Swift-service">
-                              <li className="mt-1">Swift</li>
+                              <a class="nav-link " aria-current="page">
+                                <li className="mt-1">Swift</li>
+                              </a>
                             </NavLink>
                           </div>
                         </ul>
@@ -110,7 +134,7 @@ const Nav = () => {
                           <div className="mt-3">
                             <li class="nav-item">
                               <NavLink to="/staff-augmentation">
-                                <a class="nav-link active" aria-current="page">
+                                <a class="nav-link " aria-current="page">
                                   Staff Augmentation
                                 </a>
                               </NavLink>
