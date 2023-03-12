@@ -14,9 +14,10 @@ import "./Global.css"
 import NodeJS from "./Pages/Web/NodeJS/NodeJS"
 import Laravelcomp from "./Pages/Web/Laravel/Laravelcomp"
 import Djangocom from "./Pages/Web/Python/Djangocom"
-
+import Rubecom from "./Pages/Web/Rube/Rubecom";
 import Signup from "./Pages/Admin/Signup";
-
+import Dotnet from "./Pages/Web/DotNet/Dotnet";
+import IosComp from "./Pages/Web/IOS/IosComp";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
   return <>
@@ -41,7 +42,9 @@ function App() {
           <Route path="/node-js" element={<NodeJS />} />
           <Route path="/laravel-serv" element={<Laravelcomp />} />
           <Route path="/django-dev" element={<Djangocom />} />
-
+          <Route path="/rube-service" element={<Rubecom />} />
+          <Route path="/dotnet-service" element={<Dotnet />} />
+          <Route path="/IOS-service" element={<IosComp />} />
         </Route >
         <Route path="/admin-coder-feast" element={<Admin />} />
         <Route path="/admin-coder-feast/job-request" element={<JobRec />} />

@@ -3,8 +3,9 @@ import "./style.css";
 import "./Faq.css";
 import reactSliderImg from "./images/MicrosoftTeams-image-88.png";
 import rubiIcons from "../../Main/img/ruby1-on-rail.png";
+import dotNetLogo from "../../Main/img/ne1t.png";
 
-const Rubecom = () => {
+const Dotnet = () => {
   return (
     <>
       <div className="reactweb_main ">
@@ -13,29 +14,30 @@ const Rubecom = () => {
             <div className="row">
               <div className="banner_img_content_react_section col-12 col-md-6 ">
                 <div className="w-100 ">
-                  <h1 className="">Ruby on Rails Development Company</h1>
+                  <h1 className="">Dotnet Development Company</h1>
                 </div>
                 <p>
-                  Ruby on Rails is a web application development framework that
-                  uses the Ruby programming language. It's known for its
-                  emphasis on convention over configuration, making it a popular
-                  choice for rapid application development. With its built-in
-                  features and libraries, Rails simplifies common web
-                  development tasks such as database integration and routing.
+                  .NET (pronounced dotnet) is a free, open-source, and
+                  cross-platform framework developed by Microsoft. It provides a
+                  programming model that can be used to build a wide range of
+                  applications, including desktop, web, mobile, gaming, and IoT
+                  applications. .NET includes a large class library, runtime,
+                  and tools that enable developers to create high-performance,
+                  scalable, and secure applications easily.
                 </p>
                 <div className=" w-100 home_btn_container">
                   <button className="btn ">Book Free Consultation</button>
                 </div>
               </div>
               <div className="banner_img   col-12 col-md-6 ">
-                <img src={rubiIcons} alt="img" className="w-50" />
+                <img src={dotNetLogo} alt="img" className="w-50" />
               </div>
             </div>
           </div>
         </div>
         <div className="container react_dev_services_section_1">
           <h2>
-            <strong>Our Ruby on Rails Services</strong>
+            <strong>Our Dotnet Services</strong>
           </h2>
           <p>Coderfeast offers the following services:</p>
           <section id="team" className="our_services_heading_margin">
@@ -48,14 +50,12 @@ const Rubecom = () => {
                         <div class="card react_service_cards shadow border-0 py-3 ">
                           <div class="card-body text-center ">
                             <h4 class="card-title">
-                              Authentication and Authorization
+                              Custom software development
                             </h4>
                             <p class="container ">
-                              Ruby on Rails has built-in support for user
-                              authentication and authorization. Services such as
-                              authentication and authorization can be
-                              implemented using the Devise and CanCanCan gems
-                              respectively.
+                              Develop custom software solutions tailored to the
+                              specific needs of your clients using .NET
+                              technologies.
                             </p>
                           </div>
                         </div>
@@ -70,14 +70,12 @@ const Rubecom = () => {
                         <div class="card react_service_cards shadow border-0 py-3 ">
                           <div class="card-body text-center ">
                             <h4 class="card-title">
-                              Payment Gateway Integration
+                              Web application development
                             </h4>
                             <p class="container ">
-                              Payment gateway integration can be implemented
-                              using gems such as Stripe, Braintree, and PayPal.
-                              These gems provide an easy and quick way to
-                              integrate payment processing functionality into a
-                              Rails application.
+                              Develop web applications using ASP.NET, including
+                              web portals, e-commerce sites, and content
+                              management systems.
                             </p>
                           </div>
                         </div>
@@ -91,32 +89,13 @@ const Rubecom = () => {
                       <div class="frontside">
                         <div class="card react_service_cards shadow border-0 py-3 ">
                           <div class="card-body text-center ">
-                            <h4 class="card-title">Email Services</h4>
+                            <h4 class="card-title">
+                              Desktop application development
+                            </h4>
                             <p class="text-center ">
-                              Rails provides built-in support for sending
-                              emails. Services such as sending email
-                              newsletters, account activation emails, and
-                              password reset emails can be easily implemented
-                              using gems such as Mailchimp or SendGrid.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 mt-4 ">
-                  <div class="image-flip ">
-                    <div class="mainflip flip-0 ">
-                      <div class="frontside">
-                        <div class="card react_service_cards shadow border-0 py-3 ">
-                          <div class="card-body text-center ">
-                            <h4 class="card-title">File Upload Services</h4>
-                            <p class="container ">
-                              Rails provides built-in support for file uploads.
-                              Services such as uploading images, documents, and
-                              videos can be implemented using gems such as
-                              CarrierWave and Paperclip.
+                              Develop Windows-based desktop applications using
+                              Windows Presentation Foundation (WPF) and Windows
+                              Forms.
                             </p>
                           </div>
                         </div>
@@ -131,15 +110,11 @@ const Rubecom = () => {
                         <div class="card react_service_cards shadow border-0 py-3 ">
                           <div class="card-body text-center ">
                             <h4 class="card-title">
-                              Background Job Processing
+                              Mobile application development
                             </h4>
                             <p class="container ">
-                              Long-running tasks such as sending emails,
-                              generating reports, and processing images can be
-                              offloaded to a background job processing service.
-                              Gems such as Sidekiq, Resque, and DelayedJob can
-                              be used to implement background job processing in
-                              a Rails application.
+                              Develop cross-platform mobile applications using
+                              Xamarin and .NET Core.
                             </p>
                           </div>
                         </div>
@@ -153,12 +128,11 @@ const Rubecom = () => {
                       <div class="frontside">
                         <div class="card react_service_cards shadow border-0 py-3 ">
                           <div class="card-body text-center ">
-                            <h4 class="card-title">Caching</h4>
+                            <h4 class="card-title">Integration services</h4>
                             <p class="container ">
-                              Caching is a technique used to speed up web
-                              applications by storing frequently accessed data
-                              in memory. Rails provides built-in support for
-                              caching using gems such as Redis and Memcached.
+                              Integrate .NET applications with other software
+                              systems, including databases, third-party APIs,
+                              and legacy systems.
                             </p>
                           </div>
                         </div>
@@ -172,50 +146,11 @@ const Rubecom = () => {
                       <div class="frontside">
                         <div class="card react_service_cards shadow border-0 py-3 ">
                           <div class="card-body text-center ">
-                            <h4 class="card-title">API Development</h4>
+                            <h4 class="card-title">Migration services</h4>
                             <p class="container ">
-                              Rails can be used to build APIs that can be
-                              consumed by other applications. Services such as
-                              building a RESTful API or a GraphQL API can be
-                              implemented using gems such as Grape and GraphQL.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 mt-4 ">
-                  <div class="image-flip ">
-                    <div class="mainflip flip-0 ">
-                      <div class="frontside">
-                        <div class="card react_service_cards shadow border-0 py-3 ">
-                          <div class="card-body text-center ">
-                            <h4 class="card-title">Testing</h4>
-                            <p class="container ">
-                              Testing is an essential part of software
-                              development. Rails provides built-in support for
-                              testing using gems such as RSpec, MiniTest, and
-                              Cucumber.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 mt-4 ">
-                  <div class="image-flip ">
-                    <div class="mainflip flip-0 ">
-                      <div class="frontside">
-                        <div class="card react_service_cards shadow border-0 py-3 ">
-                          <div class="card-body text-center ">
-                            <h4 class="card-title">Search</h4>
-                            <p class="container ">
-                              Search functionality can be implemented using gems
-                              such as ElasticSearch and Solr. These gems provide
-                              an easy and quick way to implement advanced search
-                              functionality in a Rails application.
+                              Migrate legacy applications to .NET technologies,
+                              including upgrading from older versions of .NET to
+                              the latest version.
                             </p>
                           </div>
                         </div>
@@ -230,9 +165,7 @@ const Rubecom = () => {
         <div class="container talk_to_expert text-white talk_to_our_experts ">
           <div class="home_gettouch_section">
             <h2 class="col-12 ">
-              <strong>
-                High Performing Web Apps with Rube on Rails Development
-              </strong>
+              <strong>.Net Development</strong>
             </h2>
           </div>
           <div class="home_gettouch_button_section">
@@ -245,13 +178,10 @@ const Rubecom = () => {
         <div className="container why_chose_react">
           <h4 className="container fw-bold mb-4 FAQ_heading_alignment">
             {" "}
-            Why Choose Coderfeast for Rube on Rails
+            Why Choose Coderfeast for .Net
           </h4>
           <p className="container">
-            Coderfeast have a team of skilled developers with expertise in Rubi
-            on Rail development. Clients will be confident in the quality of the
-            work you deliver as they know they are working with experienced
-            professionals who are proficient in the language.
+          Coderfeast may have a team of skilled .NET developers with deep expertise in building robust, scalable, and secure applications using .NET technologies.
           </p>
         </div>
         {/* contact us page */}
@@ -303,4 +233,4 @@ const Rubecom = () => {
   );
 };
 
-export default Rubecom;
+export default Dotnet;

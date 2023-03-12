@@ -52,8 +52,9 @@ const Nav = () => {
                         <ul className="text-center mt-3">
                           <strong className="mb-0">WEB DEVELOPMENT</strong>
                           <div className="mt-3">
-                            <li className="mt-1">Ruby on Rails</li>
-
+                            <NavLink to="/rube-service">
+                              <li className="mt-1">Ruby on Rails</li>
+                            </NavLink>
                             <NavLink to="/node-js">
                               <li className="mt-1">Node.Js</li>
                             </NavLink>
@@ -65,7 +66,10 @@ const Nav = () => {
                                                                 admin
                                                             </li>
                                                         </NavLink> */}
-                            <li className="mt-1">.Net / Core</li>
+                            <NavLink to="/dotnet-service">
+                              <li className="mt-1">.Net / Core</li>
+                            </NavLink>
+
                             <NavLink to="/laravel-serv">
                               <li className="mt-1">Laravel</li>
                             </NavLink>
@@ -79,8 +83,10 @@ const Nav = () => {
                         <ul className="text-center mt-3">
                           <strong className="mb-0">App Development</strong>
                           <div className="mt-3">
+                            <NavLink to="/IOS-service">
+                              <li className="mt-1">IOS</li>
+                            </NavLink>
                             <li className="mt-1">Android</li>
-                            <li className="mt-1">IOS</li>
                             <li className="mt-1">React Native</li>
                             <li className="mt-1">Swift</li>
                             <li className="mt-1">Kotlin</li>
