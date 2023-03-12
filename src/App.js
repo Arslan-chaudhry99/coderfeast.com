@@ -23,11 +23,13 @@ import NativeComp from "./Pages/Web/Native/NativeComp";
 import Flutter from "./Pages/Web/Flutter/Flutter";
 import Kotlin from "./Pages/Web/Kotlin/KotlinComp";
 import Swift from "./Pages/Web/Swift/Swift";
+import { HashRouter } from "react-router-dom";
+
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
   return <>
 
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
 
         <Route path="/" element={<Share />} >
@@ -56,7 +58,7 @@ function App() {
         <Route path="/login-admin" element={<Login />} />
         <Route path="/addNew-user" element={<Signup />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
 
 
   </>
