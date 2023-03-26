@@ -184,7 +184,12 @@ const Nav = () => {
                 </ul>
               </li>
             </form>
-            <button className="btn header_btn_color">Get a Quote</button>
+            <button className="btn header_btn_color" >
+            <NavLink to="/contact" style={{color:"white"}}>
+            Get a Quote
+            </NavLink>
+              
+            </button>
           </div>
         </div>
       </div>
