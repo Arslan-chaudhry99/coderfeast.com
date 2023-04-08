@@ -3,7 +3,9 @@ import "./style.css";
 import "./Faq.css";
 import reactSliderImg from "./images/MicrosoftTeams-image-88.png";
 import djangoIcon from "../../Main/img/dja1nge1.png";
+import { useEffect } from "react";
 const Djangocom = () => {
+  
   return (
     <>
       <div className="reactweb_main ">
@@ -535,10 +537,10 @@ const Djangocom = () => {
             Why Choose Coderfeastfor Django Development Services?
           </h4>
           <p className="container">
-            Coderfeastis a leading the Django development company. Our
-            customers appreciate us for both front-end and back-end development
-            services as well as for creating interactive interfaces and
-            delivering the highest quality.
+            Coderfeastis a leading the Django development company. Our customers
+            appreciate us for both front-end and back-end development services
+            as well as for creating interactive interfaces and delivering the
+            highest quality.
           </p>
           <div className="container">
             <div className="row">

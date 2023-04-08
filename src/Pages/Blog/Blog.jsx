@@ -3,8 +3,9 @@ import "./style.css";
 import img from "./dell-4Ea0P4IsZ_4-unsplash.jpg";
 import Nav from "../Nav/Nav";
 import Footer from "../Footer/Footer";
-
+import { useEffect } from "react";
 const Blog = () => {
+ 
   const blogDeatils = [{ name: "", title: "", image: "", review: "" }];
   return (
     <>

@@ -4,8 +4,9 @@ import "./Faq.css";
 import reactSliderImg from "./images/MicrosoftTeams-image-88.png";
 import rubiIcons from "../../Main/img/ruby1-on-rail.png";
 import dotNetLogo from "../../Main/img/ne1t.png";
-
+import { useEffect } from "react";
 const Dotnet = () => {
+ 
   return (
     <>
       <div className="reactweb_main ">
@@ -181,7 +182,9 @@ const Dotnet = () => {
             Why Choose Coderfeast for .Net
           </h4>
           <p className="container">
-          Coderfeast may have a team of skilled .NET developers with deep expertise in building robust, scalable, and secure applications using .NET technologies.
+            Coderfeast may have a team of skilled .NET developers with deep
+            expertise in building robust, scalable, and secure applications
+            using .NET technologies.
           </p>
         </div>
         {/* contact us page */}

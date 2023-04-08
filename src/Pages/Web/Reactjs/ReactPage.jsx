@@ -2,7 +2,9 @@ import React from 'react'
 import "./style.css"
 import "./Faq.css"
 import reactSliderImg from "./images/MicrosoftTeams-image-88.png"
+import { useEffect } from 'react'
 const ReactPage = () => {
+   
     return (
         <>
             <div className='reactweb_main '>

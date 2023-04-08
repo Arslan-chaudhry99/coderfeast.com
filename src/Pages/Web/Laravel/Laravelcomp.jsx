@@ -2,8 +2,9 @@ import React from "react";
 import "./style.css";
 import "./Faq.css";
 import laravalIcon from "../../Main/img/la1ravel.png";
-
+import { useEffect } from "react";
 const Laravelcomp = () => {
+
   return (
     <>
       <div className="reactweb_main ">

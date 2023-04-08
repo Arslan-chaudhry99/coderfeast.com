@@ -2,8 +2,9 @@ import React from "react";
 import "./style.css";
 import stacffAug from "./imgs/staff-augmentation.png";
 import reactNative from "../../Main/img/raec1t.png";
-
+import { useEffect } from "react";
 const NativeComp = () => {
+  
   return (
     <>
       <div className="banner_background_img">

@@ -4,8 +4,9 @@ import "./Faq.css";
 import reactSliderImg from "./images/MicrosoftTeams-image-88.png";
 import rubiIcons from "../../Main/img/ruby1-on-rail.png";
 import KotlinIcons from "../../Main/img/kotlin.png";
-
+import { useEffect } from "react";
 const Kotlin = () => {
+  
   return (
     <>
       <div className="reactweb_main ">

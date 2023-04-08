@@ -2,8 +2,9 @@ import React from "react";
 import "./style.css";
 import stacffAug from "./imgs/staff-augmentation.png";
 import fluterIcons from "../../Main/img/fl1utter.png";
-
+import { useEffect } from "react";
 const Flutter = () => {
+ 
   return (
     <>
       <div className="banner_background_img">

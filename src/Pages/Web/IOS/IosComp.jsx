@@ -2,8 +2,9 @@ import React from "react";
 import "./style.css";
 import stacffAug from "./imgs/staff-augmentation.png";
 import appleIcons from "../../Main/img/ap1ple.png";
-
+import { useEffect } from "react";
 const IosComp = () => {
+  
   return (
     <>
       <div className="banner_background_img">

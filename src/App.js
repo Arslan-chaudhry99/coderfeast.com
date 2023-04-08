@@ -24,14 +24,16 @@ import Flutter from "./Pages/Web/Flutter/Flutter";
 import Kotlin from "./Pages/Web/Kotlin/KotlinComp";
 import Swift from "./Pages/Web/Swift/Swift";
 import { HashRouter } from "react-router-dom";
-
+import { useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import ScrollToTop from "./Scrollup";
 function App() {
+
   return <>
 
     <HashRouter>
+      <ScrollToTop />
       <Routes>
-
         <Route path="/" element={<Share />} >
           <Route path="/" element={<Home />} />
           <Route path="/Contact" element={<Contact />} />

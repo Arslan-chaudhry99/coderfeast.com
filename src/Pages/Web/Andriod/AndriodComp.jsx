@@ -2,8 +2,9 @@ import React from "react";
 import "./style.css";
 import stacffAug from "./imgs/staff-augmentation.png";
 import andriodIcons from "../../Main/img/andr1oid.png";
-
+import { useEffect } from "react";
 const AndriodComp = () => {
+
   return (
     <>
       <div className="banner_background_img">

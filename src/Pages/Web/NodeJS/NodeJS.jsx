@@ -2,9 +2,10 @@ import React from "react";
 import "./style.css";
 import "./Faq.css";
 import nodejsIcon from "../../Main/img/nod1e.png";
-
+import { useEffect } from "react";
 import reactSliderImg from "./images/MicrosoftTeams-image-88.png";
 const NodeJS = () => {
+  
   return (
     <>
       <div className="reactweb_main ">

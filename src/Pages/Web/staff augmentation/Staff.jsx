@@ -1,7 +1,9 @@
 import React from 'react'
 import "./style.css"
 import stacffAug from "./imgs/staff-augmentation.png"
+import { useEffect } from 'react'
 const Staff = () => {
+   
     return (
         <>
             <div className='banner_background_img'>

@@ -8,16 +8,6 @@ app.use(router)
 let port = process.env.portNumber
 
 
-app.post("/",(req,res)=>{
-
-})
-
-
-
-
-
-
-
 
 
 app.listen(port, () => {

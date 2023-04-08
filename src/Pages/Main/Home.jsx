@@ -22,7 +22,9 @@ import Btn from "./Btn";
 import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import axios from "axios";
+
 const Home = () => {
+
   useEffect(() => {
     let a = async () => {
       let a = await axios.post("/", { name: "Arslan chaudhry" });
@@ -64,9 +66,7 @@ const Home = () => {
     data();
   }, []);
 
-  const reviewsObj = [
-    { name: "", title: "", image: "", review: "" }
-  ];
+  const reviewsObj = [{ name: "", title: "", image: "", review: "" }];
   return (
     <>
       <HomeSlider />

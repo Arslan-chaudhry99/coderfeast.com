@@ -3,9 +3,10 @@ import "./style.css";
 import "./Faq.css";
 import reactSliderImg from "./images/MicrosoftTeams-image-88.png";
 import rubiIcons from "../../Main/img/ruby1-on-rail.png";
-
 import SwiftIcons from "../../Main/img/s1wift.png";
+import { useEffect } from "react";
 const Swift = () => {
+  
   return (
     <>
       <div className="reactweb_main ">
@@ -179,8 +180,8 @@ const Swift = () => {
           </h4>
           <p className="container">
             Coderfeast is a software development company that offers a wide
-            range of development services, including Swift  development. Some
-            potential reasons why someone might choose Coderfeast for Swift 
+            range of development services, including Swift development. Some
+            potential reasons why someone might choose Coderfeast for Swift
             development services could include
           </p>
         </div>

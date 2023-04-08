@@ -20,7 +20,7 @@ const Footer = () => {
                 />
                 <p>
                   At Coderfeast, you can digitally transform your business with
-                  our top-notch solutions. We offer blockchain development
+                  our top-notch solutions. We offer Web & Mobile development
                   solutions to reinvent.
                 </p>
               </div>
@@ -31,28 +31,37 @@ const Footer = () => {
                 <ul class="nav flex-column">
                   <li class="nav-item mb-2">
                     <a class="p-0 text-white">
-                      <NavLink to="/" style={{color:"white"}}>Home</NavLink>
+                      <NavLink to="/" style={{ color: "white" }}>
+                        Home
+                      </NavLink>
                     </a>
                   </li>
                   <li class="nav-item mb-2">
                     <a class=" p-0 text-white">
-                      <NavLink to="/contact" style={{color:"white"}}>Contact</NavLink>
+                      <NavLink to="/contact" style={{ color: "white" }}>
+                        Contact
+                      </NavLink>
                     </a>
                   </li>
                   <li class="nav-item mb-2">
                     <a class=" p-0 text-white">
-                      <NavLink to="/contact" style={{color:"white"}}>Careers</NavLink>
+                      <NavLink to="/contact" style={{ color: "white" }}>
+                        Careers
+                      </NavLink>
                     </a>
                   </li>
                   <li class="nav-item mb-2">
                     <a class=" p-0 text-white">
-                      <NavLink to="/contact" style={{color:"white"}}>About</NavLink>
+                      <NavLink to="/contact" style={{ color: "white" }}>
+                        About
+                      </NavLink>
                     </a>
                   </li>
                   <li class="nav-item mb-2">
                     <a class=" p-0 text-white">
-                    <NavLink to="/blog" style={{color:"white"}}>Blog</NavLink>
-                      
+                      <NavLink to="/blog" style={{ color: "white" }}>
+                        Blog
+                      </NavLink>
                     </a>
                   </li>
                 </ul>
@@ -64,32 +73,47 @@ const Footer = () => {
                 <ul class="nav flex-column mx-1">
                   <li class="nav-item mb-2">
                     <a class=" p-0 text-white">
-                    <NavLink to="/rube-service" style={{color:"white"}}>Ruby on Rails</NavLink>
+                      <NavLink to="/rube-service" style={{ color: "white" }}>
+                        Ruby on Rails
+                      </NavLink>
                     </a>
                   </li>
                   <li class="nav-item mb-2">
                     <a class=" p-0 text-white">
-                    <NavLink to="/react-js-development" style={{color:"white"}}>React.JS</NavLink>
+                      <NavLink
+                        to="/react-js-development"
+                        style={{ color: "white" }}
+                      >
+                        React.JS
+                      </NavLink>
                     </a>
                   </li>
                   <li class="nav-item mb-2">
                     <a class=" p-0 text-white">
-                    <NavLink to="/dotnet-service" style={{color:"white"}}>.Net / Core</NavLink>
+                      <NavLink to="/dotnet-service" style={{ color: "white" }}>
+                        .Net / Core
+                      </NavLink>
                     </a>
                   </li>
                   <li class="nav-item mb-2">
                     <a class=" p-0 text-white">
-                    <NavLink to="/django-dev" style={{color:"white"}}>Python</NavLink>
+                      <NavLink to="/django-dev" style={{ color: "white" }}>
+                        Python
+                      </NavLink>
                     </a>
                   </li>
                   <li class="nav-item mb-2">
                     <a class=" p-0 text-white">
-                    <NavLink to="/node-js" style={{color:"white"}}>Node.JS</NavLink>
+                      <NavLink to="/node-js" style={{ color: "white" }}>
+                        Node.JS
+                      </NavLink>
                     </a>
                   </li>
                   <li class="nav-item mb-2">
                     <a class=" p-0 text-white">
-                    <NavLink to="/laravel-serv" style={{color:"white"}}>Laravel</NavLink>
+                      <NavLink to="/laravel-serv" style={{ color: "white" }}>
+                        Laravel
+                      </NavLink>
                     </a>
                   </li>
                 </ul>
@@ -102,34 +126,48 @@ const Footer = () => {
                 <ul class="nav flex-column">
                   <li class="nav-item mb-2">
                     <a class="p-0 text-white">
-                    <NavLink to="/IOS-service" style={{color:"white"}}>IOS</NavLink>
+                      <NavLink to="/IOS-service" style={{ color: "white" }}>
+                        IOS
+                      </NavLink>
                     </a>
                   </li>
                   <li class="nav-item mb-2">
                     <a class=" p-0 text-white">
-                    <NavLink to="/andriod-service" style={{color:"white"}}>Android</NavLink>
-
+                      <NavLink to="/andriod-service" style={{ color: "white" }}>
+                        Android
+                      </NavLink>
                     </a>
                   </li>
                   <li class="nav-item mb-2">
                     <a class=" p-0 text-white">
-                    <NavLink to="/native-service" style={{color:"white"}}>  React Native</NavLink>
-                    
+                      <NavLink to="/native-service" style={{ color: "white" }}>
+                        {" "}
+                        React Native
+                      </NavLink>
                     </a>
                   </li>
                   <li class="nav-item mb-2">
                     <a class=" p-0 text-white">
-                    <NavLink to="/flutter-service" style={{color:"white"}}>  Flutter</NavLink>
+                      <NavLink to="/flutter-service" style={{ color: "white" }}>
+                        {" "}
+                        Flutter
+                      </NavLink>
                     </a>
                   </li>
                   <li class="nav-item mb-2">
                     <a class=" p-0 text-white">
-                    <NavLink to="/Kotlin-service" style={{color:"white"}}>  Kotlin </NavLink>
+                      <NavLink to="/Kotlin-service" style={{ color: "white" }}>
+                        {" "}
+                        Kotlin{" "}
+                      </NavLink>
                     </a>
                   </li>
                   <li class="nav-item mb-2">
                     <a class=" p-0 text-white">
-                    <NavLink to="/Swift-service" style={{color:"white"}}>  Swift  </NavLink>
+                      <NavLink to="/Swift-service" style={{ color: "white" }}>
+                        {" "}
+                        Swift{" "}
+                      </NavLink>
                     </a>
                   </li>
                 </ul>

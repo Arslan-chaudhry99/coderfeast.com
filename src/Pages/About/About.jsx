@@ -4,7 +4,10 @@ import img from "./img/MicrosoftTeams-image-6.png";
 import visionIcon from "./img/Vission.png";
 import valueIcon from "./img/values.png";
 import missionIcon from "./img/mission.png";
+import { useEffect } from "react";
 const About = () => {
+
+  
   return (
     <>
       <div class="banner_background_img">
